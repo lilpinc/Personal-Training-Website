@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: 0px 10px 0px 0px;
+    padding: 0 20px 0 0;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    float: right;
+    display: inline-flex;
+}
+
+.footer {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 8vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+}
+
+.nav-item2 {
+    list-style-type: none;
+    margin: 0px 20px 0px 0px;
+    padding: 0 20px 0px 0px;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    display: inline-flex;
+}
+
+#logo {
+    margin: 0px 0px 0px 0px;
+}
+
+.item3 {
+    padding-right: 5vw;
+}
+
+#copyright {
+    margin-right: 10vw;
+    margin-left: -20vw;
+}
+
+
+.welcome {
+    background-image: url("https://img.freepik.com/free-photo/young-man-sportswear-exercise-class-gym_1150-12372.jpg?w=826&t=st=1684973703~exp=1684974303~hmac=0ca400cbecb382434e2bac6076b333da951eb197eed77632934bd3832341a533");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    padding-bottom: 12vh;
+    text-align: center;
+}
+
+#title {
+    margin: 0px 100px 0px 100px;
+    padding-top: 15%;
+    color: white;
+    font-size: 50px;
+}
+
+.values {
+    display: inline-flex;
+    margin: 30px 180px;
+    width: 75%;
+    font-size: 17px;
+}
+
+.values2 {
+    display: inline-flex;
+    justify-content: center;
+    width: 90%;
+    font-size: 17px;
+    margin: 30px 60px;
+}
+
+.value1 {
+    padding: 30px;
+    color: white;
+}
+
+.fa-check-double {
+    color: yellow;
+    margin-right: .5vw;
+}
+
+.cardinfo {
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+.card {
+    border: solid 0.5px black;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 5px;
+    box-shadow: 5px 5px gray;
+    overflow: hidden;
+}
+
+.getstarted {
+    background-color: yellow;
+    padding: 20px;
+    margin-left: 43%;
+    border: none;
+    border-radius: 30px;
+    display: block;
+    justify-content: center;
+    font-size: 17px;
+    color: black;
+}
+
+.getstarted:hover {
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.whatismj {
+    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catch {
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+.catch2 {
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    font-size: 25px;
+    border: solid 2px lightgray;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.catch3 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.catch4 {
+    font-size: 20px;
+    padding-top: 50px;
+    margin: 0 100px;
+    text-align: center;
+}
+
+.card3 {
+    display: inline-flex;
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-size: 19px;
+}
+
+.cardtop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card2 {
+    width: 40vw;
+    height: 45vh;
+    margin: 40px 25px 10px 25px;
+    font-size: 17px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(204, 204, 180, 0.2);
+    border-radius: 10px;
+    border: solid #ccccb4 3px;
+}
+
+.note1 {
+    padding-left: 23px;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.fa-star {
+    color: #de8457;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.cardinfo {
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+.homepics {
+    height: 55vh;
+}
+
+.difference {
+    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.howtogetstarted {
+    background-image: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    color: white;
+    padding-bottom: 10vh;
+}
+
+.start {
+    text-align: center;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.numbers {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: yellow;
+    max-width: 300px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.numbers:hover {
+    transform: scale(1.1);
+    border: solid 1px yellow;
+    border-radius: 10px;
+}
+
+.number {
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    padding: 0px 10px 0px 0px;
+}
+
+.number1 {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.bignumbers {
+    font-size: 18vh;
+    float: left;
+    font-weight: bolder;
+
+}
+
+.context-number {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    margin-top: 4.5vh;
+    margin-left: 2vw;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.info {
+    background-color: #292929;
+    ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10vh;
+}
+
+#name {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 25%;
+    display: inline-block;
+    justify-content: Left;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#founder {
+    color: white;
+    text-align: center;
+    padding-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#hr {
+    margin-left: 175px;
+}
+
+.awc {
+    display: inline-flex;
+    height: 500px;
+    width: 325px;
+    float: right;
+    margin-top: 7.5vh;
+    margin-right: 6%;
+    border-radius: 10px;
+    border: solid black 2px;
+   
+}
+
+.bio {
+    margin: 0;
+    padding: 0;
+}
+
+#bio,
+#bio2 {
+    text-indent: 30px;
+    margin-left: 6.5vw;
+    margin-top: 10px;
+    width: 55%;
+    color: white;
+    font-size: 17px;
+
+}
+
+.onlinelinks {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 30px;
+    width: 50%;
+    height: auto;
+    margin: 10px 30px 20px 40px;
+}
+
+#linkedin {
+    padding-left: 30px;
+}
