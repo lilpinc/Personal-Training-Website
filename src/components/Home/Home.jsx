@@ -1,6 +1,10 @@
 
 export default function Home() {
 
+  const getStarted = () => {
+    window.location.replace('/StartNow');
+  };
+
   return (
 
     <>
@@ -22,7 +26,7 @@ export default function Home() {
             Increase your Movement Capabilities and Reduce Pain
           </div>
         </div>
-        <a href="homepage.html"><button className="getstarted">Get Started</button></a>
+        <a onClick={getStarted}><button className="getstarted">Get Started</button></a>
       </section>
       <section className="whatismj">
         <header className="catch">

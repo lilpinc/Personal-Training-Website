@@ -6,7 +6,7 @@ export default function Team() {
                     <h2 id="name">Anna-Britta Pincus</h2>
                 </header>
                 <p id="founder">Founder & Head Trainer</p>
-                <hr id="hr" />
+                <br  />
                 <div className="bio">
                 <img className="awc" src="Pictures/Deadlifting.PNG" alt="anna" />
                     <p id="bio">Anna-Britta Pincus, NSCA-CSCS, NASM-CNC,

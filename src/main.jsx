@@ -12,6 +12,15 @@ import Services from './components/Services/Services'
 import Blog from './components/Blog/Blog'
 import Contact from './components/Contact/Contact'
 import StartNow from './components/StartNow/StartNow'
+import FullBody from './components/Services/FullBody'
+import HIIT from './components/Services/HIIT'
+import Mobility from './components/Services/Mobility'
+import Online from './components/Services/Online'
+import Posture from './components/Services/Posture'
+import Running from './components/Services/Running'
+import EightWeek from './components/Services/MobilityFolder/EightWeek'
+import HowTo from './components/Services/MobilityFolder/HowTo'
+import PDF from './components/Services/MobilityFolder/PDF'
 
 
 // Define the accessible routes, and which components respond to which URL
@@ -45,6 +54,42 @@ const router = createBrowserRouter([
         path: '/StartNow',
         element: <StartNow />,
       },
+      {
+        path: '/FullBody',
+        element: <FullBody />,
+      },
+      {
+        path: '/HIIT',
+        element: <HIIT />,
+      },
+      {
+        path: '/Mobility',
+        element: <Mobility />,
+      },
+      {
+        path: '/Online',
+        element: <Online />,
+      },
+      {
+        path: '/Posture',
+        element: <Posture />,
+      },
+      {
+        path: '/Running',
+        element: <Running />,
+      },
+      {
+        path: '/EightWeek',
+        element: <EightWeek />,
+      },
+      {
+        path: '/HowTo',
+        element: <HowTo />,
+      },
+      {
+        path: '/PDF',
+        element: <PDF />,
+      }
     ],
   },
 ]);
