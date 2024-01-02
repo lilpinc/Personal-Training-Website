@@ -33,7 +33,7 @@ export default function Home() {
           <h2 className="bold">Movement Junky Creates A Holistic Approach To Fitness To Improve Every Aspect Of Your Life</h2>
         </header>
         <p className="catch4"> We believe in optimizing health, both inside and out. Thats why we provide functional exercise and nutrition plans that adjust to the ebs and flows of your life.</p>
-        <div class="values2">
+        <div className="values2">
           <div className="card">
             <img className="homepics" src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" />
             <h4 className="cardinfo">Learn how to move your body to increase performance, reduce pain, and complete daily activities with ease</h4>

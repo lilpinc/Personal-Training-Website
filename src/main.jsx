@@ -18,9 +18,10 @@ import Mobility from './components/Services/Mobility'
 import Online from './components/Services/Online'
 import Posture from './components/Services/Posture'
 import Running from './components/Services/Running'
-import EightWeek from './components/Services/MobilityFolder/EightWeek'
-import HowTo from './components/Services/MobilityFolder/HowTo'
-import PDF from './components/Services/MobilityFolder/PDF'
+import MobilityEightWeek from './components/Services/MobilityFolder/MobilityEightWeek.jsx'
+import MobilityHowTo from './components/Services/MobilityFolder/MobilityHowTo'
+import MobilityPDF from './components/Services/MobilityFolder/MobilityPDF'
+
 
 
 // Define the accessible routes, and which components respond to which URL
@@ -79,17 +80,18 @@ const router = createBrowserRouter([
         element: <Running />,
       },
       {
-        path: '/EightWeek',
-        element: <EightWeek />,
+        path: '/MobilityEightWeek',
+        element: <MobilityEightWeek />,
       },
       {
-        path: '/HowTo',
-        element: <HowTo />,
+        path: '/MobilityHowTo',
+        element: <MobilityHowTo />,
       },
       {
-        path: '/PDF',
-        element: <PDF />,
-      }
+        path: '/MobilityPDF',
+        element: <MobilityPDF />,
+      },
+     
     ],
   },
 ]);

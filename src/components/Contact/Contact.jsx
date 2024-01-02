@@ -86,7 +86,7 @@ export default function Contact() {
   };
   // use onBlur to connect to the focus and unfocus of the inputs, create a defaultvalue that connects to users input
   return (
-    <div className="contact">
+    <div className="contact howtogetstarted">
       <h2 className="blog-title">Questions? Contact Us!</h2>
       <div className="contactinfo">
         <form className="form" ref={form} onSubmit={sendEmail}>

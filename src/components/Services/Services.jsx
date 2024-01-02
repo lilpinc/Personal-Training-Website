@@ -5,7 +5,7 @@ export default function Services() {
     const currentPage = useLocation().pathname;
 
     return (
-        <section className="library">
+        <section className="library howtogetstarted">
             <header>
                 <h2 id="programinfo">Services & Programs</h2>
             </header>
