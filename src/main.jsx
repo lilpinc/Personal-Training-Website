@@ -21,6 +21,7 @@ import Running from './components/Services/Running'
 import MobilityEightWeek from './components/Services/MobilityFolder/MobilityEightWeek.jsx'
 import MobilityHowTo from './components/Services/MobilityFolder/MobilityHowTo'
 import MobilityPDF from './components/Services/MobilityFolder/MobilityPDF'
+import PostureFormEightWeek from './components/Services/PostureFolder/PostureFormEightWeek.jsx'
 
 
 
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
       {
         path: '/MobilityPDF',
         element: <MobilityPDF />,
+      },
+      {
+        path: '/PostureFormEightWeek',
+        element: <PostureFormEightWeek />,
       },
      
     ],

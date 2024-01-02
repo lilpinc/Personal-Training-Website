@@ -512,7 +512,7 @@ a {
     margin: 25px;
     width: 30vw;
     background-color: #c5e8de;
-    height: 700px;
+    height: 800px;
     justify-content: center;
 }
 
@@ -526,12 +526,16 @@ a {
     color: black;
     font-weight: bold;
     font-size: 20px;
+    width: 30vw;
+    height: 20vh;
+    margin-top: 0;
+    padding-top: 5vh;
 }
 
 .mfoptions12 {
     display: block;
     margin: 0 25px 0 0px;
-    padding-top: 40px;
+    padding-top: 35px;
     font-size: 16px;
     text-align: center;
 }

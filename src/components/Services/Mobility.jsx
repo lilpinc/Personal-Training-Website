@@ -21,7 +21,7 @@ export default function Mobility() {
                                 $65.00</p>
                         </Link>
                         <ul>
-                            <li className="mfoptions12">Increase Mobility & Flexibility Over 8 Weeks Through Progressively Designed Movement Program w/ Guided Videos</li>
+                            <li className="mfoptions12">Increase Mobility & Flexibility Over 8 Weeks Through A Progressively Designed Movement Program w/ Guided Videos</li>
                             <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
                             <li className="mfoptions12">Supports Better Joint Health</li>
