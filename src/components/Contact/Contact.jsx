@@ -71,7 +71,7 @@ export default function Contact() {
       alert("Message is required.");
       return;
     }
-    emailjs.sendForm('service_bwotmzn', 'template_q1tjkf6', form.current, 'YDOvY-Lk7P8bWkk1r')
+    emailjs.sendForm('service_bwotmzn', 'template_m4mr32h', form.current, 'YDOvY-Lk7P8bWkk1r')
       .then((result) => {
         console.log(result.text);
         alert("message sent!")

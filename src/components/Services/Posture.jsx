@@ -18,7 +18,7 @@ export default function Posture() {
                                 <br />
                                 $65.00</p>
                         </Link>
-                            <ul>
+                            <ul className="mfopt">
                                 <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements Over 8 Weeks Through A Progressively Designed Movement Program w/ Guided Videos</li>
                                 <li className="mfoptions12">Includes Pelvic Tilt and Shoulder Position Instruction, Corresponding Mobility Work, and Basic Gym Movement Exercises w/ In Depth Instruction</li>
                                 <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
@@ -37,7 +37,7 @@ export default function Posture() {
                                 <br />
                                 $50.00</p>
                         </Link>
-                            <ul>
+                            <ul className="mfopt">
                                 <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements w/ Guided Videos</li>
                                 <li className="mfoptions12">Includes Pelvic Tilt and Shoulder Position Instruction, Corresponding Mobility Work, and Basic Gym Movement Exercises w/ In Depth Instruction</li>
                                 <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
@@ -56,7 +56,7 @@ export default function Posture() {
                                 <br />
                                 $35.00</p>
                         </Link>
-                            <ul>
+                            <ul className="mfopt">
                                 <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements At Your Own Pace w/ A List of In-Depth Body Position & Form Instruction</li>
                                 <li className="mfoptions12">Includes Pelvic Tilt and Shoulder Position Instruction, Corresponding Mobility Work, and Basic Gym Movement Exercises w/ In-Depth Instruction</li>
                                 <li className="mfoptions12">Beneficial For All Ages and Fitness Level, Best for Individuals That Do Not Require In Depth Functional Movement Instruction</li>

@@ -88,7 +88,7 @@ export default function StartNow() {
     return (
         <section className="whatismj">
             <h2 id="signup-title">Sign-Up Form</h2>
-            <h5 id="signup-title">We are still in the process of setting up direct purchase, if interested please fill out the form below and we will contact you!</h5>
+            <h5 id="signup-title">Thank you for your interest!<br />We are still in the process of setting up direct purchase, if interested please fill out the form below and we will contact you!</h5>
             <article className="signup">
                 <section className="contactforms1">
                     <form className="form2" ref={form} onSubmit={sendEmail}>

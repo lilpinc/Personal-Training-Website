@@ -20,7 +20,7 @@ export default function Mobility() {
                                 <br />
                                 $65.00</p>
                         </Link>
-                        <ul>
+                        <ul className="mfopt">
                             <li className="mfoptions12">Increase Mobility & Flexibility Over 8 Weeks Through A Progressively Designed Movement Program w/ Guided Videos</li>
                             <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
@@ -39,7 +39,7 @@ export default function Mobility() {
                                 <br />
                                 $50.00</p>
                         </Link>
-                        <ul>
+                        <ul className="mfopt">
                             <li className="mfoptions12">Increase Mobility & Flexibility At Your Own Pace With Guided Videos</li>
                             <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
@@ -58,7 +58,7 @@ export default function Mobility() {
                                 <br />
                                 $35.00</p>
                         </Link>
-                        <ul>
+                        <ul className="mfopt">
                             <li className="mfoptions12">Increase Mobility & Flexibility At Your Own Pace With A List Of Quality Movements</li>
                             <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Level, Best for Individuals That Do Not Require In Depth Functional Movement Instruction</li>

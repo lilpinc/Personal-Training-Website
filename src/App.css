@@ -503,7 +503,7 @@ a {
     padding-bottom: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .mfoptions0 {
@@ -512,8 +512,8 @@ a {
     margin: 25px;
     width: 30vw;
     background-color: #c5e8de;
-    height: 800px;
     justify-content: center;
+    height: 100vh;
 }
 
 .mfoptions1:hover {
@@ -528,7 +528,7 @@ a {
     font-size: 20px;
     width: 30vw;
     height: 20vh;
-    margin-top: 0;
+    margin-top: 0px;
     padding-top: 5vh;
 }
 
@@ -544,6 +544,9 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.mfopt {
+    padding-bottom: 5vh;
 }
 
 .blog {
@@ -697,7 +700,8 @@ a {
 }
 .video-box{
     border: 2px gray solid;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 8px #2b00ff;
     height: 30vh;
     width: 30vw;
     margin: 20px;
@@ -717,17 +721,38 @@ a {
 #video-box2{
     background-image: url("/Pictures/foamrolling1.jpg"); 
 }
+#deadlift {
+    background-image: url("/Pictures/Deadlift.jpg");
+}
+#squat {
+    background-image: url("/Pictures/Squat.jpg");
+}
+#hipthrust {
+    background-image: url("/Pictures/hipthrust.png"); 
+}
+#pullup {
+    background-image: url("/Pictures/pullup.jpg"); 
+}
+#lunge {
+    background-image: url("/Pictures/Lunge.jpg"); 
+}
+#chestpress {
+    background-image: url("/Pictures/chestpress.jpg"); 
+}
+#core {
+    background-image: url("/Pictures/core.jpg"); 
+}
 .hide{
     display: none;
     color: yellow;
     font-weight: bolder;
-    text-shadow: 2px 2px 8px #2b00ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     filter: grayscale(0%);
 }
 .video-box:hover{
     color: yellow;
     font-weight: bolder;
-    text-shadow: 2px 2px 8px #2b00ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     filter: grayscale(0%);
     padding-top: 5vh;
 }
