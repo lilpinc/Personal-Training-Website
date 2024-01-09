@@ -151,11 +151,24 @@ body {
     font-size: 17px;
     color: black;
 }
-
 .getstarted:hover {
     background: transparent;
     color: white;
     border: solid 2px white;
+}
+.getstarted2:hover {
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+}
+.getstarted2 {
+    background-color: yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    color: black; 
+    margin-top: 5vh;
+    margin-bottom: 7vh;
 }
 
 a {
@@ -515,6 +528,15 @@ a {
     justify-content: center;
     height: 100vh;
 }
+.mfoptions02 {
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 25px;
+    width: 35vw;
+    background-color: #c5e8de;
+    justify-content: center;
+    height: 100vh;
+}
 
 .mfoptions1:hover {
     transform: scale(1.05);
@@ -526,7 +548,7 @@ a {
     color: black;
     font-weight: bold;
     font-size: 20px;
-    width: 30vw;
+    width: 25vw;
     height: 20vh;
     margin-top: 0px;
     padding-top: 5vh;
@@ -601,7 +623,7 @@ a {
 .form {
     padding: 50px;
     border-radius: 8px;
-    background-image: linear-gradient(to left,white, rgb(255, 217, 0));
+    background-image: linear-gradient(to left,rgb(192, 252, 235), rgb(255, 217, 0));
     font-weight: normal;
     /* filter: brightness(90%); */
     border: 3px rgb(35, 35, 35) solid;
@@ -616,7 +638,7 @@ a {
     border-radius: 8px;
     padding: 20px;
     border: 3px rgb(35, 35, 35) solid;
-    background-image: linear-gradient(to left,white, rgb(255, 217, 0));
+    background-image: linear-gradient(to left,rgb(192, 252, 235), rgb(255, 217, 0));
     border-radius: 5px;
     text-align: center;
 }
@@ -624,7 +646,9 @@ a {
 #formbtn {
     border-radius: 5px;
     background-color: #83bad6;
-    width: 10vh;
+    width: auto;
+    padding: 3px 5px;
+    border: black 1px solid; 
 }
 
 .question {
@@ -651,14 +675,14 @@ a {
     text-align: left;
     padding-top: 3vh;
 }
+
 .program-card{
     border-radius: 10px;
-    /* background-color: rgba(94, 94, 94, 0.8); */
     background-color: rgba(250, 250, 250, 0.8);
     border: 2px rgb(255, 221, 0) solid;
     width: 50vw;
     padding: 3vh;
-    margin: 5vh;
+    margin: 2.5vh;
     color: black;
 }
 
@@ -666,8 +690,9 @@ a {
     list-style-type:none;
 }
 .contactforms1{
-    width: 40vw;
-    background-color: rgba(130, 130, 130, 0.8);
+    width: 55vw;
+    background-image: linear-gradient(to left, rgb(192, 252, 235), rgb(255, 217, 0));
+    /* background-color: rgba(164, 164, 164, 0.8); */
     border: black 2px solid;
     border-radius: 10px;
     padding: 20px;
@@ -685,6 +710,7 @@ a {
 #signup-title{
     padding-top: 5vh;
     text-align: center;
+    color: white;
 }
 .description{
     margin-top: 5vh;
@@ -693,6 +719,7 @@ a {
 #description{
     margin-top: 8vh;
 }
+
 .videos{
     display: flex;
     flex-wrap: wrap;
@@ -742,6 +769,9 @@ a {
 #core {
     background-image: url("/Pictures/core.jpg"); 
 }
+#landmine {
+    background-color: whitesmoke; 
+}
 .hide{
     display: none;
     color: yellow;
@@ -758,6 +788,23 @@ a {
 }
 .video-box:hover .hide {
     display: block;
+}
+.hiitTypes{
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, 0.8);
+    border: 2px rgb(255, 221, 0) solid;
+    color: black;
+    height: 600px;
+    width: 28vw;
+}
+#hiitTypes{
+    height: 800px;
+}
+.hiitoption {
+    margin-top: 10vh;
+}
+#pdfbtn{
+    color: black;
 }
 
 

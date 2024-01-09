@@ -5,7 +5,7 @@ export default function Team() {
                 <header className="about">
                     <h2 id="name">Anna-Britta Pincus</h2>
                 </header>
-                <p id="founder">Founder & Head Trainer</p>
+                <p id="founder">Founder and Head Strength & Conditioning Specialist</p>
                 <br  />
                 <div className="bio">
                 <img className="awc" src="Pictures/Deadlifting.PNG" alt="anna" />

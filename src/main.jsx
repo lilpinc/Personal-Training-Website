@@ -1,6 +1,8 @@
 import ReactDOM from 'react-dom/client'
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -24,6 +26,11 @@ import MobilityPDF from './components/Services/MobilityFolder/MobilityPDF'
 import PostureFormEightWeek from './components/Services/PostureFolder/PostureFormEightWeek.jsx'
 import PostureFormHowTo from './components/Services/PostureFolder/PostureFormHowTo.jsx'
 import PostureFormPDF from './components/Services/PostureFolder/PostureFormPDF.jsx'
+import HIITprograms from './components/Services/HIITFolder/HIITprograms.jsx'
+import HIITvideos from './components/Services/HIITFolder/HIITvideos.jsx'
+import FiveK from './components/Services/RunningFolder/FiveK.jsx'
+import Half from './components/Services/RunningFolder/Half.jsx'
+import Marathon from './components/Services/RunningFolder/Marathon.jsx'
 
 
 
@@ -105,6 +112,26 @@ const router = createBrowserRouter([
       {
         path: '/PostureFormPDF',
         element: <PostureFormPDF />,
+      },
+      {
+        path: '/HIITprograms',
+        element: <HIITprograms />,
+      },
+      {
+        path: '/HIITvideos',
+        element: <HIITvideos />,
+      },
+      {
+        path: '/FiveK',
+        element: <FiveK/>,
+      },
+      {
+        path: '/Half',
+        element: <Half />,
+      },
+      {
+        path: '/Marathon',
+        element: <Marathon />,
       },
      
     ],

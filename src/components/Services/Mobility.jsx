@@ -61,7 +61,7 @@ export default function Mobility() {
                         <ul className="mfopt">
                             <li className="mfoptions12">Increase Mobility & Flexibility At Your Own Pace With A List Of Quality Movements</li>
                             <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
-                            <li className="mfoptions12">Beneficial For All Ages and Fitness Level, Best for Individuals That Do Not Require In Depth Functional Movement Instruction</li>
+                            <li className="mfoptions12">Beneficial For All. Best for Individuals That Do Not Require In Depth Instruction</li>
                             <li className="mfoptions12">Supports Better Joint Health</li>
                             <li className="mfoptions12">Decreases Chronic Pain</li>
                             <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>

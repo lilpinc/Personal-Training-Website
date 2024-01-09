@@ -38,7 +38,7 @@ export default function Posture() {
                                 $50.00</p>
                         </Link>
                             <ul className="mfopt">
-                                <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements w/ Guided Videos</li>
+                                <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements w/ Detailed Guided Videos</li>
                                 <li className="mfoptions12">Includes Pelvic Tilt and Shoulder Position Instruction, Corresponding Mobility Work, and Basic Gym Movement Exercises w/ In Depth Instruction</li>
                                 <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
                                 <li className="mfoptions12">Supports Better Joint Health</li>
@@ -58,8 +58,8 @@ export default function Posture() {
                         </Link>
                             <ul className="mfopt">
                                 <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements At Your Own Pace w/ A List of In-Depth Body Position & Form Instruction</li>
-                                <li className="mfoptions12">Includes Pelvic Tilt and Shoulder Position Instruction, Corresponding Mobility Work, and Basic Gym Movement Exercises w/ In-Depth Instruction</li>
-                                <li className="mfoptions12">Beneficial For All Ages and Fitness Level, Best for Individuals That Do Not Require In Depth Functional Movement Instruction</li>
+                                <li className="mfoptions12">Includes Pelvic Tilt and Shoulder Position Instruction, Corresponding Mobility Work, and Basic Gym Movement Exercises w/ In Depth Instruction</li>
+                                <li className="mfoptions12">Beneficial For All. Best For Individuals That Do Not Require In Depth Instruction</li>
                                 <li className="mfoptions12">Supports Better Joint Health</li>
                                 <li className="mfoptions12">Decreases Chronic Pain</li>
                                 <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
