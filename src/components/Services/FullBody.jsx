@@ -1,3 +1,5 @@
+import ViewServices from '../Services/viewServices';
+
 export default function FullBody() {
 
     const getStarted = () => {
@@ -62,6 +64,7 @@ export default function FullBody() {
                     </header>
                 </div>
             </div>
+            <ViewServices />
         </section>
 
     );

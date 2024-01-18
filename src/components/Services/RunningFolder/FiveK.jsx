@@ -3,9 +3,14 @@ export default function FiveK() {
         window.location.replace('/StartNow');
     };
 
+    const returnTo = () => {
+        window.location.replace('/Running');
+    };
+    
     return (
         <section className="library howtogetstarted books">
             <div className="description">
+            <a onClick={returnTo}><button id="back" className="return returnbtn">Return</button></a>
                 <h2>5K Training Programs</h2>
                 <p id="description">Training for a 5k but don't know where to begin or how to progress your runs each week? Maybe you want a program that also includes some strengthening exercises to reduce injury?</p>
                 <p><b>Our 5K training programs are right for you!</b></p>

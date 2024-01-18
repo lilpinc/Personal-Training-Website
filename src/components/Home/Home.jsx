@@ -5,6 +5,15 @@ export default function Home() {
     window.location.replace('/StartNow');
   };
 
+  const startQuiz = () => {
+    window.location.replace('/StartQuiz');
+  };
+
+  const goTo = () => {
+    window.location.replace('/Services');
+  }
+
+
   return (
 
     <>
@@ -13,15 +22,15 @@ export default function Home() {
           <h1 className="bold" id="title">Helping clients Move better, Feel better, and most importantly LIVE Better</h1>
         </header>
         <div className="values">
-          <div className="value1" id="value1">
+          <div className="value1" >
             <i className="fa-solid fa-check-double"></i>
             Custom Online Nutrition and Fitness Plans
           </div>
-          <div className="value1" id="value2">
+          <div className="value1">
             <i className="fa-solid fa-check-double"></i>
             Get Daily Coach Communication, Guidance and Support
           </div>
-          <div className="value1" id="value3">
+          <div className="value1">
             <i className="fa-solid fa-check-double"></i>
             Increase your Movement Capabilities and Reduce Pain
           </div>
@@ -82,11 +91,14 @@ export default function Home() {
               <p className="note1">Our lives can get very busy. You might not have the availability to meet up in person with a trainer multiple times a week. Thats why we provide online programs that you can pull up right from your phone wherever you are. Each exercise has a corresponding video that goes over form and function. If you want or need more assistance, opt for our personal training plan where you have daily communication with our trainer and can discuss each movement in detail to ensure proper form.</p>
             </div>
           </div>
+          <a onClick={goTo}><button id="view-services" className="returnbtn">View All Services</button></a>
         </header>
       </section>
       <section className="howtogetstarted">
         <header className="catch">
           <h1 className="bold">Get Started</h1>
+          <h3 className="catch3 mfoptions">Not really sure what program is right for you? Take our quiz and get a recommendation!</h3>
+          <a onClick={startQuiz}><button id="formbtn">Start Quiz</button></a>
           <article className="start">
             <div className="numbers">
               <h1 className="bignumbers">1</h1>

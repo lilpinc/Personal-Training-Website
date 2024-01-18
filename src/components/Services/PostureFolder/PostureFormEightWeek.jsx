@@ -3,10 +3,14 @@ export default function PostureFormEightWeek() {
     const getStarted = () => {
         window.location.replace('/StartNow');
     };
+    const returnTo = () => {
+        window.location.replace('/Posture');
+    };
 
     return (
         <section className="library howtogetstarted books">
             <div className="description">
+            <a onClick={returnTo}><button id="back" className="return returnbtn">Return</button></a>
                 <h2>Posture & Form Correction 8 Week Progressive Program</h2>
                 <p id="description">Want to start exercising but nervous about injury due to present discomfort and/or pain, or a previous injury? Or maybe you just want some guidance on the basic body movements you see others do in the gym?</p>
                 <p><b>Posture and Form Correction training is right for you!</b></p>

@@ -166,7 +166,13 @@ export default function StartNow() {
                             <ul className="form-boxes">
                                 <u>HIIT</u>
                                 <li>
-                                    <input type="checkbox" id="HIIT" name="HIIT_EigthWeek" value="HIIT_EigthWeek" /> HIIT 8 Week Program
+                                    <input type="checkbox" id="HIIT" name="HIIT_Strength" value="HIIT_Strength" /> HIIT 8 Week Program Strength & Power
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="HIIT" name="HIIT_Endurance" value="HIIT_Endurance" /> HIIT 8 Week Program Endurance
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="HIIT" name="HIIT_Conditioning" value="HIIT_Conditioning" /> HIIT 8 Week Program Base Fitness & Conditioning
                                 </li>
                                 <li>
                                     <input type="checkbox" id="HIIT" name="HIIT_Videos" value="HIIT_Videos" /> HIIT Videos

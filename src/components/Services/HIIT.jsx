@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import ViewServices from '../Services/viewServices';
 
 export default function HIIT() {
 
@@ -10,15 +11,18 @@ export default function HIIT() {
                 <h1 id="mobilityflexibility1">HIIT Programs</h1>
             </header>
             <div className="mfoptions">
-                <button className="mfoptions02">
+                <div className="mfoptions02">
                     <header className="mfoptions1">
-                        <Link style={{ textDecoration: "none", color: "white" }}
-                            to="/HIITprograms"
-                            className={currentPage === '/HIITprograms' ? 'nav-link active' : 'nav-link'}>
-                            <p className="mfoption1">Full Body HIIT 8 Week Progressive Programs
-                                <br />
-                                $75.00</p>
-                        </Link>
+                        <p className="mfoption1">Full Body HIIT 8 Week Progressive Programs
+                            <br />
+                            $75.00</p>
+                        <button className="moreinfo">
+                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                                to="/HIITprograms"
+                                className={currentPage === '/HIITprograms' ? 'nav-link active' : 'nav-link'}>
+                                More Information
+                            </Link>
+                        </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Includes Progressive HIIT Programs for Base Fitness/Conditioning, Endurance, Strength & Power</li>
                             <li className="mfoptions12">Includes Beginner, Intermediate, and Advanced Programs</li>
@@ -29,16 +33,19 @@ export default function HIIT() {
                             <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
-                </button>
-                <button className="mfoptions02">
+                </div>
+                <div className="mfoptions02">
                     <header className="mfoptions1">
-                        <Link style={{ textDecoration: "none", color: "white" }}
-                            to="/HIITvideos"
-                            className={currentPage === '/HIITvideos' ? 'nav-link active' : 'nav-link'}>
-                            <p className="mfoption2">Recorded HIIT Workout Videos
-                                <br />
-                                $65.00</p>
-                        </Link>
+                        <p className="mfoption2">Recorded HIIT Workout Videos
+                            <br />
+                            $65.00</p>
+                        <button className="moreinfo">
+                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                                to="/HIITvideos"
+                                className={currentPage === '/HIITvideos' ? 'nav-link active' : 'nav-link'}>
+                                More Information
+                            </Link>
+                        </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Includes Independent HIIT Workouts for Base Fitness/Conditioning, Endurance, Strength & Power</li>
                             <li className="mfoptions12">Includes Beginner, Intermediate, and Advanced Workouts</li>
@@ -49,8 +56,9 @@ export default function HIIT() {
                             <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
-                </button>
+                </div>
             </div>
+            <ViewServices />
         </section>
 
 

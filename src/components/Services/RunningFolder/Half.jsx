@@ -3,9 +3,14 @@ export default function Half() {
         window.location.replace('/StartNow');
     };
 
+    const returnTo = () => {
+        window.location.replace('/Running');
+    };
+    
     return (
         <section className="library howtogetstarted books">
             <div className="description">
+            <a onClick={returnTo}><button id="back" className="return returnbtn">Return</button></a>
                 <h2>Half Marathon Training Program</h2>
                 <p id="description">Training for a half marathon but don't know where to begin or how to progress your runs each week? Maybe you want a program that also includes some strengthening exercises to reduce injury?</p>
                 <p><b>Our half marathon training programs are right for you!</b></p>

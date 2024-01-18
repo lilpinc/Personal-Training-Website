@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import ViewServices from '../Services/viewServices';
 
 export default function Mobility() {
 
@@ -11,15 +12,18 @@ export default function Mobility() {
                 <h1 id="mobilityflexibility1">Mobility & Flexibility</h1>
             </header>
             <div className="mfoptions">
-                <button className="mfoptions0">
+                <div className="mfoptions0">
                     <header className="mfoptions1">
-                        <Link style={{ textDecoration: "none", color: "white" }}
-                            to="/MobilityEightWeek"
-                            className={currentPage === '/MobilityEightWeek' ? 'nav-link active' : 'nav-link'}>
-                            <p className="mfoption1">Full Body Mobility & Flexibility 8 Week Progressive Program
-                                <br />
-                                $65.00</p>
-                        </Link>
+                        <p className="mfoption1">Full Body Mobility & Flexibility 8 Week Progressive Program
+                            <br />
+                            $65.00</p>
+                        <button className="moreinfo">
+                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                                to="/MobilityEightWeek"
+                                className={currentPage === '/MobilityEightWeek' ? 'nav-link active' : 'nav-link'}>
+                                More Information
+                            </Link>
+                        </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Increase Mobility & Flexibility Over 8 Weeks Through A Progressively Designed Movement Program w/ Guided Videos</li>
                             <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
@@ -29,16 +33,19 @@ export default function Mobility() {
                             <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
-                </button>
-                <button className="mfoptions0">
-                    <header className="mfoptions1">
-                        <Link style={{ textDecoration: "none", color: "white" }}
-                            to="/MobilityHowTo"
-                            className={currentPage === '/MobilityHowTo' ? 'nav-link active' : 'nav-link'}>
-                            <p className="mfoption2">Mobility & Flexibility Exercise 'How to' Videos
-                                <br />
-                                $50.00</p>
-                        </Link>
+                </div>
+                <div className="mfoptions0">
+                <header className="mfoptions1">
+                        <p className="mfoption1">Mobility & Flexibility 'How To' Videos
+                            <br />
+                            $50.00</p>
+                        <button className="moreinfo">
+                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                                to="/MobilityHowTo"
+                                className={currentPage === '/MobilityHowTo' ? 'nav-link active' : 'nav-link'}>
+                                More Information
+                            </Link>
+                        </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Increase Mobility & Flexibility At Your Own Pace With Guided Videos</li>
                             <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
@@ -48,16 +55,19 @@ export default function Mobility() {
                             <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
-                </button>
-                <button className="mfoptions0">
-                    <header className="mfoptions1">
-                        <Link style={{ textDecoration: "none", color: "white" }}
-                            to="/MobilityPDF"
-                            className={currentPage === '/MobilityPDF' ? 'nav-link active' : 'nav-link'}>
-                            <p className="mfoption3">Mobility & Flexibility Exercises PDF
-                                <br />
-                                $35.00</p>
-                        </Link>
+                </div>
+                <div className="mfoptions0">
+                <header className="mfoptions1">
+                        <p className="mfoption1">Mobility & Flexibility PDF
+                            <br />
+                            $35.00</p>
+                        <button className="moreinfo">
+                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                                to="/MobilityPDF"
+                                className={currentPage === '/MobilityPDF' ? 'nav-link active' : 'nav-link'}>
+                                More Information
+                            </Link>
+                        </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Increase Mobility & Flexibility At Your Own Pace With A List Of Quality Movements</li>
                             <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
@@ -67,8 +77,9 @@ export default function Mobility() {
                             <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
-                </button>
+                </div>
             </div>
+            <ViewServices />
         </section>
 
 

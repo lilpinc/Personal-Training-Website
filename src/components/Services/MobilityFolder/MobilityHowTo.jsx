@@ -3,10 +3,14 @@ export default function MobilityHowTo() {
     const getStarted = () => {
         window.location.replace('/StartNow');
     };
+    const returnTo = () => {
+        window.location.replace('/Mobility');
+    };
 
     return (
         <section className="library howtogetstarted books">
             <div className="description">
+            <a onClick={returnTo}><button id="back" className="return returnbtn">Return</button></a>
                 <h2>Full Body Mobility & Flexibility How To Videos</h2>
                 <p id="description">Want to improve your joints and muscles at your own pace with guided videos to keep you on track? Sign up for our mobility and flexibility videos!</p>
                 <p>For just $50 you will have access to our many videos that walk you through how to self massage, stretch muscles, and relieve aggravated joints throughout the body!</p>

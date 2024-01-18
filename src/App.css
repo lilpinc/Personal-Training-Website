@@ -143,30 +143,30 @@ body {
 .getstarted {
     background-color: yellow;
     padding: 20px;
-    margin-left: 43%;
     border: none;
     border-radius: 30px;
-    display: block;
-    justify-content: center;
-    font-size: 17px;
+    font-size: 18px;
     color: black;
 }
+
 .getstarted:hover {
     background: transparent;
     color: white;
     border: solid 2px white;
 }
+
 .getstarted2:hover {
     background: transparent;
     color: white;
     border: solid 2px white;
 }
+
 .getstarted2 {
     background-color: yellow;
     padding: 10px;
     border: none;
     border-radius: 30px;
-    color: black; 
+    color: black;
     margin-top: 5vh;
     margin-bottom: 7vh;
 }
@@ -233,9 +233,10 @@ a {
     font-size: 17px;
     text-align: left;
     padding: 20px;
-    background-color: rgb(204, 204, 180, 0.2);
+    color: white;
+    background-color: rgba(40, 40, 40, 0.6);
     border-radius: 10px;
-    border: solid #ccccb4 3px;
+    border: solid #434343 3px;
 }
 
 .note1 {
@@ -246,7 +247,7 @@ a {
 }
 
 .fa-star {
-    color: #de8457;
+    color: yellow;
     font-size: 20px;
     padding-right: 5px;
 }
@@ -269,6 +270,11 @@ a {
     overflow: hidden;
     margin: 0;
     padding: 0;
+}
+#view-services {
+    border: black 2px solid;
+   margin-top: 20px;
+   font-size:19px;
 }
 
 .howtogetstarted {
@@ -517,6 +523,25 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding-bottom: 30px;
+    margin: 0; */
+}
+.moreinfo:hover {
+    transform: scale(1.03);
+}
+.return {
+    color: white;
+   display: flex;
+}
+#back {
+    border-radius: 15px;
+    padding: 5px 12px;
 }
 
 .mfoptions0 {
@@ -527,7 +552,9 @@ a {
     background-color: #c5e8de;
     justify-content: center;
     height: 100vh;
+    color: black;
 }
+
 .mfoptions02 {
     border: solid 2px black;
     border-radius: 10px;
@@ -538,9 +565,6 @@ a {
     height: 100vh;
 }
 
-.mfoptions1:hover {
-    transform: scale(1.05);
-}
 
 .mfoption1,
 .mfoption2,
@@ -560,6 +584,7 @@ a {
     padding-top: 35px;
     font-size: 16px;
     text-align: center;
+    color: black;
 }
 
 .mfoptions1 {
@@ -567,6 +592,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .mfopt {
     padding-bottom: 5vh;
 }
@@ -576,14 +602,15 @@ a {
     padding: 0 10vw 10vh 10vw;
 }
 
-.blog-title{
+.blog-title {
     color: white;
     text-align: center;
-    padding-top:5vh;
+    padding-top: 5vh;
 }
-.blogposts{
+
+.blogposts {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 10vh;
@@ -591,16 +618,18 @@ a {
     background-color: rgb(35, 35, 35, 0.8);
     border-radius: 10px;
     border: 1px yellow solid;
-    
+
 }
-.blogpost{
-    width:60vw;
-    margin-top:5vh;
+
+.blogpost {
+    width: 60vw;
+    margin-top: 5vh;
     padding: 2vh;
     /* background-color: lightgray; */
-    color:whit3;
+    color: whit3;
     /* border: 2px black solid; */
 }
+
 .blogpost:hover {
     transform: scale(1.02);
     /* background-color: white;
@@ -610,7 +639,7 @@ a {
 
 .contact {
     padding-bottom: 10vh;
-    color:black;
+    color: black;
 }
 
 .contactinfo {
@@ -623,7 +652,7 @@ a {
 .form {
     padding: 50px;
     border-radius: 8px;
-    background-image: linear-gradient(to left,rgb(192, 252, 235), rgb(255, 217, 0));
+    background-image: linear-gradient(to left, rgb(192, 252, 235), rgb(255, 217, 0));
     font-weight: normal;
     /* filter: brightness(90%); */
     border: 3px rgb(35, 35, 35) solid;
@@ -638,7 +667,7 @@ a {
     border-radius: 8px;
     padding: 20px;
     border: 3px rgb(35, 35, 35) solid;
-    background-image: linear-gradient(to left,rgb(192, 252, 235), rgb(255, 217, 0));
+    background-image: linear-gradient(to left, rgb(192, 252, 235), rgb(255, 217, 0));
     border-radius: 5px;
     text-align: center;
 }
@@ -648,7 +677,7 @@ a {
     background-color: #83bad6;
     width: auto;
     padding: 3px 5px;
-    border: black 1px solid; 
+    border: black 1px solid;
 }
 
 .question {
@@ -671,12 +700,13 @@ a {
     padding: 0;
     padding-left: 10px;
 }
-.program-info-list{
+
+.program-info-list {
     text-align: left;
     padding-top: 3vh;
 }
 
-.program-card{
+.program-card {
     border-radius: 10px;
     background-color: rgba(250, 250, 250, 0.8);
     border: 2px rgb(255, 221, 0) solid;
@@ -686,10 +716,11 @@ a {
     color: black;
 }
 
-.form-boxes{
-    list-style-type:none;
+.form-boxes {
+    list-style-type: none;
 }
-.contactforms1{
+
+.contactforms1 {
     width: 55vw;
     background-image: linear-gradient(to left, rgb(192, 252, 235), rgb(255, 217, 0));
     /* background-color: rgba(164, 164, 164, 0.8); */
@@ -697,35 +728,40 @@ a {
     border-radius: 10px;
     padding: 20px;
 }
-.contactforms1 h2{
+
+.contactforms1 h2 {
     text-align: center;
 }
 
-.signup{
-    padding:5vh 20px 20vh 20px;
+.signup {
+    padding: 5vh 20px 20vh 20px;
     display: flex;
     justify-content: center;
     color: black;
 }
-#signup-title{
+
+#signup-title {
     padding-top: 5vh;
     text-align: center;
     color: white;
 }
-.description{
+
+.description {
     margin-top: 5vh;
     /* color: black; */
 }
-#description{
+
+#description {
     margin-top: 8vh;
 }
 
-.videos{
+.videos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.video-box{
+
+.video-box {
     border: 2px gray solid;
     color: white;
     text-shadow: 2px 2px 8px #2b00ff;
@@ -736,7 +772,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     padding-bottom: 10vh;
     font-size: 20px;
     background-image: url("/Pictures/foamrolling2.jpg");
@@ -745,51 +781,64 @@ a {
     background-size: cover;
     filter: grayscale(65%);
 }
-#video-box2{
-    background-image: url("/Pictures/foamrolling1.jpg"); 
+
+#video-box2 {
+    background-image: url("/Pictures/foamrolling1.jpg");
 }
+
 #deadlift {
     background-image: url("/Pictures/Deadlift.jpg");
 }
+
 #squat {
     background-image: url("/Pictures/Squat.jpg");
 }
+
 #hipthrust {
-    background-image: url("/Pictures/hipthrust.png"); 
+    background-image: url("/Pictures/hipthrust.png");
 }
+
 #pullup {
-    background-image: url("/Pictures/pullup.jpg"); 
+    background-image: url("/Pictures/pullup.jpg");
 }
+
 #lunge {
-    background-image: url("/Pictures/Lunge.jpg"); 
+    background-image: url("/Pictures/Lunge.jpg");
 }
+
 #chestpress {
-    background-image: url("/Pictures/chestpress.jpg"); 
+    background-image: url("/Pictures/chestpress.jpg");
 }
+
 #core {
-    background-image: url("/Pictures/core.jpg"); 
+    background-image: url("/Pictures/core.jpg");
 }
+
 #landmine {
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
 }
-.hide{
+
+.hide {
     display: none;
     color: yellow;
     font-weight: bolder;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     filter: grayscale(0%);
 }
-.video-box:hover{
+
+.video-box:hover {
     color: yellow;
     font-weight: bolder;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     filter: grayscale(0%);
     padding-top: 5vh;
 }
+
 .video-box:hover .hide {
     display: block;
 }
-.hiitTypes{
+
+.hiitTypes {
     border-radius: 10px;
     background-color: rgba(250, 250, 250, 0.8);
     border: 2px rgb(255, 221, 0) solid;
@@ -797,14 +846,39 @@ a {
     height: 600px;
     width: 28vw;
 }
-#hiitTypes{
+
+#hiitTypes {
     height: 800px;
 }
+
 .hiitoption {
     margin-top: 10vh;
 }
-#pdfbtn{
+
+#pdfbtn {
     color: black;
 }
 
+#return {
+    margin-top: -5vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
 
+.returnbtn {
+    background-color: rgb(175, 175, 175, 0.2);
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.returnbtn:hover {
+    background-color: rgb(175, 175, 175, 0.5);
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+#formbtn:hover{
+    transform: scale(1.05);
+    background-color: rgb(178, 207, 221);
+}

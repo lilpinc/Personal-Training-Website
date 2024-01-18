@@ -8,7 +8,16 @@ function NavTabs() {
   return (
     <>
     <header className="navbar">
-      <h1 className="bold">Movement Junky</h1>
+      <h1 className="bold">
+      <Link
+          to="/"
+          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          className= {currentPage === '/' ? 'nav-link active text-white' : 'nav-link text-white'}
+        >
+          Movement Junky
+        </Link>
+        </h1>
     <ul className="nav">
       <li className="nav-item">
         <Link
