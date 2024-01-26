@@ -27,6 +27,7 @@ import HIITvideos from './components/Services/HIITFolder/HIITvideos.jsx'
 import FiveK from './components/Services/RunningFolder/FiveK.jsx'
 import Half from './components/Services/RunningFolder/Half.jsx'
 import Marathon from './components/Services/RunningFolder/Marathon.jsx'
+import Quiz from './components/Quiz/Quiz'
 
 
 
@@ -128,6 +129,10 @@ const router = createBrowserRouter([
       {
         path: '/Marathon',
         element: <Marathon />,
+      },
+      {
+        path: '/Quiz',
+        element: <Quiz />,
       },
      
     ],

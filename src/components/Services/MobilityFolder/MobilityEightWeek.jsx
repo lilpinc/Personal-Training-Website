@@ -10,12 +10,12 @@ export default function MobilityEightWeek() {
     return (
         <section className="library books howtogetstarted">
             <div className="description">
-            <a onClick={returnTo}><button id="back" className="return returnbtn">Return</button></a>
+            <button onClick={returnTo} id="back" className="return returnbtn">Return</button>
                 <h2>Full Body Mobility & Flexibility 8 Week Progressive Program</h2>
                 <p id="description">Do you feel STIFF and TIGHT going through every day activities? Have a loss of range of motion? Maybe even have some NAGGING surface level pain in your joints?</p>
                 <p><b>Mobility and flexibility training can help!</b></p>
                 <p>Improve your daily movement and the health of your joints and muscles by signing up to complete this 8 week functional progressive mobility and flexibility course!</p>
-                <a onClick={getStarted}><button className="getstarted2">Get Started</button></a>
+                <button onClick={getStarted} className="getstarted2">Get Started</button>
             </div>
             <div className="program-card">
                 <h5>Includes:</h5>

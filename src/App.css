@@ -275,6 +275,7 @@ a {
     border: black 2px solid;
    margin-top: 20px;
    font-size:19px;
+   color: black;
 }
 
 .howtogetstarted {
@@ -536,7 +537,6 @@ a {
     transform: scale(1.03);
 }
 .return {
-    color: white;
    display: flex;
 }
 #back {
@@ -715,6 +715,17 @@ a {
     margin: 2.5vh;
     color: black;
 }
+.program-card2 {
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, 0.8);
+    border: 2px rgb(255, 221, 0) solid;
+    width: 70vw;
+    padding: 5vh;
+    margin: 3vh;
+    margin-bottom: 8vh;
+    color: black;
+    display: none;
+}
 
 .form-boxes {
     list-style-type: none;
@@ -870,6 +881,7 @@ a {
     padding: 10px;
     border-radius: 30px;
     border: 1px solid white;
+    color: white;
 }
 
 .returnbtn:hover {
@@ -881,4 +893,33 @@ a {
 #formbtn:hover{
     transform: scale(1.05);
     background-color: rgb(178, 207, 221);
+}
+
+.quizbtn {
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #83bad6;
+    width: auto;
+    padding: 3px 5px;
+    border: black 1px solid;
+}
+.quizbtn:hover{
+    transform: scale(1.05);
+    background-color: rgb(178, 207, 221);
+}
+.return-home{
+    display: absolute;
+    margin-left:-175%;
+}
+#quizbtns {
+    font-size: 18px;
+   display:block;
+   margin:10px;
+   text-align: left;
+}
+#start-quiz {
+    margin: 18vh;
+}
+.question-text{
+    font-size: 30px;
 }

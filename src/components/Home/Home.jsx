@@ -6,7 +6,7 @@ export default function Home() {
   };
 
   const startQuiz = () => {
-    window.location.replace('/StartQuiz');
+    window.location.replace('/Quiz');
   };
 
   const goTo = () => {
@@ -91,14 +91,14 @@ export default function Home() {
               <p className="note1">Our lives can get very busy. You might not have the availability to meet up in person with a trainer multiple times a week. Thats why we provide online programs that you can pull up right from your phone wherever you are. Each exercise has a corresponding video that goes over form and function. If you want or need more assistance, opt for our personal training plan where you have daily communication with our trainer and can discuss each movement in detail to ensure proper form.</p>
             </div>
           </div>
-          <a onClick={goTo}><button id="view-services" className="returnbtn">View All Services</button></a>
+          <button onClick={goTo} id="view-services" className="returnbtn">View All Services</button>
         </header>
       </section>
       <section className="howtogetstarted">
         <header className="catch">
           <h1 className="bold">Get Started</h1>
           <h3 className="catch3 mfoptions">Not really sure what program is right for you? Take our quiz and get a recommendation!</h3>
-          <a onClick={startQuiz}><button id="formbtn">Start Quiz</button></a>
+          <button onClick={startQuiz} id="formbtn">Start Quiz</button>
           <article className="start">
             <div className="numbers">
               <h1 className="bignumbers">1</h1>

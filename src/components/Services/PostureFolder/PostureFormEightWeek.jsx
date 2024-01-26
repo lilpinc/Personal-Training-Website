@@ -10,12 +10,12 @@ export default function PostureFormEightWeek() {
     return (
         <section className="library howtogetstarted books">
             <div className="description">
-            <a onClick={returnTo}><button id="back" className="return returnbtn">Return</button></a>
+            <button onClick={returnTo} id="back" className="return returnbtn">Return</button>
                 <h2>Posture & Form Correction 8 Week Progressive Program</h2>
                 <p id="description">Want to start exercising but nervous about injury due to present discomfort and/or pain, or a previous injury? Or maybe you just want some guidance on the basic body movements you see others do in the gym?</p>
                 <p><b>Posture and Form Correction training is right for you!</b></p>
                 <p>Our Posture and Form Correction 8 week course provides in-depth guidance and instruction on proper movement patterns to reduce risk of injury and pain both inside and outside the gym!</p>
-                <a onClick={getStarted}><button className="getstarted2">Get Started</button></a>
+                <button onClick={getStarted}className="getstarted2">Get Started</button>
             </div>
             <div className="program-card">
                 <h5>Includes:</h5>
