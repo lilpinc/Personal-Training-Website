@@ -919,7 +919,14 @@ a {
 }
 #start-quiz {
     margin: 18vh;
+    padding: 15px;
+    font-weight: bolder;
+    border: solid 2px black;
 }
 .question-text{
     font-size: 30px;
 }
+.final-results{
+    display: none;
+}
+
