@@ -12,7 +12,27 @@ export default function Home() {
   const goTo = () => {
     window.location.replace('/Services');
   }
+  let i = 0;
+  let images = [];
+  let slideTime = 4000; // 4 seconds
 
+  images[0] = 'https://img.freepik.com/free-photo/young-man-sportswear-exercise-class-gym_1150-12372.jpg?w=826&t=st=1684973703~exp=1684974303~hmac=0ca400cbecb382434e2bac6076b333da951eb197eed77632934bd3832341a533';
+  images[1] = '/Pictures/meghan-holmes-buWcS7G1_28-unsplash.jpg';
+  images[2] = '/Pictures/sven-mieke-jO6vBWX9h9Y-unsplash.jpg';
+
+  function changePicture() {
+    let background = document.querySelector(".welcome");
+    background.style.backgroundImage = "url(" + images[i] + ")";
+
+    if (i < images.length - 1) {
+      i++;
+    } else {
+      i = 0;
+    }
+    setTimeout(changePicture, slideTime);
+  }
+
+  window.onload = changePicture;
 
   return (
 
