@@ -68,71 +68,71 @@ const router = createBrowserRouter([
         element: <StartNow />,
       },
       {
-        path: '/FullBody',
+        path: '/Services/FullBody',
         element: <FullBody />,
       },
       {
-        path: '/HIIT',
+        path: '/Services/HIIT',
         element: <HIIT />,
       },
       {
-        path: '/Mobility',
+        path: '/Services/Mobility',
         element: <Mobility />,
       },
       {
-        path: '/Online',
+        path: '/Services/Online',
         element: <Online />,
       },
       {
-        path: '/Posture',
+        path: '/Services/Posture',
         element: <Posture />,
       },
       {
-        path: '/Running',
+        path: '/Services/Running',
         element: <Running />,
       },
       {
-        path: '/MobilityEightWeek',
+        path: '/Services/Mobility/MobilityEightWeek',
         element: <MobilityEightWeek />,
       },
       {
-        path: '/MobilityHowTo',
+        path: '/Services/Mobility/MobilityHowTo',
         element: <MobilityHowTo />,
       },
       {
-        path: '/MobilityPDF',
+        path: '/Services/Mobility/MobilityPDF',
         element: <MobilityPDF />,
       },
       {
-        path: '/PostureFormEightWeek',
+        path: '/Services/Posture/PostureFormEightWeek',
         element: <PostureFormEightWeek />,
       },
       {
-        path: '/PostureFormHowTo',
+        path: '/Services/Posture/PostureFormHowTo',
         element: <PostureFormHowTo />,
       },
       {
-        path: '/PostureFormPDF',
+        path: '/Services/Posture/PostureFormPDF',
         element: <PostureFormPDF />,
       },
       {
-        path: '/HIITprograms',
+        path: '/Services/HIIT/HIITprograms',
         element: <HIITprograms />,
       },
       {
-        path: '/HIITvideos',
+        path: '/Services/HIIT/HIITvideos',
         element: <HIITvideos />,
       },
       {
-        path: '/FiveK',
+        path: '/Services/Running/FiveK',
         element: <FiveK/>,
       },
       {
-        path: '/Half',
+        path: '/Services/Running/Half',
         element: <Half />,
       },
       {
-        path: '/Marathon',
+        path: '/Services/Running/Marathon',
         element: <Marathon />,
       },
       {

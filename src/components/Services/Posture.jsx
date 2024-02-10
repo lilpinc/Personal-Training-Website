@@ -18,8 +18,8 @@ export default function Posture() {
                             $65.00</p>
                         <button className="moreinfo">
                             <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
-                                to="/PostureFormEightWeek"
-                                className={currentPage === '/PostureFormEightWeek' ? 'nav-link active' : 'nav-link'}>
+                                to="/Services/Posture/PostureFormEightWeek"
+                                className={currentPage === '/Services/Posture/PostureFormEightWeek' ? 'nav-link active' : 'nav-link'}>
                                 More Information
                             </Link>
                         </button>
@@ -40,8 +40,8 @@ export default function Posture() {
                             $50.00</p>
                         <button className="moreinfo">
                             <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
-                                to="/PostureFormHowTo"
-                                className={currentPage === '/PostureFormHowTo' ? 'nav-link active' : 'nav-link'}>
+                                to="/Services/Posture/PostureFormHowTo"
+                                className={currentPage === '/Services/Posture/PostureFormHowTo' ? 'nav-link active' : 'nav-link'}>
                                 More Information
                             </Link>
                         </button>
@@ -62,8 +62,8 @@ export default function Posture() {
                             $35.00</p>
                         <button className="moreinfo">
                             <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
-                                to="/PostureFormPDF"
-                                className={currentPage === '/PostureFormPDF' ? 'nav-link active' : 'nav-link'}>
+                                to="/Services/Posture/PostureFormPDF"
+                                className={currentPage === '/Services/Posture/PostureFormPDF' ? 'nav-link active' : 'nav-link'}>
                                    More Information
                             </Link>
                         </button>

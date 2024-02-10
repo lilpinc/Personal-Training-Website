@@ -4,7 +4,7 @@ export default function MobilityHowTo() {
         window.location.replace('/StartNow');
     };
     const returnTo = () => {
-        window.location.replace('/Mobility');
+        window.location.replace('/Services/Mobility');
     };
 
     return (

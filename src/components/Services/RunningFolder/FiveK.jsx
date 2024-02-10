@@ -4,7 +4,7 @@ export default function FiveK() {
     };
 
     const returnTo = () => {
-        window.location.replace('/Running');
+        window.location.replace('/Services/Running');
     };
     
     return (

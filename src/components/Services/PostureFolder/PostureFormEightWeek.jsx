@@ -4,7 +4,7 @@ export default function PostureFormEightWeek() {
         window.location.replace('/StartNow');
     };
     const returnTo = () => {
-        window.location.replace('/Posture');
+        window.location.replace('/Services/Posture');
     };
 
     return (

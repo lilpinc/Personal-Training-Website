@@ -19,8 +19,8 @@ export default function Mobility() {
                             $65.00</p>
                         <button className="moreinfo">
                             <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
-                                to="/MobilityEightWeek"
-                                className={currentPage === '/MobilityEightWeek' ? 'nav-link active' : 'nav-link'}>
+                                to="/Services/Mobility/MobilityEightWeek"
+                                className={currentPage === '/Services/Mobility/MobilityEightWeek' ? 'nav-link active' : 'nav-link'}>
                                 More Information
                             </Link>
                         </button>
@@ -41,8 +41,8 @@ export default function Mobility() {
                             $50.00</p>
                         <button className="moreinfo">
                             <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
-                                to="/MobilityHowTo"
-                                className={currentPage === '/MobilityHowTo' ? 'nav-link active' : 'nav-link'}>
+                                to="/Services/Mobility/MobilityHowTo"
+                                className={currentPage === '/Services/Mobility/MobilityHowTo' ? 'nav-link active' : 'nav-link'}>
                                 More Information
                             </Link>
                         </button>
@@ -63,8 +63,8 @@ export default function Mobility() {
                             $35.00</p>
                         <button className="moreinfo">
                             <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
-                                to="/MobilityPDF"
-                                className={currentPage === '/MobilityPDF' ? 'nav-link active' : 'nav-link'}>
+                                to="/Services/Mobility/MobilityPDF"
+                                className={currentPage === '/Services/Mobility/MobilityPDF' ? 'nav-link active' : 'nav-link'}>
                                 More Information
                             </Link>
                         </button>

@@ -18,8 +18,8 @@ export default function Running() {
                             $45.00</p>
                         <button className="moreinfo">
                             <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
-                                to="/FiveK"
-                                className={currentPage === '/FiveK' ? 'nav-link active' : 'nav-link'}>
+                                to="/Services/Running/FiveK"
+                                className={currentPage === '/Services/Running/FiveK' ? 'nav-link active' : 'nav-link'}>
                                 More Information
                             </Link>
                         </button>
@@ -39,8 +39,8 @@ export default function Running() {
                             $55.00</p>
                         <button className="moreinfo">
                             <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
-                                to="/Half"
-                                className={currentPage === '/Half' ? 'nav-link active' : 'nav-link'}>
+                                to="/Services/Running/Half"
+                                className={currentPage === '/Services/Running/Half' ? 'nav-link active' : 'nav-link'}>
                                 More Information
                             </Link>
                         </button>
@@ -60,8 +60,8 @@ export default function Running() {
                             $65.00</p>
                         <button className="moreinfo">
                             <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
-                                to="/Marathon"
-                                className={currentPage === '/Marathon' ? 'nav-link active' : 'nav-link'}>
+                                to="/Services/Running/Marathon"
+                                className={currentPage === '/Services/Running/Marathon' ? 'nav-link active' : 'nav-link'}>
                                     More Information
                             </Link>
                         </button>

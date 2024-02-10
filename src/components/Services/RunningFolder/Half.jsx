@@ -4,7 +4,7 @@ export default function Half() {
     };
 
     const returnTo = () => {
-        window.location.replace('/Running');
+        window.location.replace('/Services/Running');
     };
     
     return (

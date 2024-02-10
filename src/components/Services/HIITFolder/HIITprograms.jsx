@@ -3,7 +3,7 @@ export default function HIITprograms() {
         window.location.replace('/StartNow');
     };
     const returnTo = () => {
-        window.location.replace('/HIIT');
+        window.location.replace('/Services/HIIT');
     };
 
     return (

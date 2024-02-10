@@ -3,7 +3,7 @@ export default function Marathon() {
         window.location.replace('/StartNow');
     };
     const returnTo = () => {
-        window.location.replace('/Running');
+        window.location.replace('/Services/Running');
     };
 
     return (
