@@ -1,17 +1,6 @@
 
 export default function Home() {
-
-  const getStarted = () => {
-    window.location.replace('/StartNow');
-  };
-
-  const startQuiz = () => {
-    window.location.replace('/Quiz');
-  };
-
-  const goTo = () => {
-    window.location.replace('/Services');
-  }
+  
   let i = 0;
   let images = [];
   let slideTime = 4000; // 4 seconds
@@ -33,6 +22,19 @@ export default function Home() {
   }
 
   window.onload = changePicture;
+
+  const getStarted = () => {
+    window.location.replace('/StartNow');
+  };
+
+  const startQuiz = () => {
+    window.location.replace('/Quiz');
+  };
+
+  const goTo = () => {
+    window.location.replace('/Services');
+  }
+  
 
   return (
 

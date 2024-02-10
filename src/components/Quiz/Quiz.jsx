@@ -114,6 +114,8 @@ function Quiz() {
                         <h4 className="description" id="program-title"><b>{currentProgram}</b></h4>
                         {/* <p>Based on your answers, we suggest you look at our <span id="program-level"></span>.</p> */}
                         {/* <button id="view-program" className="getstarted2">View Program</button> */}
+                        <br />
+                        <br />
                         <Link className="getstarted2" id="view-program" to={currentLink}>View Program</Link>
                     </div>
 

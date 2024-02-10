@@ -28,7 +28,7 @@ export default function Blog() {
                             <Link style={{ textDecoration: "none", color: "white" }}
                                 to="/Blog3"
                                 className={currentPage === '/Blog3' ? 'nav-link active' : 'nav-link'}>
-                                <p className="blogpost">How does Strength Training Impact Age Related Muscle Degeneration</p>
+                                <p className="blogpost">What Is A Healthy Diet and How Does Protein Factor In To Weight Loss?</p>
                             </Link>
                         </li>
                         <li>
