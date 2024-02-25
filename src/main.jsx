@@ -24,6 +24,7 @@ import PostureFormHowTo from './components/Services/PostureFolder/PostureFormHow
 import PostureFormPDF from './components/Services/PostureFolder/PostureFormPDF.jsx'
 import HIITprograms from './components/Services/HIITFolder/HIITprograms.jsx'
 import HIITvideos from './components/Services/HIITFolder/HIITvideos.jsx'
+import HIITPDF from './components/Services/HIITFolder/HIITPDF.jsx'
 import FiveK from './components/Services/RunningFolder/FiveK.jsx'
 import Half from './components/Services/RunningFolder/Half.jsx'
 import Marathon from './components/Services/RunningFolder/Marathon.jsx'
@@ -122,6 +123,10 @@ const router = createBrowserRouter([
       {
         path: '/Services/HIIT/HIITvideos',
         element: <HIITvideos />,
+      },
+      {
+        path: '/Services/HIIT/HIITPDF',
+        element: <HIITPDF />,
       },
       {
         path: '/Services/Running/FiveK',

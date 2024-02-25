@@ -177,6 +177,9 @@ export default function StartNow() {
                                 <li>
                                     <input type="checkbox" id="HIIT" name="HIIT_Videos" value="HIIT_Videos" /> HIIT Videos
                                 </li>
+                                <li>
+                                    <input type="checkbox" id="HIIT" name="HIIT_PDF" value="HIIT_PDF" /> HIIT & Strength PDF
+                                </li>
                                 <hr />
                             </ul>
                             <ul className="form-boxes">
