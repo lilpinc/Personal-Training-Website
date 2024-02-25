@@ -61,7 +61,7 @@ export default function PostureFormHowTo() {
                 <article className="video-box">Shoulder & Upper Back Self Massage for Kyphosis
                     <p className="hide">available with purchase</p>
                 </article>
-                <article className="video-box">Shoulder & Upper Back Correctives Exercises & Kyphosis
+                <article id="shoulder" className="video-box">Shoulder & Upper Back Correctives Exercises & Kyphosis
                     <p className="hide">available with purchase</p>
                 </article>
                 <article id="video-box2" className="video-box">Valgus Knee Self Massage

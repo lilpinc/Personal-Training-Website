@@ -11,6 +11,8 @@ export default function Blog2() {
             </div>
         <header className="blogs">
             <h3>The Effects of Fitness Training on Heart Health</h3>
+            <br /><br />
+            <h4>Coming Soon</h4>
         </header>
     </section>
 

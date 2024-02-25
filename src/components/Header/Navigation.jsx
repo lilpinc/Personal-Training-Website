@@ -15,7 +15,7 @@ function NavTabs() {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className= {currentPage === '/' ? 'nav-link active text-white' : 'nav-link text-white'}
         >
-          Movement Junky
+          ABP Fitness
         </Link>
         </h1>
     <ul className="nav">

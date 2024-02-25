@@ -1,27 +1,29 @@
 
 export default function Home() {
-  
-  let i = 0;
-  let images = [];
-  let slideTime = 4000; // 4 seconds
+
+  var i = 0;
+  var images = [];
 
   images[0] = 'https://img.freepik.com/free-photo/young-man-sportswear-exercise-class-gym_1150-12372.jpg?w=826&t=st=1684973703~exp=1684974303~hmac=0ca400cbecb382434e2bac6076b333da951eb197eed77632934bd3832341a533';
   images[1] = '/Pictures/meghan-holmes-buWcS7G1_28-unsplash.jpg';
   images[2] = '/Pictures/sven-mieke-jO6vBWX9h9Y-unsplash.jpg';
 
+
   function changePicture() {
-    let background = document.querySelector(".welcome");
-    background.style.backgroundImage = "url(" + images[i] + ")";
+  
+    if (document.querySelector(".welcome")) {
+      document.querySelector(".welcome").style.backgroundImage = "url(" + images[i] + ")";
+    }
 
     if (i < images.length - 1) {
       i++;
     } else {
       i = 0;
     }
-    setTimeout(changePicture, slideTime);
+    setTimeout(changePicture, 6000);
   }
 
-  window.onload = changePicture;
+  
 
   const getStarted = () => {
     window.location.replace('/StartNow');
@@ -34,11 +36,11 @@ export default function Home() {
   const goTo = () => {
     window.location.replace('/Services');
   }
-  
-
+ 
+  window.onload = changePicture();
   return (
 
-    <>
+    <main onLoad={changePicture}>
       <section className="welcome">
         <header className="title">
           <h1 className="bold" id="title">Helping clients Move better, Feel better, and most importantly LIVE Better</h1>
@@ -61,7 +63,7 @@ export default function Home() {
       </section>
       <section className="whatismj">
         <header className="catch">
-          <h2 className="bold">Movement Junky Creates A Holistic Approach To Fitness To Improve Every Aspect Of Your Life</h2>
+          <h2 className="bold">ABP Fitness Creates A Holistic Approach To Fitness To Improve Every Aspect Of Your Life</h2>
         </header>
         <p className="catch4"> We believe in optimizing health, both inside and out. Thats why we provide functional exercise and nutrition plans that adjust to the ebs and flows of your life.</p>
         <div className="values2">
@@ -148,6 +150,6 @@ export default function Home() {
         </header >
       </section >
 
-    </>
+    </main>
   );
 }

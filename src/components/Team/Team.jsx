@@ -19,7 +19,7 @@ export default function Team() {
                     <ul className="onlinelinks">
                         <li id="instagram"><a href="https://www.instagram.com/abps.fc/" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
                         <li id="linkedin"><a href="https://www.linkedin.com/in/anna-britta-pincus-25293b137/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-                        <li id="cscs"><a href="PDF/CSCS.pdf" target="_blank"><i class="fa-solid fa-certificate"></i></a></li>
+                        <li id="cscs"><a href="PDF/CSCS.pdf" target="_blank"><i className="fa-solid fa-certificate"></i></a></li>
                     </ul>
                 </div>
             </section>

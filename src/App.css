@@ -847,6 +847,9 @@ a {
 #landmine {
     background-color: whitesmoke;
 }
+#shoulder {
+    background-image: url("/Pictures/Shoulder.jpg");
+}
 
 .hide {
     display: none;
@@ -963,6 +966,7 @@ a {
     border: solid 2px lightgray;
     background-color: whitesmoke;
     border-radius: 10px; 
+    height: 90vh;
 }
 #blog-date{
     margin-left: 30px;
@@ -974,4 +978,30 @@ a {
     text-indent: 30px;
     margin-left: 30px;
     margin-right: 10px;
+}
+#curry{
+    width: 20vw;
+    border-radius: 50%;
+    border: black solid 2px;
+}
+.balance{
+    border-radius: 10%;
+    border: black solid 2px;
+}
+#balance1{
+    width: 20vw;
+}
+#balance2{
+    width: 15vw;
+    position: absolute;
+    right: -10vw;
+    top:10vh;
+
+}
+.balanceImages{
+    position: relative;
+    float: right;
+    display: flex;
+    justify-content: right;
+    margin-right: 10vw;
 }
