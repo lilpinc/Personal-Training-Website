@@ -213,7 +213,6 @@ export default function StartNow() {
                             <button onClick={sendEmail} id="formbtn" type="submit" value="Send" >Submit</button>
                         </div>
                     </form>
-
                 </section>
             </article >
         </section >

@@ -1,9 +1,9 @@
 export default function HIITprograms() {
     const getStarted = () => {
-        window.location.replace('/StartNow');
+        window.location.replace('https://abpfitness.netlify.app/StartNow');
     };
     const returnTo = () => {
-        window.location.replace('/Services/HIIT');
+        window.location.replace('https://abpfitness.netlify.app/Services/HIIT');
     };
 
     return (

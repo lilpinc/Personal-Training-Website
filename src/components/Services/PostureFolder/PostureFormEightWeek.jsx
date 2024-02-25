@@ -1,10 +1,10 @@
 export default function PostureFormEightWeek() {
 
     const getStarted = () => {
-        window.location.replace('/StartNow');
+        window.location.replace('https://abpfitness.netlify.app/StartNow');
     };
     const returnTo = () => {
-        window.location.replace('/Services/Posture');
+        window.location.replace('https://abpfitness.netlify.app/Services/Posture');
     };
 
     return (

@@ -966,7 +966,7 @@ a {
     border: solid 2px lightgray;
     background-color: whitesmoke;
     border-radius: 10px; 
-    height: 90vh;
+    height: 100vh;
 }
 #blog-date{
     margin-left: 30px;
@@ -977,7 +977,7 @@ a {
     text-align: left;
     text-indent: 30px;
     margin-left: 30px;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 #curry{
     width: 20vw;
@@ -1004,4 +1004,5 @@ a {
     display: flex;
     justify-content: right;
     margin-right: 10vw;
+    padding-left: 20px;
 }

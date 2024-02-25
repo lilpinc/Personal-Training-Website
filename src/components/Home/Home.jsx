@@ -26,15 +26,15 @@ export default function Home() {
   
 
   const getStarted = () => {
-    window.location.replace('/StartNow');
+    window.location.replace('https://abpfitness.netlify.app/StartNow');
   };
 
   const startQuiz = () => {
-    window.location.replace('/Quiz');
+    window.location.replace('https://abpfitness.netlify.app/Quiz');
   };
 
   const goTo = () => {
-    window.location.replace('/Services');
+    window.location.replace('https://abpfitness.netlify.app/Services');
   }
  
   window.onload = changePicture();
