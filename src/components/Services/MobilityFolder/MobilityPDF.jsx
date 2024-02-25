@@ -1,10 +1,10 @@
 export default function MobilityPDF() {
 
     const getStarted = () => {
-        window.location.replace('https://abpfitness.netlify.app/StartNow');
+        window.location.replace('/StartNow');
     };
     const returnTo = () => {
-        window.location.replace('https://abpfitness.netlify.app/Services/Mobility');
+        window.location.replace('/Services/Mobility');
     };
 
     return (

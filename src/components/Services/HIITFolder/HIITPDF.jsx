@@ -1,10 +1,10 @@
 export default function HIITPDF() {
 
     const getStarted = () => {
-        window.location.replace('https://abpfitness.netlify.app/StartNow');
+        window.location.replace('/StartNow');
     };
     const returnTo = () => {
-        window.location.replace('https://abpfitness.netlify.app/Services/HIIT');
+        window.location.replace('/Services/HIIT');
     };
 
     return (
