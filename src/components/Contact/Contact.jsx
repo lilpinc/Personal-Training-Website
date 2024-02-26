@@ -113,8 +113,7 @@ export default function Contact() {
           <p className="thanks">Thank you for viewing our website and the fitness programs we offer!</p>
           <p className="question">Want to get into contact? Reach us at the following:</p>
           <ul className="contactlist">
-            <li>Phone: 757.536.5114</li>
-            <li>Email: ab.pincus002@gmail.com</li>
+            <li>Email: ab.pincus002@gmail.com</li> 
           </ul>
         </section>
       </div>

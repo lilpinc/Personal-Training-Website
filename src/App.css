@@ -14,14 +14,19 @@ body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-     background-color: rgb(26, 26, 26);
+    background-color: rgb(26, 26, 26);
 }
 
 .navbar {
-    background-color: black;
-    overflow: hidden;
+    height:10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
-    color: white;
+}
+.bold{
+    padding-left: 15px;
 }
 
 .nav-item {
@@ -33,6 +38,7 @@ body {
     font-size: 18px;
     float: right;
     display: inline-flex;
+    background-color: rgb(26, 26, 26);
 }
 
 .footer {
@@ -40,10 +46,11 @@ body {
     overflow: hidden;
     color: white;
     display: flex;
+
     position: fixed;
     bottom: 0;
     height: 8vh;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
     align-items: center;
 }
@@ -1005,4 +1012,33 @@ a {
     justify-content: right;
     margin-right: 10vw;
     padding-left: 20px;
+}
+
+@media screen and (max-width: 1150px){
+.navbar {
+    display: block;
+    width: 185px;
+    padding:0;
+    margin: 0;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(26, 26, 26);
+}
+.nav-item {
+    margin: 0;
+    padding:0;
+    font-size: 20px;
+    display: block;
+    width:200px ;
+    height: 70px;
+}
+}
+
+
+@media screen and (max-width: 768px){
+   
+}
+@media screen and (max-width: 567px){
+
 }
