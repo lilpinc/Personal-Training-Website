@@ -7,7 +7,6 @@
 ## Table of Contents
 
   * [Description](#description)
-  * [Install](#install)
   * [Live URL](#live-url)
   * [Screenshots](#screenshots)
   * [Questions](#questions)
@@ -16,17 +15,20 @@
   
 ### Description
 
-
-### Install
-
+This is a Fitness website that in the future will provide material for clients including 8 week training programs, videos, and pdfs. It includes a quiz to determine what the right program is for the user, future blogs for reading material, services, and contact information.
 
 
 ### Live URL
 
+https://abpfitness.netlify.app/
 
 
 ### Screenshots
 
+![Screenshot](<public/Pictures/Screen Shot 2024-02-25 at 7.00.52 PM.png>)
+![Screenshot](<public/Pictures/Screen Shot 2024-02-25 at 7.01.07 PM.png>)
+![Screenshot](<public/Pictures/Screen Shot 2024-02-25 at 7.01.23 PM.png>)
+![Screenshot](<public/Pictures/Screen Shot 2024-02-25 at 7.01.45 PM.png>)
 
 
 
