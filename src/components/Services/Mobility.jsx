@@ -35,7 +35,7 @@ export default function Mobility() {
                     </header>
                 </div>
                 <div className="mfoptions0">
-                <header className="mfoptions1">
+                    <header className="mfoptions1">
                         <p className="mfoption1">Mobility & Flexibility 'How To' Videos
                             <br />
                             $50.00</p>
@@ -57,7 +57,7 @@ export default function Mobility() {
                     </header>
                 </div>
                 <div className="mfoptions0">
-                <header className="mfoptions1">
+                    <header className="mfoptions1">
                         <p className="mfoption1">Mobility & Flexibility PDF
                             <br />
                             $35.00</p>

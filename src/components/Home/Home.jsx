@@ -1,6 +1,6 @@
 
 export default function Home() {
-
+  var x = window.matchMedia("(max-width: 567px)")
   var i = 0;
   var images = [];
 
@@ -10,8 +10,8 @@ export default function Home() {
 
 
   function changePicture() {
-  
-    if (document.querySelector(".welcome")) {
+   
+    if(document.querySelector(".welcome")) {
       document.querySelector(".welcome").style.backgroundImage = "url(" + images[i] + ")";
     }
 
@@ -41,7 +41,7 @@ export default function Home() {
   return (
 
     <main onLoad={changePicture}>
-      <section className="welcome">
+      <section className="welcome" id="override">
         <header className="title">
           <h1 className="bold" id="title">Helping clients Move better, Feel better, and most importantly LIVE Better</h1>
         </header>
@@ -122,7 +122,7 @@ export default function Home() {
         <header className="catch">
           <h1 className="bold">Get Started</h1>
           <h3 className="catch3 mfoptions">Not really sure what program is right for you? Take our quiz and get a recommendation!</h3>
-          <button onClick={startQuiz} id="formbtn">Start Quiz</button>
+          <button onClick={startQuiz} id="homequizbtn">Start Quiz</button>
           <article className="start">
             <div className="numbers">
               <h1 className="bignumbers">1</h1>

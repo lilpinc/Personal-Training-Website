@@ -18,14 +18,15 @@ body {
 }
 
 .navbar {
-    height:10vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
-.bold{
+
+.bold {
     padding-left: 15px;
 }
 
@@ -46,7 +47,6 @@ body {
     overflow: hidden;
     color: white;
     display: flex;
-
     position: fixed;
     bottom: 0;
     height: 8vh;
@@ -87,8 +87,8 @@ body {
 
 
 .welcome {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +103,7 @@ body {
     color: rgb(254, 254, 254);
     text-shadow: 0 0 12px #000000;
     font-size: 50px;
-    -webkit-text-stroke: .5px black; 
+    -webkit-text-stroke: .5px black;
 }
 
 .values {
@@ -118,7 +118,8 @@ body {
     justify-content: center;
     width: 90%;
     font-size: 17px;
-    margin: 30px 60px;
+    margin: 30px 60px 0px;
+    padding-bottom: 30px;
 }
 
 .value1 {
@@ -126,7 +127,7 @@ body {
     font-size: 22.5px;
     color: white;
     font-weight: bolder;
-    -webkit-text-stroke: .3px black; 
+    -webkit-text-stroke: .3px black;
     text-shadow: 0 0 10px #000000;
 }
 
@@ -201,14 +202,12 @@ a {
     padding-top: 80px;
     padding-left: 40px;
     padding-right: 40px;
-    font-size: 25px;
 }
 
 .catch2 {
     text-align: center;
     margin: 30px;
     padding: 30px;
-    font-size: 25px;
     border: solid 2px lightgray;
     background-color: whitesmoke;
     border-radius: 10px;
@@ -240,10 +239,8 @@ a {
 }
 
 .card2 {
-    width: 40vw;
-    height: 45vh;
     margin: 40px 25px 10px 25px;
-    font-size: 17px;
+    /* font-size: 17px; */
     text-align: left;
     padding: 20px;
     color: white;
@@ -284,11 +281,12 @@ a {
     margin: 0;
     padding: 0;
 }
+
 #view-services {
     border: black 2px solid;
-   margin-top: 20px;
-   font-size:19px;
-   color: black;
+    margin-top: 20px;
+    font-size: 19px;
+    color: black;
 }
 
 .howtogetstarted {
@@ -302,6 +300,7 @@ a {
     margin-left: 60px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .numbers {
@@ -424,8 +423,9 @@ a {
 #linkedin {
     padding-left: 30px;
 }
+
 #cscs {
-    padding-left: 30px;  
+    padding-left: 30px;
 }
 
 .library {
@@ -442,7 +442,6 @@ a {
     text-align: center;
     margin: 30px 40px 0px 40px;
     font-size: 18px;
-    /* text-shadow: 2px 2px 5px rgb(35, 226, 251); */
 }
 
 
@@ -540,27 +539,24 @@ a {
     margin: 0;
     padding-bottom: 30px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-    padding-bottom: 30px;
-    margin: 0; */
 }
+
 .moreinfo:hover {
     transform: scale(1.03);
 }
+
 .return {
-   display: flex;
+    display: flex;
 }
+
 #back {
     border-radius: 15px;
     padding: 5px 12px;
 }
+
 #back2 {
     border-radius: 15px;
     padding: 5px 12px;
@@ -573,11 +569,11 @@ a {
 .mfoptions0 {
     border: solid 2px black;
     border-radius: 10px;
-    margin: 25px;
+    margin: 25px 15px;
     width: 30vw;
     background-color: #c5e8de;
     justify-content: center;
-    height: 100vh;
+    height: 110vh;
     color: black;
 }
 
@@ -619,9 +615,6 @@ a {
     justify-content: center;
 }
 
-.mfopt {
-    padding-bottom: 5vh;
-}
 
 .blog {
     margin: 0;
@@ -644,11 +637,10 @@ a {
     background-color: rgb(35, 35, 35, 0.8);
     border-radius: 10px;
     border: 1px yellow solid;
-
 }
 
 .blogpost {
-    width: 60vw;
+    width: 70vw;
     margin-top: 5vh;
     padding: 2vh;
     /* background-color: lightgray; */
@@ -705,6 +697,14 @@ a {
     padding: 3px 5px;
     border: black 1px solid;
 }
+#homequizbtn {
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #83bad6;
+    width: auto;
+    padding: 3px 5px;
+    border: black 1px solid;
+}
 
 .question {
     font-weight: bold;
@@ -725,6 +725,11 @@ a {
     margin: 0;
     padding: 0;
     padding-left: 10px;
+    width:30vw;
+}
+#email{
+    width:30vw; 
+    font-size: 17px;
 }
 
 .program-info-list {
@@ -741,6 +746,7 @@ a {
     margin: 2.5vh;
     color: black;
 }
+
 .program-card2 {
     border-radius: 10px;
     background-color: rgba(250, 250, 250, 0.8);
@@ -779,13 +785,13 @@ a {
 
 #signup-title {
     padding-top: 5vh;
+    margin: 0 8vw;
     text-align: center;
     color: white;
 }
 
 .description {
     margin-top: 5vh;
-    /* color: black; */
 }
 
 #description {
@@ -854,6 +860,7 @@ a {
 #landmine {
     background-color: whitesmoke;
 }
+
 #shoulder {
     background-image: url("/Pictures/Shoulder.jpg");
 }
@@ -900,7 +907,6 @@ a {
 }
 
 #return {
-    margin-top: -5vh;
     padding-bottom: 10vh;
     text-align: center;
 }
@@ -919,7 +925,8 @@ a {
     border-radius: 30px;
     border: 1px solid white;
 }
-#formbtn:hover{
+
+#formbtn:hover {
     transform: scale(1.05);
     background-color: rgb(178, 207, 221);
 }
@@ -932,80 +939,96 @@ a {
     padding: 3px 5px;
     border: black 1px solid;
 }
-.quizbtn:hover{
+
+.quizbtn:hover {
     transform: scale(1.05);
     background-color: rgb(178, 207, 221);
 }
-.return-home{
+
+.return-home {
     display: absolute;
-    margin-left:-175%;
+    margin-left: -175%;
 }
+
 #quizbtns {
     font-size: 18px;
-   display:block;
-   margin:10px;
-   text-align: left;
+    display: block;
+    margin: 10px;
+    text-align: left;
 }
+
 #start-quiz {
     margin: 18vh;
     padding: 15px;
     font-weight: bolder;
     border: solid 2px black;
 }
-.question-text{
+
+.question-text {
     font-size: 30px;
 }
-.final-results{
+
+.final-results {
     display: none;
 }
-#view-program{
+
+#view-program {
     border: black 2px solid;
 }
-#view-program:hover{
+
+#view-program:hover {
     border: 2px solid white;
     background-color: rgb(160, 160, 160);
     color: white;
 }
-.blogs{
+
+.blogs {
     text-align: center;
     margin: 30px;
     padding: 30px;
     border: solid 2px lightgray;
     background-color: whitesmoke;
-    border-radius: 10px; 
+    border-radius: 10px;
     height: 100vh;
 }
-#blog-date{
+
+#blog-date {
     margin-left: 30px;
     text-align: left;
     margin-right: 15px;
 }
-#blog-post{
+
+#blog-post {
     text-align: left;
     text-indent: 30px;
     margin-left: 30px;
     margin-right: 30px;
 }
-#curry{
+
+#curry {
     width: 20vw;
     border-radius: 50%;
     border: black solid 2px;
 }
-.balance{
+
+.balance {
     border-radius: 10%;
     border: black solid 2px;
 }
-#balance1{
+
+#balance1 {
     width: 20vw;
 }
-#balance2{
+
+#balance2 {
     width: 15vw;
     position: absolute;
     right: -10vw;
-    top:10vh;
+    top: 10vh;
 
 }
-.balanceImages{
+
+.balanceImages {
     position: relative;
     float: right;
     display: flex;
@@ -1014,31 +1037,364 @@ a {
     padding-left: 20px;
 }
 
-@media screen and (max-width: 1150px){
-.navbar {
-    display: block;
-    width: 185px;
-    padding:0;
-    margin: 0;
-    height: 100vh;
-    position: fixed;
-    z-index: 1;
-    background-color: rgb(26, 26, 26);
-}
-.nav-item {
-    margin: 0;
-    padding:0;
-    font-size: 20px;
-    display: block;
-    width:200px ;
-    height: 70px;
-}
+@media screen and (max-width: 1150px) {
+    .navbar {
+        display: block;
+        width: 185px;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(26, 26, 26);
+    }
+    .nav-item {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        display: block;
+        width: 200px;
+        height: 70px;
+    }
+    #company{
+        padding-top: 20px;
+    }
+    .footer {
+        z-index: 1;
+        height: 10vh;
+    }
+    .logo {
+        padding-top: 18px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 15px;
+        padding-left: 25vw;
+    }
+    .nav-item2 {
+        margin: 0px 20px 0px 0px;
+        padding: 0 5px 0px 0px;
+        font-size: 15px;
+        display: inline-flex;
+    }
+    .welcome {
+        height: 100vh;
+        width: 100vw;
+        margin-top: 0;
+        padding-bottom: 12vh;
+    }
+    #title {
+        margin: 0vh 0vw 0vh 20vw;
+        padding-top: 15%;
+        font-size: 35px;
+        width: 75vw;
+    }
+    .values {
+        margin-left: 20vw;
+    }
+    .values2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cardinfo {
+        font-size: 18px;
+    }
+    .whatismj {
+        padding-left: 15vw;
+    }
+    .getstarted {
+        margin-left: 15vw;
+    }
+    .catch2 {
+        margin-left:215px;
+        width: 75vw;
+        padding: 30px;
+    }
+    .howtogetstarted{
+        padding-left: 20vw;
+    }
+    .contactinfo {
+        justify-content: space-evenly;
+        margin:10vh 4vw 10vh 10vw;
+    }
+    .mfoptions12{
+        padding-top: 25px;
+    }
+    .mfoptions0{
+        width: 35vw;
+    }
+    .description h2{
+        margin-top: 20px;
+    }
+    .return{
+        margin-left: 10px;
+    }
+    .blog{
+        padding-left: 25vw;
+    }
+    .blogpost {
+        width: 60vw;
+    } 
 }
 
-
-@media screen and (max-width: 768px){
-   
+@media screen and (max-width: 900px) {
+    #title {
+        margin: 0vh 0vw 0vh 28vw;
+        padding-top: 15%;
+        font-size: 35px;
+        width: 65vw;
+    }
+    .values {
+        margin-left: 22.5vw;
+    }
+    .getstarted {
+        margin-left: 20vw;
+    }
+    .whatismj {
+        padding-left: 20vw;
+    }
+    .catch4 {
+        width: 60vw;
+        margin-left: 11.5vw;
+    }
+    .catch2 {
+        margin-left:28vw;
+        width: 65vw;
+        padding: 30px;
+    }
+    .howtogetstarted{
+        padding-left: 22vw;
+    }
+    .contactme{
+        display: none;
+    }
+    .form {
+        padding: 20px;
+    }
+    .contactinfo {
+        margin:10vw;
+    }
+    .description{
+        padding-left: 5vw;
+    }
+    .mfopt{
+        display: none;
+    }
+    .mfoptions0{
+        height:40vh;
+    }
+    .mfoption1{
+        font-size: 18px;
+    }
+    .hiitTypes {
+        width: 275px;
+        margin-left: 10vw;
+    }
+    #hiitTypes {
+        height: 200px;
+    }
+    .hiitoption {
+        margin-top: 3vh;
+    }
+    .program-card{
+        margin-left: 8vw;
+    }
+    .video-box {
+        height: 25vh;
+    }
+    .blog{
+        padding-left: 30vw;
+    }
+    .blogpost {
+        width: 50vw;
+    }
 }
-@media screen and (max-width: 567px){
 
+@media screen and (max-width: 768px) {
+    #title {
+        margin: 0vh 0vw 0vh 35vw;
+        padding-top: 15%;
+        font-size: 30px;
+        width: 55vw;
+    }
+    #company{
+        font-size: 27px;
+    }
+    #override {
+        background-image: black;
+    }
+    .value1 {
+        font-size: 17.5px;
+    }
+    .values {
+        margin-left: 26.5vw;
+    }
+    .whatismj {
+        padding-left: 25vw;
+    }
+    .bold {
+        font-size: 22.5px;
+    }
+    .catch4 {
+        font-size: 19px;
+        width: 60vw;
+        margin-left: 8.5vw;
+    }
+    .homepics {
+        display: none;
+    }
+    .card {
+        margin-right: 10vw;
+    }
+    .catch2 {
+        margin-left:35vw;
+        width: 55vw;
+        padding: 30px;
+    }
+    .catch3 {
+        font-size: 18px;
+    }
+    .note1{
+        display: none;
+    }
+    .howtogetstarted{
+        padding-left: 25vw;
+    }
+    .number {
+        font-size: 16px;
+    }
+    
+    .number1 {
+        font-size: 22px;
+    }
+    
+    .bignumbers {
+        font-size: 15vh;
+    }
+    .moreinfo{
+        margin-top:5vh;
+    }
+    .video-box {
+        width: 40vw;
+        font-size: 16px;
+        height: 25vh;
+    }
+    .blog{
+        padding-left: 35vw;
+    }
+    .blogpost {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #title {
+        margin: 0vh 0vw 0vh 40vw;
+        padding-top: 15%;
+        font-size: 25px;
+        width: 55vw;
+    }
+    .values {
+        display: none;
+    }
+    .getstarted {
+        margin-top: 15vh;
+        margin-left: 35vw;
+    }
+    .welcome {
+        height: 70vh;
+    }
+    .whatismj {
+        padding-left: 30vw;
+    }
+    .bold {
+        font-size: 20px;
+    }
+    .catch4 {
+        font-size: 18px;
+        width: 50vw;
+        margin-left: 11.5vw;
+    }
+    .homepics {
+        display: none;
+    }
+    .card {
+        max-width: 225px;
+        min-width: 225px;
+        margin-right: 15vw;
+    }
+    .catch2 {
+        margin-left:40vw;
+        width: 55vw;
+        padding: 30px;
+    }
+    .cardtop{
+        font-size: 15px;
+    }
+    .howtogetstarted{
+        padding-left: 32vw;
+    }
+    .numbers {
+        max-width: 250px;
+        padding-left: 10px;
+    }
+    .library{
+        padding-right: 2vw;
+    }
+    #programinfo{
+        padding-left: 5vw;
+    }
+    .programs1 {
+        height: 250px;
+        width: 250px;
+    }
+    .contact{
+        padding-left: 36vw;
+    }
+    #name2{
+        font-size: 13px;
+        width: 40vw;
+    }
+    #email{
+        font-size: 13px;
+        width: 40vw;
+    }
+    .contactinfo{
+        margin-left: 8vw;
+    }
+    .mfoption1{
+        font-size: 16px;
+        margin: 0;
+        padding:10px;
+    }
+    .mfoptions0{
+        height: 35vh;
+    }
+    .overview{
+        display: none;
+    }
+    #description{
+        display: none;
+    }
+    .program-info-list img{
+        display: none;
+    }
+   #clipboard{
+        max-width: 250px;
+        margin-left: 4vw;
+    }
+    .video-box {
+        width: 50vw;
+    }
+    .blog{
+        padding-left: 45vw;
+    }
+    .blogpost {
+        width: 33.5vw;
+    }
+    #mobilityflexibility1{
+        margin-left: 15px;
+    }
 }

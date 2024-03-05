@@ -35,7 +35,7 @@ export default function Posture() {
                 </div>
                 <div className="mfoptions0">
                     <header className="mfoptions1">
-                        <p className="mfoption2">Posture & Form 'How to' Videos
+                        <p className="mfoption1">Posture & Form 'How to' Videos
                             <br />
                             $50.00</p>
                         <button className="moreinfo">
@@ -57,7 +57,7 @@ export default function Posture() {
                 </div>
                 <div className="mfoptions0">
                     <header className="mfoptions1">
-                        <p className="mfoption3">Posture & Form PDF
+                        <p className="mfoption1">Posture & Form PDF
                             <br />
                             $35.00</p>
                         <button className="moreinfo">

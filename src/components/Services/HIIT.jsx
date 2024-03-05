@@ -36,7 +36,7 @@ export default function HIIT() {
                 </div>
                 <div className="mfoptions0">
                     <header className="mfoptions1">
-                        <p className="mfoption2">Recorded HIIT Workout Videos
+                        <p className="mfoption1">Recorded HIIT Workout Videos
                             <br />
                             $65.00</p>
                         <button className="moreinfo">

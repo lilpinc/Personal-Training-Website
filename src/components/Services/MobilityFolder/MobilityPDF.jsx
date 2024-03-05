@@ -16,7 +16,7 @@ export default function MobilityPDF() {
                 <button onClick={getStarted} className="getstarted2">Get Started</button>
             </div>
             <div>
-            <img src="/Pictures/pdf.png" alt="pdf" style={{ width: "300px", height: "300px", border: "2px black solid", borderRadius:"10px" }}/>
+            <img id="clipboard" src="/Pictures/pdf.png" alt="pdf" style={{ width: "300px", height: "300px", border: "2px black solid", borderRadius:"10px" }}/>
             <br /><br /><br />
             <button id="formbtn">Preview</button>
             </div>

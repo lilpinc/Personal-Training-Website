@@ -7,9 +7,9 @@ export default function Blog() {
     return (
         <>
             <section className="blog howtogetstarted">
-                    <h2 className="blog-title">Interested in learning more about fitness and its health benefits? Check out our fitness blogs below!</h2>
-                    <div className="blogposts">
-                        <ul>
+                <h2 className="blog-title">Interested in learning more about fitness and its health benefits? Check out our fitness blogs below!</h2>
+                <div className="blogposts">
+                    <ul id="bloglist">
                         <li>
                             <Link style={{ textDecoration: "none", color: "white" }}
                                 to="/Blog1"
@@ -45,8 +45,8 @@ export default function Blog() {
                                 <p className="blogpost">How Can I Tell If My Knee Pain Is Muscular or Not?</p>
                             </Link>
                         </li>
-                        </ul>
-                    </div>
+                    </ul>
+                </div>
             </section>
         </>
     );

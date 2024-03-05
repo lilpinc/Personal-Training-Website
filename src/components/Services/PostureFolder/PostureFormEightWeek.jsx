@@ -20,7 +20,7 @@ export default function PostureFormEightWeek() {
             <div className="program-card">
                 <h5>Includes:</h5>
                 <ul className="program-info-list">
-                    <li>Posture & Form Correction Videos:</li>
+                    <li>Posture & Form Correction Videos</li>
                     <img src="/Pictures/foamrolling1.jpg" alt="posture" style={{ width: "90px", height: "80px", border: "2px gray solid" }} /> <span></span>
                     <img src="/Pictures/Deadlift.jpg" alt="form" style={{ width: "100px", height: "80px", border: "2px gray solid" }} /> <span></span>
                     <img src="/Pictures/chestpress.jpg" alt="form" style={{ width: "90px", height: "80px", border: "2px gray solid" }} /> <span></span>

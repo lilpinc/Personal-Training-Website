@@ -94,11 +94,11 @@ export default function StartNow() {
                     <form className="form2" ref={form} onSubmit={sendEmail}>
                         <div className="row">
                             <label for="name">Your name:</label>
-                            <input type="text" onBlur={validateName} id="name2" defaultValue={name} name="user_name" placeholder='name' required style={{width:"30vw"}} />
+                            <input type="text" onBlur={validateName} id="name2" defaultValue={name} name="user_name" placeholder='name' required/>
                         </div>
                         <div className="row">
                             <label for="email">Your email:</label>
-                            <input type="email" onBlur={validatingEmail} id="email" defaultValue={email} name="user_email" placeholder='email' required style={{width:"30vw"}} />
+                            <input type="email" onBlur={validatingEmail} id="email" defaultValue={email} name="user_email" placeholder='email' required/>
                         </div>
                         <p>I am interested in signing-up and receiving payment information for the included programs:</p>
                         <div className="check">

@@ -10,7 +10,7 @@ export default function FullBody() {
     return (
         <section className="library books howtogetstarted">
             <div className="description">
-                <h2>Full Body Fitness Training Programs</h2>
+                <h2 id='mobilityflexibility1'>Full Body Fitness Training Programs</h2>
                 <p id="description">Want to improve your overall fitness? Maybe work on muscle development and strength, while also improving your cardio fitness, balance, and agility/reaction time? </p>
                 <p><b>Try out our pre-programmed Full Body Fitness Training Programs!</b></p>
                 <p>For each program we provide three different time frame options:</p>
@@ -31,7 +31,9 @@ export default function FullBody() {
                             <li className="mfoptions12">Supports Better Cardiovascular Health, Joint Health, Daily Energy Levels, and Quality Sleep</li>
                             <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                             <li className="mfoptions12">Includes Beginner, Intermediate, and Advanced Programs</li>
-                            <li className="mfoptions12"><button id="formbtn">Preview</button></li>
+                        </ul>
+                        <ul>
+                        <li className="mfoptions12"><button id="formbtn">Preview</button></li>
                         </ul>
                     </header>
                 </div>
@@ -45,7 +47,9 @@ export default function FullBody() {
                             <li className="mfoptions12">Supports Better Cardiovascular Health, Joint Health, Daily Energy Levels, and Quality Sleep</li>
                             <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                             <li className="mfoptions12">Includes Beginner, Intermediate, and Advanced Programs</li>
-                            <li className="mfoptions12"><button id="formbtn">Preview</button></li>
+                        </ul>
+                        <ul>
+                        <li className="mfoptions12"><button id="formbtn">Preview</button></li>
                         </ul>
                     </header>
                 </div>
@@ -59,7 +63,9 @@ export default function FullBody() {
                             <li className="mfoptions12">Supports Better Cardiovascular Health, Joint Health, Daily Energy Levels, and Quality Sleep</li>
                             <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                             <li className="mfoptions12">Includes Beginner, Intermediate, and Advanced Programs</li>
-                            <li className="mfoptions12"><button id="formbtn">Preview</button></li>
+                        </ul>
+                        <ul>
+                        <li className="mfoptions12"><button id="formbtn">Preview</button></li>
                         </ul>
                     </header>
                 </div>

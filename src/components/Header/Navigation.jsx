@@ -8,7 +8,7 @@ function NavTabs() {
   return (
     <>
     <header className="navbar">
-      <h1 className="bold">
+      <h1 className="bold" id="company">
       <Link
           to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
