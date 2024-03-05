@@ -149,9 +149,10 @@ body {
     margin: 20px;
     text-align: center;
     background-color: darkgray;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 5px 5px gray;
     overflow: hidden;
+    box-shadow: 10px 10px 5px gray;
 }
 
 .getstarted {
@@ -240,13 +241,13 @@ a {
 
 .card2 {
     margin: 40px 25px 10px 25px;
-    /* font-size: 17px; */
     text-align: left;
     padding: 20px;
     color: white;
     background-color: rgba(40, 40, 40, 0.6);
-    border-radius: 10px;
-    border: solid #434343 3px;
+    border-radius: 3px;
+    border: solid #434343 1px;
+    box-shadow: 10px 10px 5px gray;
 }
 
 .note1 {
@@ -355,14 +356,14 @@ a {
 
 .info {
     padding-bottom: 10vh;
+    padding-top: 5vh;
 }
-
-#name {
-    margin-top: 20px;
+.about{
     padding-top: 20px;
-    padding-left: 25%;
-    display: inline-block;
-    justify-content: Left;
+    padding-right: 30%; 
+    text-align: center;
+}
+#name {
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -370,10 +371,6 @@ a {
 
 #founder {
     color: white;
-    text-align: center;
-    padding-right: 30%;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 #hr {
@@ -381,7 +378,6 @@ a {
 }
 
 .awc {
-    display: inline-flex;
     height: 500px;
     width: 325px;
     float: right;
@@ -395,6 +391,8 @@ a {
 .bio {
     margin: 0;
     padding: 0;
+   /* display: flex;
+   word-wrap: wrap; */
 }
 
 #bio {
@@ -1137,6 +1135,28 @@ a {
     .blogpost {
         width: 60vw;
     } 
+    .awc {
+        margin-top: 2vh;
+        margin-right:0%;
+    }
+    
+    .bio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #bio {
+        margin:5vh 6.5vw;
+        width: 65vw;
+    }
+ 
+    .about{
+        padding-top: 20px;
+        padding-top: 20px;
+        padding-right: 0px; 
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -1390,11 +1410,22 @@ a {
     }
     .blog{
         padding-left: 45vw;
+
     }
     .blogpost {
         width: 33.5vw;
     }
     #mobilityflexibility1{
         margin-left: 15px;
+    }
+    .awc{
+        width: 265px;
+        height: 400px;
+    }
+    #name{
+        font-size: 25px;
+    }
+    .blog-title{
+        font-size: 25px; 
     }
 }
