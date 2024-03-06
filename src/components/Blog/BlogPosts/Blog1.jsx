@@ -5,7 +5,7 @@ export default function Blog1() {
     };
 
     return (
-        <section className="difference">
+        <section className="difference difference2">
             <div className="description">
                 <button onClick={returnTo} id="back2" className="return returnbtn">Return</button>
             </div>

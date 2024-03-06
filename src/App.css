@@ -281,6 +281,7 @@ a {
     overflow: hidden;
     margin: 0;
     padding: 0;
+    padding-bottom: 5vh;
 }
 
 #view-services {
@@ -406,7 +407,6 @@ a {
     border-radius: 10px;
     background-color: rgb(35, 35, 35, 0.8);
     border: 1px white solid;
-
 }
 
 .onlinelinks {
@@ -565,11 +565,11 @@ a {
 }
 
 .mfoptions0 {
-    border: solid 2px black;
-    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 5px;
     margin: 25px 15px;
     width: 30vw;
-    background-color: #c5e8de;
+    background-color: #d2fff2;
     justify-content: center;
     height: 110vh;
     color: black;
@@ -890,6 +890,7 @@ a {
     color: black;
     height: 600px;
     width: 28vw;
+    box-shadow: none;
 }
 
 #hiitTypes {
@@ -983,11 +984,11 @@ a {
 .blogs {
     text-align: center;
     margin: 30px;
+    margin-bottom: 5vh;
     padding: 30px;
     border: solid 2px lightgray;
     background-color: whitesmoke;
     border-radius: 10px;
-    height: 100vh;
 }
 
 #blog-date {
@@ -1157,6 +1158,9 @@ a {
         padding-right: 0px; 
         text-align: center;
     }
+    .difference2{
+        padding-left:18.5vw;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -1229,6 +1233,9 @@ a {
     }
     .blogpost {
         width: 50vw;
+    }
+    .difference2{
+        padding-left:22vw;
     }
 }
 
@@ -1306,6 +1313,12 @@ a {
     }
     .blogpost {
         width: 40vw;
+    }
+    .difference2{
+        padding-left:24vw;
+    }
+    .balance{
+        display: none;
     }
 }
 
@@ -1427,5 +1440,8 @@ a {
     }
     .blog-title{
         font-size: 25px; 
+    }
+    .difference2{
+        padding-left:32vw;
     }
 }

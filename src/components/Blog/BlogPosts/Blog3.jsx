@@ -4,7 +4,7 @@ export default function Blog3() {
         window.location.replace('/Blog');
     };
     return (
-        <section className="difference">
+        <section className="difference difference2">
              <div className="description">
             <button onClick={returnTo} id="back2" className="return returnbtn">Return</button>
             </div>
