@@ -1,27 +1,27 @@
 
 export default function Home() {
-  var x = window.matchMedia("(max-width: 567px)")
-  var i = 0;
-  var images = [];
+  // var x = window.matchMedia("(max-width: 567px)")
+  // var i = 0;
+  // var images = [];
 
-  images[0] = 'https://img.freepik.com/free-photo/young-man-sportswear-exercise-class-gym_1150-12372.jpg?w=826&t=st=1684973703~exp=1684974303~hmac=0ca400cbecb382434e2bac6076b333da951eb197eed77632934bd3832341a533';
-  images[1] = '/Pictures/meghan-holmes-buWcS7G1_28-unsplash.jpg';
-  images[2] = '/Pictures/sven-mieke-jO6vBWX9h9Y-unsplash.jpg';
+  // images[0] = 'https://img.freepik.com/free-photo/young-man-sportswear-exercise-class-gym_1150-12372.jpg?w=826&t=st=1684973703~exp=1684974303~hmac=0ca400cbecb382434e2bac6076b333da951eb197eed77632934bd3832341a533';
+  // images[1] = '/Pictures/meghan-holmes-buWcS7G1_28-unsplash.jpg';
+  // images[2] = '/Pictures/sven-mieke-jO6vBWX9h9Y-unsplash.jpg';
 
 
-  function changePicture() {
+  // function changePicture() {
    
-    if(document.querySelector(".welcome")) {
-      document.querySelector(".welcome").style.backgroundImage = "url(" + images[i] + ")";
-    }
+  //   if(document.querySelector(".welcome")) {
+  //     document.querySelector(".welcome").style.backgroundImage = "url(" + images[i] + ")";
+  //   }
 
-    if (i < images.length - 1) {
-      i++;
-    } else {
-      i = 0;
-    }
-    setTimeout(changePicture, 6000);
-  }
+  //   if (i < images.length - 1) {
+  //     i++;
+  //   } else {
+  //     i = 0;
+  //   }
+  //   setTimeout(changePicture, 6000);
+  // }
 
   
 
@@ -37,10 +37,10 @@ export default function Home() {
     window.location.replace('/Services');
   }
  
-  window.onload = changePicture();
+  // window.onload = changePicture();
   return (
-
-    <main onLoad={changePicture}>
+// onLoad={changePicture}
+    <main > 
       <section className="welcome" id="override">
         <header className="title">
           <h1 className="bold" id="title">Helping clients Move better, Feel better, and most importantly LIVE Better</h1>
