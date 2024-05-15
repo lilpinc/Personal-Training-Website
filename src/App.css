@@ -6,6 +6,7 @@
 
 :root {
     --background: #292929;
+    --white:white;
 }
 
 body {
@@ -518,6 +519,7 @@ a {
     color: yellow;
     border: solid 2px yellow;
     transform: scale(1.1);
+    font-size: 16px;
 }
 
 .mobilityflexibility {
@@ -642,16 +644,13 @@ a {
     width: 70vw;
     margin-top: 5vh;
     padding: 2vh;
-    /* background-color: lightgray; */
-    color: whit3;
-    /* border: 2px black solid; */
+    color: white;
+  
 }
 
 .blogpost:hover {
     transform: scale(1.02);
-    /* background-color: white;
-    color: black;
-    border: 3px yellow solid; */
+  
 }
 
 .contact {
