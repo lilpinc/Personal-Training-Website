@@ -47,7 +47,7 @@ function NavTabs() {
           Services
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/Blog"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -55,7 +55,7 @@ function NavTabs() {
         >
           Blog
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <Link
           to="/Quiz"

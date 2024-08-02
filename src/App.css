@@ -302,6 +302,7 @@ a {
 .start {
     text-align: center;
     margin-left: 60px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -701,6 +702,7 @@ a {
     background-color: #83bad6;
     width: auto;
     padding: 3px 5px;
+    margin-bottom: 100px;
     border: black 1px solid;
 }
 

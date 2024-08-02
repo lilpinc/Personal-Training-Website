@@ -7,7 +7,7 @@ import App from './App';
 import Home from './components/Home/Home'
 import Team from './components/Team/Team'
 import Services from './components/Services/Services'
-import Blog from './components/Blog/Blog'
+// import Blog from './components/Blog/Blog'
 import Contact from './components/Contact/Contact'
 import StartNow from './components/StartNow/StartNow'
 import FullBody from './components/Services/FullBody'
@@ -29,11 +29,11 @@ import FiveK from './components/Services/RunningFolder/FiveK.jsx'
 import Half from './components/Services/RunningFolder/Half.jsx'
 import Marathon from './components/Services/RunningFolder/Marathon.jsx'
 import Quiz from './components/Quiz/Quiz'
-import Blog1 from './components/Blog/BlogPosts/Blog1'
-import Blog2 from './components/Blog/BlogPosts/Blog2'
-import Blog3 from './components/Blog/BlogPosts/Blog3'
-import Blog4 from './components/Blog/BlogPosts/Blog4'
-import Blog5 from './components/Blog/BlogPosts/Blog5'
+// import Blog1 from './components/Blog/BlogPosts/Blog1'
+// import Blog2 from './components/Blog/BlogPosts/Blog2'
+// import Blog3 from './components/Blog/BlogPosts/Blog3'
+// import Blog4 from './components/Blog/BlogPosts/Blog4'
+// import Blog5 from './components/Blog/BlogPosts/Blog5'
 
 
 
@@ -56,10 +56,10 @@ const router = createBrowserRouter([
         path: '/Services',
         element: <Services />,
       },
-      {
-        path: '/Blog',
-        element: <Blog />,
-      },
+      // {
+      //   path: '/Blog',
+      //   element: <Blog />,
+      // },
       {
         path: '/Contact',
         element: <Contact />,
@@ -144,26 +144,26 @@ const router = createBrowserRouter([
         path: '/Quiz',
         element: <Quiz />,
       },
-      {
-        path: '/Blog1',
-        element: <Blog1 />
-      },
-      {
-        path: '/Blog2',
-        element: <Blog2 />
-      },
-      {
-        path: '/Blog3',
-        element: <Blog3 />
-      },
-      {
-        path: '/Blog4',
-        element: <Blog4 />
-      },
-      {
-        path: '/Blog5',
-        element: <Blog5 />
-      },
+      // {
+      //   path: '/Blog1',
+      //   element: <Blog1 />
+      // },
+      // {
+      //   path: '/Blog2',
+      //   element: <Blog2 />
+      // },
+      // {
+      //   path: '/Blog3',
+      //   element: <Blog3 />
+      // },
+      // {
+      //   path: '/Blog4',
+      //   element: <Blog4 />
+      // },
+      // {
+      //   path: '/Blog5',
+      //   element: <Blog5 />
+      // },
      
     ],
   },

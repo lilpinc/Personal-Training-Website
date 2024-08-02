@@ -94,7 +94,7 @@ export default function Home() {
                   Flexible Plans & Daily Support
                 </h4>
               </header>
-              <p className="note1">We all start somewhere, and thats what is so exciting! There is so much room to grow in your own unique way, at a pace that works with your lifestyle. At movement junky we know progress isn't always linear, we expect there to be some up and downs! We are here to guide and support you through it all to get you to where you want to be. Our daily communication service ensures that your planned workouts and nutrition goals match up with what is happening in your life each day so that you can optimize your health and performance.</p>
+              <p className="note1">We all start somewhere, and thats what is so exciting! There is so much room to grow in your own unique way, at a pace that works with your lifestyle. At ABPFitness we know progress isn't always linear, we expect there to be some up and downs! We are here to guide and support you through it all to get you to where you want to be. Our daily communication service ensures that your planned workouts and nutrition goals match up with what is happening in your life each day so that you can optimize your health and performance.</p>
             </div>
             <div className="card2">
               <header className="card3">
@@ -121,8 +121,6 @@ export default function Home() {
       <section className="howtogetstarted">
         <header className="catch">
           <h1 className="bold">Get Started</h1>
-          <h3 className="catch3 mfoptions">Not really sure what program is right for you? Take our quiz and get a recommendation!</h3>
-          <button onClick={startQuiz} id="homequizbtn">Start Quiz</button>
           <article className="start">
             <div className="numbers">
               <h1 className="bignumbers">1</h1>
@@ -142,10 +140,12 @@ export default function Home() {
               <h1 className="bignumbers">3</h1>
               <div className="context-number">
                 <h5 className="number1">Fortify</h5>
-                <p className="number">Communicate With Trainer, Recover, Get Results</p>
+                <p className="number">Communicate, Train, Recover, Get Results</p>
               </div>
             </div>
           </article>
+          <h3 className="catch3 mfoptions">Not really sure what program is right for you? Take our quiz and get a recommendation!</h3>
+          <button onClick={startQuiz} id="homequizbtn">Start Quiz</button>
           <br />
         </header >
       </section >
