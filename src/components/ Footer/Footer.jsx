@@ -40,7 +40,7 @@ export default function Footer() {
           Services
         </Link>
       </li>
-      <li className="logo nav-item2">
+      {/* <li className="logo nav-item2">
         <Link
           to="/Blog"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -48,7 +48,7 @@ export default function Footer() {
         >
           Blog
         </Link>
-      </li>
+      </li> */}
       <li className="logo nav-item2">
         <Link
           to="/Quiz"
