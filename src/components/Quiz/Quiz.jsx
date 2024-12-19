@@ -99,7 +99,7 @@ function Quiz() {
 
     return (
         <>
-            <section className="library howtogetstarted books">
+            <section className="library books bgcolor">
                 <div className="description">
                     <button onClick={returnHome} id="back" className="return-home returnbtn">Return</button>
                     <h2>Program Quiz</h2>
@@ -136,7 +136,7 @@ function Quiz() {
 
                     {<br />}
                     {<br />}
-                    <Link className="returnbtn" id="view-services" to="/quiz" onClick={() => window.location.reload()}> Restart Quiz </Link>
+                    <Link className="returnbtn" id="restartbtn" to="/quiz" onClick={() => window.location.reload()}> Restart Quiz </Link>
                 </article>
             </section>
         </>

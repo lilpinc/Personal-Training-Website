@@ -6,7 +6,9 @@
 
 :root {
     --background: #292929;
-    --white:white;
+    --background2:rgb(248, 248, 248);
+    --popcolor: #8dee5c;
+    --fontcolor: rgb(39, 39, 39);
 }
 
 body {
@@ -26,6 +28,10 @@ body {
     align-items: center;
     padding: 10px;
 }
+#cornerbtn{
+    background-color: var(--popcolor);
+    border-radius:30px;
+}
 
 .bold {
     padding-left: 15px;
@@ -35,7 +41,7 @@ body {
     list-style-type: none;
     margin: 0px 10px 0px 0px;
     padding: 0 20px 0 0;
-    color: white;
+    color: rgb(248, 248, 248);
     font-weight: normal;
     font-size: 18px;
     float: right;
@@ -44,9 +50,9 @@ body {
 }
 
 .footer {
-    background-color: black;
+    background-color: rgb(26, 26, 26);
     overflow: hidden;
-    color: white;
+    color: rgb(248, 248, 248);
     display: flex;
     position: fixed;
     bottom: 0;
@@ -57,7 +63,7 @@ body {
 }
 
 .logo {
-    color: white;
+    color: rgb(248, 248, 248);
     list-style-type: none;
     display: inline;
     margin: 0;
@@ -67,7 +73,7 @@ body {
     list-style-type: none;
     margin: 0px 20px 0px 0px;
     padding: 0 20px 0px 0px;
-    color: white;
+    color: rgb(248, 248, 248);
     font-weight: normal;
     font-size: 18px;
     display: inline-flex;
@@ -86,153 +92,153 @@ body {
     margin-left: -20vw;
 }
 
-
 .welcome {
-    height: 100vh;
-    width: 100vw;
-    background-image: url('/Pictures/sven-mieke-jO6vBWX9h9Y-unsplash.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 0;
-    padding-bottom: 12vh;
-    text-align: center;
+    background-color: rgb(252, 252, 252);
+}
+.hero-info{
+    text-align: left; 
+    height: 80vh;
+    width: 100vw; 
+}
+#hero-pic{
+    width: 400px;
+    height: 525px;
+    position: absolute;
+    right: 12%;
+    margin-top: -17%;
 }
 
 #title {
-    margin: 0px 100px 0px 100px;
-    padding-top: 15%;
-    color: rgb(254, 254, 254);
-    text-shadow: 0 0 12px #000000;
-    font-size: 50px;
-    -webkit-text-stroke: .5px black;
+    color: var(--background);
+    font-size: 37.5px;
+    width: 700px;
+    padding:130px 0px 0px 100px;
+
 }
 
 .values {
     display: inline-flex;
-    margin: 30px 180px;
+    margin: 30px 100px;
     width: 75%;
     font-size: 17px;
 }
 
 .values2 {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
-    width: 90%;
-    font-size: 17px;
-    margin: 30px 60px 0px;
     padding-bottom: 30px;
 }
 
 .value1 {
-    padding: 30px;
-    font-size: 22.5px;
-    color: white;
-    font-weight: bolder;
-    -webkit-text-stroke: .3px black;
-    text-shadow: 0 0 10px #000000;
+    color: var(--background);
+    width: 200px;
+    /* font-weight: bolder; */
+    /* -webkit-text-stroke: .3px var(--fontcolor); */
+    /* text-shadow: 0 0 10px #000000; */
 }
 
 .fa-check-double {
-    color: yellow;
+    color: var(--popcolor);
     margin-right: .5vw;
 }
 
 .cardinfo {
     padding: 15px;
-    color: black;
-    font-size: 20px;
+    color: var(--fontcolor);
 }
 
 .card {
-    border: solid 0.5px black;
+    border: none;
     max-width: 300px;
     min-width: 300px;
     margin: 20px;
     text-align: center;
-    background-color: darkgray;
+    background-color: rgb(252, 252, 252);
     border-radius: 3px;
-    box-shadow: 5px 5px gray;
     overflow: hidden;
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .getstarted {
-    background-color: yellow;
-    padding: 20px;
-    border: none;
-    border-radius: 30px;
-    font-size: 18px;
-    color: black;
-}
-
-.getstarted:hover {
-    background: transparent;
-    color: white;
-    border: solid 2px white;
-}
-
-.getstarted2:hover {
-    background: transparent;
-    color: white;
-    border: solid 2px white;
-}
-
-.getstarted2 {
-    background-color: yellow;
+    background-color: var(--background);
     padding: 10px;
     border: none;
     border-radius: 30px;
-    color: black;
+    font-size: 18px;
+   position:absolute;
+   left: 22%;
+   margin-top: -13%;
+   color: rgb(248, 248, 248);
+}
+
+
+.getstarted:hover {
+    background-color: var(--popcolor);
+    color: var(--background);
+    border: solid 2px rgb(248, 248, 248);
+}
+
+.getstarted2 {
+    background-color: var(--popcolor);
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    color: var(--fontcolor);
     margin-top: 5vh;
     margin-bottom: 7vh;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--background);
 }
 
 .whatismj {
-    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(242, 237, 233);
 }
 
 .catch {
     text-align: center;
-    padding-top: 80px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 80px 80px 0px 80px;
+}
+.holistic{
+    font-size: 27.5px;
 }
 
 .catch2 {
     text-align: center;
-    margin: 30px;
-    padding: 30px;
-    border: solid 2px lightgray;
-    background-color: whitesmoke;
-    border-radius: 10px;
+    /* border: solid 2px var(--fontcolor); */
+    background-color: var(--background2);
+    color: var(--background);
+    padding-bottom: 80px;
 }
 
 .catch3 {
-    font-size: 20px;
-    padding-top: 30px;
+    padding: 50px 0px 30px 0px;
+    margin: 0px 95px;
+    font-size: 17px;
+}
+
+.notsure {
+    background-color: var(--background2);
+    color: var(--background);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0px 250px;
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .catch4 {
-    font-size: 20px;
-    padding-top: 50px;
-    margin: 0 100px;
+    padding: 30px 0px;
+    margin: 0 300px;
     text-align: center;
+    font-size: 17px;
 }
 
 .card3 {
     display: inline-flex;
     margin: 0 0 5px 0;
     padding: 0;
-    font-size: 19px;
 }
 
 .cardtop {
@@ -242,14 +248,14 @@ a {
 }
 
 .card2 {
-    margin: 40px 25px 10px 25px;
+    margin: 40px 200px 10px 200px;
     text-align: left;
     padding: 20px;
-    color: white;
-    background-color: rgba(40, 40, 40, 0.6);
+    color: var(--fontcolor);
+    background-color: rgb(242, 237, 233);
     border-radius: 3px;
-    border: solid #434343 1px;
-    box-shadow: 10px 10px 5px gray;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .note1 {
@@ -259,44 +265,43 @@ a {
     padding-bottom: 0;
 }
 
-.fa-star {
-    color: yellow;
+.icon {
+    color: var(--popcolor);
     font-size: 20px;
     padding-right: 5px;
 }
 
 .cardinfo {
     padding: 15px;
-    color: black;
-    font-size: 20px;
+    color: var(--fontcolor);
+    font-size: 16px;
 }
 
 .homepics {
     height: 55vh;
 }
 
-.difference {
-    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 5vh;
+#view-services {
+    margin-top: 50px;
+    font-size: 18px;
+    color: var(--background2);
+    padding: 10px;
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
 }
 
-#view-services {
-    border: black 2px solid;
-    margin-top: 20px;
-    font-size: 19px;
-    color: black;
+#view-services:hover {
+    background-color: var(--popcolor);
+    color: var(--background);
+    border: solid 2px rgb(242, 237, 233);
 }
 
 .howtogetstarted {
-    background-image: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
-    color: white;
-    padding-bottom: 10vh;
+    background-color: rgb(242, 237, 233);
+    color: var(--fontcolor);
+    padding-bottom: 20vh;
 }
 
 .start {
@@ -307,34 +312,39 @@ a {
     justify-content: center;
     flex-wrap: wrap;
 }
-
+.bgcolor{
+    background-color: rgb(242, 237, 233);
+}
 .numbers {
     display: flex;
     margin-top: 30px;
     margin-right: 30px;
-    color: yellow;
+    color: var(--popcolor);
     max-width: 300px;
     padding-left: 15px;
     padding-top: 10px;
+    box-shadow: 2px 2px 2px lightgray;
+    background-color: var(--background2);
 }
 
 .numbers:hover {
     transform: scale(1.1);
-    border: solid 1px yellow;
+    /* border: solid 2px var(--popcolor); */
     border-radius: 10px;
 }
 
 .number {
     list-style-type: none;
-    font-size: 18px;
-    color: white;
+    font-size: 16px;
+    color: var(--fontcolor);
     text-align: left;
     padding: 0px 10px 0px 0px;
 }
 
 .number1 {
-    font-size: 30px;
-    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--fontcolor);
     margin: 0;
     padding: 0;
 }
@@ -356,46 +366,49 @@ a {
 
 .bold {
     font-weight: bolder;
+    color: rgb(39, 39, 39);
+}
+
+.bold2 {
+    color: var(--background);
+    font-size: 27.5px;
 }
 
 .info {
     padding-bottom: 10vh;
     padding-top: 5vh;
 }
-.about{
+
+.about {
     padding-top: 20px;
-    padding-right: 30%; 
+    padding-right: 30%;
     text-align: center;
+    color: var(--background);
 }
+
 #name {
-    color: white;
     font-size: 30px;
     font-weight: bold;
 }
 
-#founder {
-    color: white;
-}
 
 #hr {
     margin-left: 175px;
 }
 
 .awc {
-    height: 500px;
     width: 325px;
     float: right;
-    margin-top: 13vh;
+    margin-top: 25vh;
     margin-right: 6%;
     border-radius: 10px;
-    border: solid black 2px;
-
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .bio {
     margin: 0;
     padding: 0;
-   /* display: flex;
+    /* display: flex;
    word-wrap: wrap; */
 }
 
@@ -404,12 +417,8 @@ a {
     margin-left: 6.5vw;
     margin-top: 10px;
     width: 55%;
-    color: white;
     font-size: 17px;
     padding: 20px;
-    border-radius: 10px;
-    background-color: rgb(35, 35, 35, 0.8);
-    border: 1px white solid;
 }
 
 .onlinelinks {
@@ -432,14 +441,13 @@ a {
 .library {
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--background);
     text-align: center;
     padding: 5vh;
     padding-bottom: 10vh;
 }
 
 .overview {
-    color: white;
     text-align: center;
     margin: 30px 40px 0px 40px;
     font-size: 18px;
@@ -447,7 +455,7 @@ a {
 
 
 .books {
-    color: white;
+    color: var(--background);
     font-size: 18px;
     padding-top: 20px;
     list-style-type: none;
@@ -506,25 +514,25 @@ a {
     margin: 10px 20px 30px;
     padding: 10px;
     font-size: 17px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 5px blue;
+    /* font-weight: bold; */
     border-radius: 50%;
     height: 300px;
     width: 300px;
-    border: solid 2px black;
+   border: none;
+   box-shadow: 0px 2px 2px gray;
+}
+.programtitle{
+    background-color: rgb(248, 248, 248);
+    border-radius: 30px;
+    color: var(--fontcolor);
 }
 
 .programs1:hover {
-    background: transparent;
-    color: yellow;
-    border: solid 2px yellow;
     transform: scale(1.1);
     font-size: 16px;
 }
 
 .mobilityflexibility {
-    color: white;
     margin: 0;
     padding-top: 5vh;
     padding-bottom: 10vh;
@@ -555,32 +563,32 @@ a {
 }
 
 #back {
-    border-radius: 15px;
-    padding: 5px 12px;
+    border-radius: 30px;
+    padding: 5px 10px;
 }
 
 #back2 {
-    border-radius: 15px;
-    padding: 5px 12px;
+    border-radius: 30px;
+    padding: 5px 10px;
     margin-left: 20px;
     font-size: 18px;
-    color: black;
-    border: black 1px solid;
+    color: var(--fontcolor);
+    border: var(--fontcolor) 1px solid;
 }
 
 .mfoptions0 {
-    box-shadow: 10px 10px 5px gray;
     border-radius: 5px;
     margin: 25px 15px;
     width: 30vw;
-    background-color: #d2fff2;
+    background-color:var(--background2);
     justify-content: center;
     height: 110vh;
-    color: black;
+    color: var(--background);
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .mfoptions02 {
-    border: solid 2px black;
+    border: solid 2px var(--fontcolor);
     border-radius: 10px;
     margin: 25px;
     width: 35vw;
@@ -593,7 +601,7 @@ a {
 .mfoption1,
 .mfoption2,
 .mfoption3 {
-    color: black;
+    color: var(--fontcolor);
     font-weight: bold;
     font-size: 20px;
     width: 25vw;
@@ -608,7 +616,7 @@ a {
     padding-top: 35px;
     font-size: 16px;
     text-align: center;
-    color: black;
+    color: var(--fontcolor);
 }
 
 .mfoptions1 {
@@ -624,7 +632,7 @@ a {
 }
 
 .blog-title {
-    color: white;
+    color: var(--background);
     text-align: center;
     padding-top: 5vh;
 }
@@ -638,25 +646,25 @@ a {
     padding: 10px 0px 50px 0px;
     background-color: rgb(35, 35, 35, 0.8);
     border-radius: 10px;
-    border: 1px yellow solid;
+    border: 1px var(--popcolor) solid;
 }
 
 .blogpost {
     width: 70vw;
     margin-top: 5vh;
     padding: 2vh;
-    color: white;
-  
+    color: rgb(248, 248, 248);
+
 }
 
 .blogpost:hover {
     transform: scale(1.02);
-  
+
 }
 
 .contact {
     padding-bottom: 10vh;
-    color: black;
+    color: var(--background);
 }
 
 .contactinfo {
@@ -669,10 +677,8 @@ a {
 .form {
     padding: 50px;
     border-radius: 8px;
-    background-image: linear-gradient(to left, rgb(192, 252, 235), rgb(255, 217, 0));
-    font-weight: normal;
-    /* filter: brightness(90%); */
-    border: 3px rgb(35, 35, 35) solid;
+    background-color: var(--background2);
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 
@@ -683,27 +689,36 @@ a {
 .contactme {
     border-radius: 8px;
     padding: 20px;
-    border: 3px rgb(35, 35, 35) solid;
-    background-image: linear-gradient(to left, rgb(192, 252, 235), rgb(255, 217, 0));
+    background-color: var(--background2);
+    box-shadow: 2px 2px 2px lightgray;
     border-radius: 5px;
     text-align: center;
 }
 
 #formbtn {
-    border-radius: 5px;
-    background-color: #83bad6;
+    border-radius: 30px;
+    background-color: var(--background);
+    color: var(--background2);
     width: auto;
     padding: 3px 5px;
-    border: black 1px solid;
+    border: none;
 }
+
 #homequizbtn {
-    font-size: 25px;
+    font-size: 18px;
     border-radius: 5px;
-    background-color: #83bad6;
+    background-color: var(--background);
     width: auto;
-    padding: 3px 5px;
-    margin-bottom: 100px;
-    border: black 1px solid;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 30px;
+    color: var(--background2);
+}
+#homequizbtn:hover{
+    background: var(--popcolor);
+    color: var(--background);
+    /* border: solid 2px rgb(248, 248, 248); */
 }
 
 .question {
@@ -720,15 +735,16 @@ a {
 
 #name2 {
     font-size: 17px;
-    color: black;
+    color: var(--fontcolor);
     font-weight: normal;
     margin: 0;
     padding: 0;
     padding-left: 10px;
-    width:30vw;
+    width: 30vw;
 }
-#email{
-    width:30vw; 
+
+#email {
+    width: 30vw;
     font-size: 17px;
 }
 
@@ -739,24 +755,23 @@ a {
 
 .program-card {
     border-radius: 10px;
-    background-color: rgba(250, 250, 250, 0.8);
-    border: 2px rgb(255, 221, 0) solid;
+    /* background-color: rgba(250, 250, 250, 0.8); */
     width: 50vw;
     padding: 3vh;
     margin: 2.5vh;
-    color: black;
+    color: var(--fontcolor);
 }
 
 .program-card2 {
     border-radius: 10px;
-    background-color: rgba(250, 250, 250, 0.8);
-    border: 2px rgb(255, 221, 0) solid;
+    background-color: var(--background2);
     width: 70vw;
     padding: 5vh;
     margin: 3vh;
     margin-bottom: 8vh;
-    color: black;
+    color: var(--fontcolor);
     display: none;
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .form-boxes {
@@ -765,10 +780,10 @@ a {
 
 .contactforms1 {
     width: 55vw;
-    background-image: linear-gradient(to left, rgb(192, 252, 235), rgb(255, 217, 0));
+    background-color: var(--background2);
     /* background-color: rgba(164, 164, 164, 0.8); */
-    border: black 2px solid;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgray;
     padding: 20px;
 }
 
@@ -780,14 +795,14 @@ a {
     padding: 5vh 20px 20vh 20px;
     display: flex;
     justify-content: center;
-    color: black;
+    color: var(--fontcolor);
 }
 
 #signup-title {
     padding-top: 5vh;
     margin: 0 8vw;
     text-align: center;
-    color: white;
+    color: var(--background);
 }
 
 .description {
@@ -806,7 +821,7 @@ a {
 
 .video-box {
     border: 2px gray solid;
-    color: white;
+    color: rgb(248, 248, 248);
     text-shadow: 2px 2px 8px #2b00ff;
     height: 30vh;
     width: 30vw;
@@ -867,14 +882,14 @@ a {
 
 .hide {
     display: none;
-    color: yellow;
+    color: var(--popcolor);
     font-weight: bolder;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     filter: grayscale(0%);
 }
 
 .video-box:hover {
-    color: yellow;
+    color: var(--popcolor);
     font-weight: bolder;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     filter: grayscale(0%);
@@ -889,7 +904,7 @@ a {
     border-radius: 10px;
     background-color: rgba(250, 250, 250, 0.8);
     border: 2px rgb(255, 221, 0) solid;
-    color: black;
+    color: var(--fontcolor);
     height: 600px;
     width: 28vw;
     box-shadow: none;
@@ -904,7 +919,7 @@ a {
 }
 
 #pdfbtn {
-    color: black;
+    color: var(--fontcolor);
 }
 
 #return {
@@ -913,37 +928,38 @@ a {
 }
 
 .returnbtn {
-    background-color: rgb(175, 175, 175, 0.2);
+    background-color: var(--background);
     padding: 10px;
+    color: var(--background2);
     border-radius: 30px;
-    border: 1px solid white;
-    color: white;
+    border: none;
 }
 
 .returnbtn:hover {
-    background-color: rgb(175, 175, 175, 0.5);
-    padding: 10px;
-    border-radius: 30px;
-    border: 1px solid white;
+    background-color: var(--popcolor);
+    color: var(--background);
 }
 
 #formbtn:hover {
     transform: scale(1.05);
-    background-color: rgb(178, 207, 221);
+    background-color:var(--popcolor);
+    color: var(--background);
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .quizbtn {
     font-size: 30px;
-    border-radius: 5px;
-    background-color: #83bad6;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--background);
     width: auto;
+    color: var(--background2);
     padding: 3px 5px;
-    border: black 1px solid;
 }
 
 .quizbtn:hover {
-    transform: scale(1.05);
-    background-color: rgb(178, 207, 221);
+    background-color: var(--popcolor);
+    color: var(--background);
 }
 
 .return-home {
@@ -953,16 +969,35 @@ a {
 
 #quizbtns {
     font-size: 18px;
+    background-color: rgb(218, 242, 204);
+    color: var(--background);
     display: block;
     margin: 10px;
     text-align: left;
+    border: none;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+#quizbtns:hover {
+    background: var(--popcolor);
+    color: var(--fontcolor);
 }
 
 #start-quiz {
     margin: 18vh;
     padding: 15px;
     font-weight: bolder;
-    border: solid 2px black;
+}
+
+#restartbtn {
+    background-color: var(--background);
+    color: var(--background2);
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+#restartbtn:hover {
+    background: var(--popcolor);
+    color: var(--background);
 }
 
 .question-text {
@@ -974,13 +1009,13 @@ a {
 }
 
 #view-program {
-    border: black 2px solid;
+    border: var(--fontcolor) 2px solid;
 }
 
 #view-program:hover {
-    border: 2px solid white;
+    border: 2px solid rgb(248, 248, 248);
     background-color: rgb(160, 160, 160);
-    color: white;
+    color: rgb(248, 248, 248);
 }
 
 .blogs {
@@ -1009,12 +1044,12 @@ a {
 #curry {
     width: 20vw;
     border-radius: 50%;
-    border: black solid 2px;
+    border: var(--fontcolor) solid 2px;
 }
 
 .balance {
     border-radius: 10%;
-    border: black solid 2px;
+    border: var(--fontcolor) solid 2px;
 }
 
 #balance1 {
@@ -1049,6 +1084,7 @@ a {
         z-index: 1;
         background-color: rgb(26, 26, 26);
     }
+
     .nav-item {
         margin: 0;
         padding: 0;
@@ -1057,111 +1093,133 @@ a {
         width: 200px;
         height: 70px;
     }
-    #company{
+
+    #company {
         padding-top: 20px;
     }
+
     .footer {
         z-index: 1;
         height: 10vh;
     }
+
     .logo {
         padding-top: 18px;
-        color: white;
+        color: rgb(248, 248, 248);
         display: flex;
         justify-content: center;
         margin: 0;
         font-size: 15px;
         padding-left: 25vw;
     }
+
     .nav-item2 {
         margin: 0px 20px 0px 0px;
         padding: 0 5px 0px 0px;
         font-size: 15px;
         display: inline-flex;
     }
+
     .welcome {
         height: 100vh;
         width: 100vw;
         margin-top: 0;
         padding-bottom: 12vh;
     }
+
     #title {
         margin: 0vh 0vw 0vh 20vw;
         padding-top: 15%;
         font-size: 35px;
         width: 75vw;
     }
+
     .values {
         margin-left: 20vw;
     }
+
     .values2 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .cardinfo {
         font-size: 18px;
     }
+
     .whatismj {
         padding-left: 15vw;
     }
+
     .getstarted {
         margin-left: 15vw;
     }
+
     .catch2 {
-        margin-left:215px;
+        margin-left: 215px;
         width: 75vw;
         padding: 30px;
     }
-    .howtogetstarted{
+
+    .howtogetstarted {
         padding-left: 20vw;
     }
+
     .contactinfo {
         justify-content: space-evenly;
-        margin:10vh 4vw 10vh 10vw;
+        margin: 10vh 4vw 10vh 10vw;
     }
-    .mfoptions12{
+
+    .mfoptions12 {
         padding-top: 25px;
     }
-    .mfoptions0{
+
+    .mfoptions0 {
         width: 35vw;
     }
-    .description h2{
+
+    .description h2 {
         margin-top: 20px;
     }
-    .return{
+
+    .return {
         margin-left: 10px;
     }
-    .blog{
+
+    .blog {
         padding-left: 25vw;
     }
+
     .blogpost {
         width: 60vw;
-    } 
+    }
+
     .awc {
         margin-top: 2vh;
-        margin-right:0%;
+        margin-right: 0%;
     }
-    
+
     .bio {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     #bio {
-        margin:5vh 6.5vw;
+        margin: 5vh 6.5vw;
         width: 65vw;
     }
- 
-    .about{
+
+    .about {
         padding-top: 20px;
         padding-top: 20px;
-        padding-right: 0px; 
+        padding-right: 0px;
         text-align: center;
     }
-    .difference2{
-        padding-left:18.5vw;
+
+    .difference2 {
+        padding-left: 18.5vw;
     }
 }
 
@@ -1172,72 +1230,93 @@ a {
         font-size: 35px;
         width: 65vw;
     }
+
     .values {
         margin-left: 22.5vw;
     }
+
     .getstarted {
         margin-left: 20vw;
     }
+
     .whatismj {
         padding-left: 20vw;
     }
+
     .catch4 {
         width: 60vw;
         margin-left: 11.5vw;
     }
+
     .catch2 {
-        margin-left:28vw;
+        margin-left: 28vw;
         width: 65vw;
         padding: 30px;
     }
-    .howtogetstarted{
+
+    .howtogetstarted {
         padding-left: 22vw;
     }
-    .contactme{
+
+    .contactme {
         display: none;
     }
+
     .form {
         padding: 20px;
     }
+
     .contactinfo {
-        margin:10vw;
+        margin: 10vw;
     }
-    .description{
+
+    .description {
         padding-left: 5vw;
     }
-    .mfopt{
+
+    .mfopt {
         display: none;
     }
-    .mfoptions0{
-        height:40vh;
+
+    .mfoptions0 {
+        height: 40vh;
     }
-    .mfoption1{
+
+    .mfoption1 {
         font-size: 18px;
     }
+
     .hiitTypes {
         width: 275px;
         margin-left: 10vw;
     }
+
     #hiitTypes {
         height: 200px;
     }
+
     .hiitoption {
         margin-top: 3vh;
     }
-    .program-card{
+
+    .program-card {
         margin-left: 8vw;
     }
+
     .video-box {
         height: 25vh;
     }
-    .blog{
+
+    .blog {
         padding-left: 30vw;
     }
+
     .blogpost {
         width: 50vw;
     }
-    .difference2{
-        padding-left:22vw;
+
+    .difference2 {
+        padding-left: 22vw;
     }
 }
 
@@ -1248,78 +1327,94 @@ a {
         font-size: 30px;
         width: 55vw;
     }
-    #company{
+
+    #company {
         font-size: 27px;
     }
-    #override {
-        background-image: black;
-    }
+
     .value1 {
         font-size: 17.5px;
     }
+
     .values {
         margin-left: 26.5vw;
     }
+
     .whatismj {
         padding-left: 25vw;
     }
+
     .bold {
         font-size: 22.5px;
     }
+
     .catch4 {
         font-size: 19px;
         width: 60vw;
         margin-left: 8.5vw;
     }
+
     .homepics {
         display: none;
     }
+
     .card {
         margin-right: 10vw;
     }
+
     .catch2 {
-        margin-left:35vw;
+        margin-left: 35vw;
         width: 55vw;
         padding: 30px;
     }
+
     .catch3 {
         font-size: 18px;
     }
-    .note1{
+
+    .note1 {
         display: none;
     }
-    .howtogetstarted{
+
+    .howtogetstarted {
         padding-left: 25vw;
     }
+
     .number {
         font-size: 16px;
     }
-    
+
     .number1 {
         font-size: 22px;
     }
-    
+
     .bignumbers {
         font-size: 15vh;
     }
-    .moreinfo{
-        margin-top:5vh;
+
+    .moreinfo {
+        margin-top: 5vh;
     }
+
     .video-box {
         width: 40vw;
         font-size: 16px;
         height: 25vh;
     }
-    .blog{
+
+    .blog {
         padding-left: 35vw;
     }
+
     .blogpost {
         width: 40vw;
     }
-    .difference2{
-        padding-left:24vw;
+
+    .difference2 {
+        padding-left: 24vw;
     }
-    .balance{
+
+    .balance {
         display: none;
     }
 }
@@ -1331,119 +1426,152 @@ a {
         font-size: 25px;
         width: 55vw;
     }
+
     .values {
         display: none;
     }
+
     .getstarted {
         margin-top: 15vh;
         margin-left: 35vw;
     }
+
     .welcome {
         height: 70vh;
     }
+
     .whatismj {
         padding-left: 30vw;
     }
+
     .bold {
         font-size: 20px;
     }
+
     .catch4 {
         font-size: 18px;
         width: 50vw;
         margin-left: 11.5vw;
     }
+
     .homepics {
         display: none;
     }
+
     .card {
         max-width: 225px;
         min-width: 225px;
         margin-right: 15vw;
     }
+
     .catch2 {
-        margin-left:40vw;
+        margin-left: 40vw;
         width: 55vw;
         padding: 30px;
     }
-    .cardtop{
+
+    .cardtop {
         font-size: 15px;
     }
-    .howtogetstarted{
+
+    .howtogetstarted {
         padding-left: 32vw;
     }
+
     .numbers {
         max-width: 250px;
         padding-left: 10px;
     }
-    .library{
+
+    .library {
         padding-right: 2vw;
     }
-    #programinfo{
+
+    #programinfo {
         padding-left: 5vw;
     }
+
     .programs1 {
         height: 250px;
         width: 250px;
     }
-    .contact{
+
+    .contact {
         padding-left: 36vw;
     }
-    #name2{
+
+    #name2 {
         font-size: 13px;
         width: 40vw;
     }
-    #email{
+
+    #email {
         font-size: 13px;
         width: 40vw;
     }
-    .contactinfo{
+
+    .contactinfo {
         margin-left: 8vw;
     }
-    .mfoption1{
+
+    .mfoption1 {
         font-size: 16px;
         margin: 0;
-        padding:10px;
+        padding: 10px;
     }
-    .mfoptions0{
+
+    .mfoptions0 {
         height: 35vh;
     }
-    .overview{
+
+    .overview {
         display: none;
     }
-    #description{
+
+    #description {
         display: none;
     }
-    .program-info-list img{
+
+    .program-info-list img {
         display: none;
     }
-   #clipboard{
+
+    #clipboard {
         max-width: 250px;
         margin-left: 4vw;
     }
+
     .video-box {
         width: 50vw;
     }
-    .blog{
+
+    .blog {
         padding-left: 45vw;
 
     }
+
     .blogpost {
         width: 33.5vw;
     }
-    #mobilityflexibility1{
+
+    #mobilityflexibility1 {
         margin-left: 15px;
     }
-    .awc{
+
+    .awc {
         width: 265px;
         height: 400px;
     }
-    #name{
+
+    #name {
         font-size: 25px;
     }
-    .blog-title{
-        font-size: 25px; 
+
+    .blog-title {
+        font-size: 25px;
     }
-    .difference2{
-        padding-left:32vw;
+
+    .difference2 {
+        padding-left: 32vw;
     }
 }

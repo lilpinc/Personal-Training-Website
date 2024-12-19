@@ -5,7 +5,7 @@ export default function Services() {
     const currentPage = useLocation().pathname;
 
     return (
-        <section className="library howtogetstarted">
+        <section className="library howtogetstarted bgcolor">
             <header>
                 <h2 id="programinfo">Services & Programs</h2>
             </header>
@@ -13,47 +13,49 @@ export default function Services() {
             <div className="books">
                 <ul className="books">
                     <li className="l1">
-                            <Link style={{ textDecoration: "none", color: "white" }}
-                                to="/Services/Mobility"
-                                className={currentPage === '/Services/Mobility' ? 'nav-link active' : 'nav-link'}>
-                                 <button className="programs1" id="mobility">Mobility & Flexibility Exercises</button>
-                            </Link>
-                        
+                        <Link style={{ textDecoration: "none", color: "white" }}
+                            to="/Services/Mobility"
+                            className={currentPage === '/Services/Mobility' ? 'nav-link active' : 'nav-link'}>
+                            <button className="programs1" id="mobility">
+                                <p className='programtitle'>Mobility & Flexibility Exercises</p>
+                            </button>
+                        </Link>
+
                     </li>
                     <li className="l1">
-                            <Link style={{ textDecoration: "none", color: "white" }}
-                                to="/Services/Posture"
-                                className={currentPage === '/Services/Posture' ? 'nav-link active' : 'nav-link'}>
-                                <button className="programs1" id="posture">Posture & Form Corrections For Basic Movements</button>
-                            </Link>
+                        <Link style={{ textDecoration: "none", color: "white" }}
+                            to="/Services/Posture"
+                            className={currentPage === '/Services/Posture' ? 'nav-link active' : 'nav-link'}>
+                            <button className="programs1" id="posture"><p className='programtitle'>Posture & Form Corrections</p></button>
+                        </Link>
                     </li>
                     <li className="l1">
-                            <Link style={{ textDecoration: "none", color: "white" }}
-                                to="/Services/HIIT"
-                                className={currentPage === '/Services/HIIT' ? 'nav-link active' : 'nav-link'}>
-                                <button className="programs1" id="HIIT" >HIIT Fitness Programs</button>
-                            </Link>
+                        <Link style={{ textDecoration: "none", color: "white" }}
+                            to="/Services/HIIT"
+                            className={currentPage === '/Services/HIIT' ? 'nav-link active' : 'nav-link'}>
+                            <button className="programs1" id="HIIT" ><p className='programtitle'>HIIT Fitness Programs</p></button>
+                        </Link>
                     </li>
                     <li className="l1">
-                            <Link style={{ textDecoration: "none", color: "white" }}
-                                to="/Services/FullBody"
-                                className={currentPage === '/Services/FullBody' ? 'nav-link active' : 'nav-link'}>
-                                 <button className="programs1" id="full">Full Body Fitness Training Programs (Bodyweight, DB & Bands, Gym Access)</button>
-                            </Link>
+                        <Link style={{ textDecoration: "none", color: "white" }}
+                            to="/Services/FullBody"
+                            className={currentPage === '/Services/FullBody' ? 'nav-link active' : 'nav-link'}>
+                            <button className="programs1" id="full"><p className='programtitle'>Strength Training Programs</p></button>
+                        </Link>
                     </li>
                     <li className="l1">
-                            <Link style={{ textDecoration: "none", color: "white" }}
-                                to="/Services/Online"
-                                className={currentPage === '/Services/Online' ? 'nav-link active' : 'nav-link'}>
-                                <button className="programs1" id="online"> Online Tailored Personal Training</button>
-                            </Link>
+                        <Link style={{ textDecoration: "none", color: "white" }}
+                            to="/Services/Online"
+                            className={currentPage === '/Services/Online' ? 'nav-link active' : 'nav-link'}>
+                            <button className="programs1" id="online"><p className='programtitle'>Online Tailored Personal Training</p></button>
+                        </Link>
                     </li>
                     <li className="l1">
-                            <Link style={{ textDecoration: "none", color: "white" }}
-                                to="/Services/Running"
-                                className={currentPage === '/Services/Running' ? 'nav-link active' : 'nav-link'}>
-                                <button className="programs1" id="running">Running Training Programs (5k, 10k, Half & Full Marathon)</button>
-                            </Link>
+                        <Link style={{ textDecoration: "none", color: "white" }}
+                            to="/Services/Running"
+                            className={currentPage === '/Services/Running' ? 'nav-link active' : 'nav-link'}>
+                            <button className="programs1" id="running"><p className='programtitle'>Running Training Programs</p></button>
+                        </Link>
                     </li>
                 </ul>
             </div>

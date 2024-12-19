@@ -17,7 +17,7 @@ export default function Footer() {
           to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className= {currentPage === '/' ? 'nav-link active text-white' : 'nav-link text-white'}
+          className= {currentPage === '/' ? 'nav-link active text-light' : 'nav-link text-white'}
         >
           Home
         </Link>
@@ -26,7 +26,7 @@ export default function Footer() {
         <Link
           to="/Team"
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Team' ? 'nav-link active text-warning' : 'nav-link text-white'}
+          className={currentPage === '/Team' ? 'nav-link active text-light' : 'nav-link text-white'}
         >
           Team
         </Link>
@@ -35,7 +35,7 @@ export default function Footer() {
         <Link
           to="/Services"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Services' ? 'nav-link active text-warning' : 'nav-link text-white'}
+          className={currentPage === '/Services' ? 'nav-link active text-light' : 'nav-link text-white'}
         >
           Services
         </Link>
@@ -53,7 +53,7 @@ export default function Footer() {
         <Link
           to="/Quiz"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Quiz' ? 'nav-link active text-warning' : 'nav-link text-white'}
+          className={currentPage === '/Quiz' ? 'nav-link active text-light' : 'nav-link text-white'}
         >
           Program Quiz
         </Link>
@@ -62,7 +62,7 @@ export default function Footer() {
         <Link
           to="/Contact"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Contact' ? 'nav-link active text-warning' : 'nav-link text-white'}
+          className={currentPage === '/Contact' ? 'nav-link active text-light' : 'nav-link text-white'}
         >
           Contact
         </Link>
@@ -71,7 +71,7 @@ export default function Footer() {
         <Link
           to="/StartNow"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/StartNow' ? 'nav-link active text-warning' : 'nav-link text-white'}
+          className={currentPage === '/StartNow' ? 'nav-link active text-light' : 'nav-link text-white'}
         >
           Start Now
         </Link>
