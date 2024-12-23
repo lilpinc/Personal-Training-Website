@@ -17,8 +17,8 @@ export default function Mobility() {
                         <p className="mfoption1">Full Body Mobility & Flexibility 8 Week Progressive Program
                             <br />
                             $65.00</p>
-                        <button className="moreinfo">
-                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                        <button className="moreinfo" id="moreinfo">
+                            <Link
                                 to="/Services/Mobility/MobilityEightWeek"
                                 className={currentPage === '/Services/Mobility/MobilityEightWeek' ? 'nav-link active' : 'nav-link'}>
                                 More Information
@@ -40,7 +40,7 @@ export default function Mobility() {
                             <br />
                             $50.00</p>
                         <button className="moreinfo">
-                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                            <Link
                                 to="/Services/Mobility/MobilityHowTo"
                                 className={currentPage === '/Services/Mobility/MobilityHowTo' ? 'nav-link active' : 'nav-link'}>
                                 More Information
@@ -62,7 +62,7 @@ export default function Mobility() {
                             <br />
                             $35.00</p>
                         <button className="moreinfo">
-                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                            <Link
                                 to="/Services/Mobility/MobilityPDF"
                                 className={currentPage === '/Services/Mobility/MobilityPDF' ? 'nav-link active' : 'nav-link'}>
                                 More Information

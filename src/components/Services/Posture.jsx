@@ -17,7 +17,7 @@ export default function Posture() {
                             <br />
                             $65.00</p>
                         <button className="moreinfo">
-                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                            <Link
                                 to="/Services/Posture/PostureFormEightWeek"
                                 className={currentPage === '/Services/Posture/PostureFormEightWeek' ? 'nav-link active' : 'nav-link'}>
                                 More Information
@@ -39,7 +39,7 @@ export default function Posture() {
                             <br />
                             $50.00</p>
                         <button className="moreinfo">
-                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                            <Link
                                 to="/Services/Posture/PostureFormHowTo"
                                 className={currentPage === '/Services/Posture/PostureFormHowTo' ? 'nav-link active' : 'nav-link'}>
                                 More Information
@@ -61,7 +61,7 @@ export default function Posture() {
                             <br />
                             $35.00</p>
                         <button className="moreinfo">
-                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                            <Link
                                 to="/Services/Posture/PostureFormPDF"
                                 className={currentPage === '/Services/Posture/PostureFormPDF' ? 'nav-link active' : 'nav-link'}>
                                    More Information

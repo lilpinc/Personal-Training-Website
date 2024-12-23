@@ -179,13 +179,18 @@ body {
 }
 
 .getstarted2 {
-    background-color: var(--popcolor);
+    background-color: var(--background);
     padding: 10px;
     border: none;
     border-radius: 30px;
-    color: var(--fontcolor);
+    color: var(--background2);
     margin-top: 5vh;
     margin-bottom: 7vh;
+}
+.getstarted2:hover {
+    background-color: var(--popcolor);
+    color: var(--background);
+    border: solid 2px rgb(248, 248, 248);
 }
 
 a {
@@ -240,7 +245,16 @@ a {
     margin: 0 0 5px 0;
     padding: 0;
 }
-
+.shoe{
+    width: 100px;
+    margin-left: 33%;
+    margin-top: 20px;
+}
+.clipboard{
+    height: 98px;
+    width: 80px;
+    margin-left: 37%;
+}
 .cardtop {
     display: flex;
     flex-wrap: wrap;
@@ -419,6 +433,8 @@ a {
     width: 55%;
     font-size: 17px;
     padding: 20px;
+    background-color: var(--background2);
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .onlinelinks {
@@ -553,9 +569,17 @@ a {
     align-items: center;
     justify-content: space-evenly;
 }
-
+.moreinfo{
+    color: var(--background2);
+    background-color: var(--background);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
 .moreinfo:hover {
     transform: scale(1.03);
+    color: black;
+    background-color: #8dee5c;
 }
 
 .return {
@@ -755,11 +779,12 @@ a {
 
 .program-card {
     border-radius: 10px;
-    /* background-color: rgba(250, 250, 250, 0.8); */
+    background-color: var(--background2);
     width: 50vw;
     padding: 3vh;
     margin: 2.5vh;
-    color: var(--fontcolor);
+    color: var(--background);
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .program-card2 {
@@ -901,13 +926,12 @@ a {
 }
 
 .hiitTypes {
-    border-radius: 10px;
-    background-color: rgba(250, 250, 250, 0.8);
-    border: 2px rgb(255, 221, 0) solid;
+    border-radius: 5px;
+    background-color: var(--background2);
+    box-shadow: 2px 2px 2px lightgray;
     color: var(--fontcolor);
     height: 600px;
     width: 28vw;
-    box-shadow: none;
 }
 
 #hiitTypes {
@@ -919,7 +943,10 @@ a {
 }
 
 #pdfbtn {
-    color: var(--fontcolor);
+    color: var(--background2);
+}
+#pdfbtn:hover{
+    color: var(--background);
 }
 
 #return {

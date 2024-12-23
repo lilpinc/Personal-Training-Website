@@ -17,7 +17,7 @@ export default function HIIT() {
                             <br />
                             $75.00</p>
                         <button className="moreinfo">
-                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                            <Link
                                 to="/Services/HIIT/HIITprograms"
                                 className={currentPage === '/Services/HIIT/HIITprograms' ? 'nav-link active' : 'nav-link'}>
                                 More Information
@@ -40,7 +40,7 @@ export default function HIIT() {
                             <br />
                             $65.00</p>
                         <button className="moreinfo">
-                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                            <Link
                                 to="/Services/HIIT/HIITvideos"
                                 className={currentPage === '/Services/HIIT/HIITvideos' ? 'nav-link active' : 'nav-link'}>
                                 More Information
@@ -63,7 +63,7 @@ export default function HIIT() {
                             <br />
                             $35.00</p>
                         <button className="moreinfo">
-                            <Link style={{ textDecoration: "none", color: "black", padding: "5px", backgroundColor: 'lightgray' }}
+                            <Link
                                 to="/Services/HIIT/HIITPDF"
                                 className={currentPage === '/Services/HIIT/HIITPDF' ? 'nav-link active' : 'nav-link'}>
                                 More Information

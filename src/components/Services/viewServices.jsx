@@ -6,7 +6,7 @@ function viewServices() {
 
     return(
         <button className="returnbtn"> 
-        <Link style={{fontSize: "20px"}}
+        <Link
           to="/Services"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === '/Services' ? 'nav-link active text-warning' : 'nav-link text-white'}
