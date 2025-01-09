@@ -4,12 +4,17 @@ import ViewServices from '../Services/viewServices';
 export default function Posture() {
     const currentPage = useLocation().pathname;
 
+    const returnServices = () => {
+        window.location.replace('/Services');
+    };
 
     return (
         <section className="mobilityflexibility howtogetstarted">
+            <button onClick={returnServices} id="back" className='returnbtn'>Back</button>
             <header>
-                <h1 id="mobilityflexibility1">Posture & Form Corrections For Basic Movements</h1>
+                <h1 id="name">Posture & Form Corrections For Basic Movements</h1>
             </header>
+            <p className="overview">Supports better joint health, decreases chronic pain and stiffness, increases ability to complete activities of daily living. Includes pelvic tilt and shoulder position instruction, corresponding mobility work, and basic gym movement exercises w/ in depth instruction.</p>
             <div className="mfoptions">
                 <div className="mfoptions0">
                     <header className="mfoptions1">
@@ -24,12 +29,8 @@ export default function Posture() {
                             </Link>
                         </button>
                         <ul className="mfopt">
-                            <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements Over 8 Weeks Through A Progressively Designed Movement Program w/ Guided Videos</li>
-                            <li className="mfoptions12">Includes Pelvic Tilt and Shoulder Position Instruction, Corresponding Mobility Work, and Basic Gym Movement Exercises w/ In Depth Instruction</li>
+                            <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements Over 8 Weeks Through A Pre-Designed Movement Program w/ Guided Videos</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Better Joint Health</li>
-                            <li className="mfoptions12">Decreases Chronic Pain</li>
-                            <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
                 </div>
@@ -47,11 +48,7 @@ export default function Posture() {
                         </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements w/ Detailed Guided Videos</li>
-                            <li className="mfoptions12">Includes Pelvic Tilt and Shoulder Position Instruction, Corresponding Mobility Work, and Basic Gym Movement Exercises w/ In Depth Instruction</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Better Joint Health</li>
-                            <li className="mfoptions12">Decreases Chronic Pain</li>
-                            <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
                 </div>
@@ -69,16 +66,14 @@ export default function Posture() {
                         </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Improve Posture & Correct Form of Basic Body/Lifting Movements At Your Own Pace w/ A List of In-Depth Body Position & Form Instruction</li>
-                            <li className="mfoptions12">Includes Pelvic Tilt and Shoulder Position Instruction, Corresponding Mobility Work, and Basic Gym Movement Exercises w/ In Depth Instruction</li>
                             <li className="mfoptions12">Beneficial For All. Best For Individuals That Do Not Require In Depth Instruction</li>
-                            <li className="mfoptions12">Supports Better Joint Health</li>
-                            <li className="mfoptions12">Decreases Chronic Pain</li>
-                            <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
                 </div>
             </div>
+            <div>
             <ViewServices />
+            </div>
         </section>
 
 

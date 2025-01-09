@@ -13,6 +13,11 @@ export default function StartNow() {
     const [message, setMessage] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
 
+
+    const returnHome = () => {
+        window.location.replace('/');
+    };
+
     // validate name input
     const validateName = (e) => {
         const { name, value } = e.target;
@@ -86,19 +91,22 @@ export default function StartNow() {
             });
     };
     return (
-        <section className="contact howtogetstarted">
-            <h2 id="signup-title">Sign-Up Form</h2>
-            <h5 id="signup-title">Thank you for your interest!<br />We are still in the process of setting up direct purchase, if interested please fill out the form below and we will contact you!</h5>
+        <section className="howtogetstarted bottom">
+            <button onClick={returnHome} id="back" className="return-home returnbtn">Home</button>
+            <header>
+                <h2 id='name'>Sign-Up Form</h2>
+            </header>
+            <h5 className="overview">Thank you for your interest!<br />We are still in the process of setting up direct purchase, if interested please fill out the form below and we will contact you!</h5>
             <article className="signup">
                 <section className="contactforms1">
                     <form className="form2" ref={form} onSubmit={sendEmail}>
                         <div className="row">
                             <label for="name">Your name:</label>
-                            <input type="text" onBlur={validateName} id="name2" defaultValue={name} name="user_name" placeholder='name' required/>
+                            <input type="text" onBlur={validateName} id="name2" defaultValue={name} name="user_name" placeholder='name' required />
                         </div>
                         <div className="row">
                             <label for="email">Your email:</label>
-                            <input type="email" onBlur={validatingEmail} id="email" defaultValue={email} name="user_email" placeholder='email' required/>
+                            <input type="email" onBlur={validatingEmail} id="email" defaultValue={email} name="user_email" placeholder='email' required />
                         </div>
                         <p>I am interested in signing-up and receiving payment information for the included programs:</p>
                         <div className="check">
@@ -109,7 +117,7 @@ export default function StartNow() {
                                         <input type="checkbox" id="full" name="Full_Body_EightWeek_Beginner" value="Full_Body_EightWeek_Beginner" /> 8 Week Full Body Base Fitness Training (Beginner)
                                     </li>
                                     <li>
-                                        <input type="checkbox" id="full" name="Full_Body_EightWeek_Intermediate" value="Full_Body_EightWeek_Intermediate"  /> 8 Week Full Body Base Fitness Training (Intermediate)
+                                        <input type="checkbox" id="full" name="Full_Body_EightWeek_Intermediate" value="Full_Body_EightWeek_Intermediate" /> 8 Week Full Body Base Fitness Training (Intermediate)
                                     </li>
                                     <li>
                                         <input type="checkbox" id="full" name="Full_Body_EightWeek_Advanced" value="Full_Body_EightWeek_Advanced" /> 8 Week Full Body Base Fitness Training (Advanced)

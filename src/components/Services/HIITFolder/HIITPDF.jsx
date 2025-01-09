@@ -8,17 +8,19 @@ export default function HIITPDF() {
     };
 
     return (
-        <section className="library books howtogetstarted">
-            <div className="description">
-            <button onClick={returnTo} id="back" className="return returnbtn">Return</button>
-                <h2>Full Body HIIT & Strength Movements PDF</h2>
-                <p className="description">Want a list of exercise movements you can do to create a strength or HIIT workout for yourself? For only $35 you can utilize the PDF provided by our website to give you variations of functional exercises for the whole body!</p>
+        <section className="books mobilityflexibility howtogetstarted">
+             <div>
+            <button onClick={returnTo} id="back" className="return returnbtn">Back</button>
+                <header>
+                    <h2 id="name">Full Body HIIT & Strength Movements PDF</h2>
+                </header>
+                <p className="overview">Want a list of exercise movements you can do to create a strength or HIIT workout for yourself? For only $35 you can utilize the PDF provided by our website to give you variations of functional exercises for the whole body!</p>
                 <button onClick={getStarted} className="getstarted2">Get Started</button>
             </div>
             <div>
-            <img id="clipboard" src="/Pictures/pdf.png" alt="pdf" style={{ width: "300px", height: "300px", border: "2px black solid", borderRadius:"10px" }}/>
-            <br /><br /><br />
-            <button id="formbtn">Preview</button>
+                <img className="clipboardpic" src="/Pictures/pdf.png" alt="pdf"/>
+                <br /><br /><br />
+                <button id="formbtn">Preview</button>
             </div>
         </section>
     );

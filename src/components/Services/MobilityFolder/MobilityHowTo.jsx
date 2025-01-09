@@ -8,15 +8,17 @@ export default function MobilityHowTo() {
     };
 
     return (
-        <section className="library howtogetstarted books">
+        <section className="howtogetstarted mobilityflexibility books">
             <div className="description">
-           <button onClick={returnTo} id="back" className="return returnbtn">Return</button>
-                <h2>Full Body Mobility & Flexibility How To Videos</h2>
-                <p id="description">Want to improve your joints and muscles at your own pace with guided videos to keep you on track? Sign up for our mobility and flexibility videos!</p>
-                <p>For just $50 you will have access to our many videos that walk you through how to self massage, stretch muscles, and relieve aggravated joints throughout the body!</p>
+                <button onClick={returnTo} id="back" className="return returnbtn">Back</button>
+                <header>
+                    <h2 id="name">Full Body Mobility & Flexibility How To Videos</h2>
+                </header>
+                <p className="overview">Want to improve your joints and muscles at your own pace with guided videos to keep you on track? Sign up for our mobility and flexibility videos!</p>
+                <p className="overview2">For $50 you will have access to our many videos that walk you through how to self massage, stretch muscles, and relieve aggravated joints throughout your body!</p>
             </div>
             <div>
-           <button onClick={getStarted} className="getstarted2">Get Started</button>
+                <button onClick={getStarted} className="getstarted2">Get Started</button>
             </div>
             <div className="videos">
                 <article className="video-box">Neck/Upper Trap Stretches

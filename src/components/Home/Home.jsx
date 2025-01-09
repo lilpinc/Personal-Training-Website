@@ -71,58 +71,64 @@ export default function Home() {
         <p className="catch4"> We believe in optimizing health, both inside and out. Thats why we provide functional exercise and nutrition plans that adjust to the ebs and flows of your life.</p>
         <div className="values2">
           <div className="card">
-            {/* <img className="homepics" src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" /> */}
-            <img src="public/pictures/shoe.png" alt="shoe" className="shoe"/>
+            <img className="homepics" src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" />
+            <img src="public/pictures/shoe.png" alt="shoe" className="shoe" />
             <h4 className="cardinfo">Learn how to move your body to increase performance, reduce pain, and complete daily activities with ease</h4>
           </div>
           <div className="card">
-            {/* <img className="homepics" src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" /> */}
-            <img src="public/pictures/energy.png" alt="energy" className="shoe"/>
+            <img className="homepics" src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" />
+            <img src="public/pictures/energy.png" alt="energy" className="shoe" />
             <h4 className="cardinfo">Increase your overall energy and decrease stress with daily nutritional, sleep, and physical fitness guidance</h4>
           </div>
           <div className="card">
-            {/* <img className="homepics" src="https://images.unsplash.com/photo-1539794830467-1f1755804d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60" /> */}
-            <img src="public/pictures/clipboard.png" alt="clipboard" className="shoe clipboard"/>
+            <img className="homepics" src="https://images.unsplash.com/photo-1539794830467-1f1755804d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60" />
+            <img src="public/pictures/clipboard.png" alt="clipboard" className="shoe clipboard" />
             <h4 className="cardinfo">Work with a trainer to implement an individualized program that adapts to your weekly schedule, obstacles, and stressors</h4>
           </div>
         </div>
-        <header className="catch catch2">
-          <h2 className="bold bold2">No Matter Where You Are Starting In Your Fitness Journey, We Have A Plan For You</h2>
-          <p className="catch3">Want to increase your flexibility and improve your balance? We have that. Want to strengthen and tone through bodyweight movements? We got you. Full gym access or maybe just dumbbells and a few bands? Yup, that too.</p>
+      </section>
+      <section className="catch catch2">
+        <h2 className="bold bold2">No Matter Where You Are Starting In Your Fitness Journey, We Have A Plan For You</h2>
+        <p className="catch3">Want to increase your flexibility and improve your balance? We have that. Want to strengthen and tone through bodyweight movements? We got you. Full gym access or maybe just dumbbells and a few bands? Yup, that too.</p>
+        <div>
           <div className="cardtop">
+            <img className="homeicons" src="public/pictures/support.png" alt="support" />
             <div className="card2">
               <header className="card3">
                 <h4>
-                  <i class="fa-regular fa-comments icon"></i>
                   Flexible Plans & Daily Support
                 </h4>
               </header>
               <p className="note1">Progress isn't always linear and each person is unique. You want a regimen that is tailored to your fitness goals and lifestyle. We are here to guide and support you to where you want to be. Our daily communication service ensures that your planned workouts and nutrition goals match up with what is happening in your life so that you can optimize your health and performance.</p>
             </div>
+          </div>
+          <div className="cardtop">
             <div className="card2">
               <header className="card3">
                 <h4>
-                  <i class="fa-regular fa-heart icon"></i>
                   Functional Programs For Overall Health
                 </h4>
               </header>
               <p className="note1">Along with our video tutorials, each exercise plan includes mobility, flexibility, balance, plyometric, and energy system drills. These aspects can support healthy joint movement, reduce risk of chronic disease events, and decrease movement related injuries such as falls from tripping or contact sport interactions.</p>
             </div>
+            <img className="homeicons" src="public/pictures/health.png" alt="support" />
+          </div>
+          <div className="cardtop">
+            <img id="iphone" className="homeicons" src="public/pictures/iphone.png" alt="support" />
             <div className="card2">
               <header className="card3">
                 <h4>
-                  <i class="fa-solid fa-mobile-screen-button icon"></i>
                   Workouts You Can Take With You Anywhere
                 </h4>
               </header>
-              <p className="note1">Our lives can get very busy. You might not have the availability to meet up in person with a trainer every a week. That's why we provide online programs you can view right from your phone. Each exercise has a corresponding video that goes over form and function. Want more assistance? Opt for our personal training plan that includes daily direct message with a trainer.</p>
+              <p className="note1">Our lives can get very busy. You might not have the availability to meet up in person with a trainer every week. That's why we provide online programs you can view right from your phone. Each exercise has a corresponding video that goes over form and function. Want more assistance? Opt for our personal training plan that includes daily direct message with a trainer.</p>
             </div>
           </div>
-          <button onClick={goTo} id="view-services" >View All Services</button>
-        </header>
+        </div>
+        <button onClick={goTo} id="view-services" >View All Services</button>
       </section>
-      <section className="howtogetstarted">
-        <header className="catch">
+      <section className="whatismj">
+        <header className="catch padding">
           <h1 className="bold holistic">How to Reach Your Goals</h1>
           <article className="start">
             <div className="numbers">

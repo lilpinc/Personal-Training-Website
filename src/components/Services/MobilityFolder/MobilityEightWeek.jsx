@@ -8,17 +8,19 @@ export default function MobilityEightWeek() {
     };
 
     return (
-        <section className="library books howtogetstarted">
-            <div className="description">
-            <button onClick={returnTo} id="back" className="return returnbtn">Return</button>
-                <h2>Full Body Mobility & Flexibility 8 Week Progressive Program</h2>
-                <p id="description">Do you feel STIFF and TIGHT going through every day activities? Have a loss of range of motion? Maybe even have some NAGGING surface level pain in your joints?</p>
-                <p><b>Mobility and flexibility training can help!</b></p>
-                <p>Improve your daily movement and the health of your joints and muscles by signing up to complete this 8 week functional progressive mobility and flexibility course!</p>
-                <button onClick={getStarted} className="getstarted2">Get Started</button>
+        <section className="books mobilityflexibility howtogetstarted">
+            <div>
+                <button onClick={returnTo} id="back" className="return returnbtn">Back</button>
+                <header>
+                    <h2 id="name">Mobility & Flexibility 8 Week Progressive Program</h2>
+                </header>
+                <p className="overview">Feel stiff or tight going through every day activities? Have a loss of range of motion and/or nagging surface level pain in your joints?</p>
+                <p className="overview2">Mobility and flexibility training can help!</p>
+                <p className="overview2">Improve your daily movement, joint health, and muscles by signing up to complete our 8 week functional mobility and flexibility course!</p>
+                <button className="getstarted2" onClick={getStarted}>Get Started</button>
             </div>
             <div className="program-card">
-                <h5>Includes:</h5>
+                <h5>Included in Package</h5>
                 <ul className="program-info-list">
                     <li>Mobility & Flexibility Videos:</li>
                     <img src="/Pictures/foamrolling2.jpg" alt="foamrolling" style={{ width: "90px", height: "80px", border: "2px gray solid" }} /> <span></span>

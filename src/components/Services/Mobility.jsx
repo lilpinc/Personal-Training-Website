@@ -3,18 +3,24 @@ import ViewServices from '../Services/viewServices';
 
 export default function Mobility() {
 
+    const returnServices = () => {
+        window.location.replace('/Services');
+    };
+
     const currentPage = useLocation().pathname;
 
 
     return (
         <section className="mobilityflexibility howtogetstarted">
+            <button onClick={returnServices} id="back" className='returnbtn'>Back</button>
             <header>
-                <h1 id="mobilityflexibility1">Mobility & Flexibility</h1>
+                <h1 id="name">Mobility & Flexibility</h1>
             </header>
+            <p className="overview">Supports better joint health, decreases chronic pain and stiffness, increases ability to complete activities of daily living. Includes mobility and flexibility exercises for the neck, chest, upper back, arms, lower back, legs, and ankles.</p>
             <div className="mfoptions">
                 <div className="mfoptions0">
                     <header className="mfoptions1">
-                        <p className="mfoption1">Full Body Mobility & Flexibility 8 Week Progressive Program
+                        <p className="mfoption1">Mobility & Flexibility 8 Week Progressive Program
                             <br />
                             $65.00</p>
                         <button className="moreinfo" id="moreinfo">
@@ -25,12 +31,8 @@ export default function Mobility() {
                             </Link>
                         </button>
                         <ul className="mfopt">
-                            <li className="mfoptions12">Increase Mobility & Flexibility Over 8 Weeks Through A Progressively Designed Movement Program w/ Guided Videos</li>
-                            <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
+                            <li className="mfoptions12">Increase Mobility & Flexibility Over 8 Weeks Through A Pre-Designed Movement Program w/ Guided Videos</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Better Joint Health</li>
-                            <li className="mfoptions12">Decreases Chronic Pain</li>
-                            <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
                 </div>
@@ -48,11 +50,7 @@ export default function Mobility() {
                         </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Increase Mobility & Flexibility At Your Own Pace With Guided Videos</li>
-                            <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Better Joint Health</li>
-                            <li className="mfoptions12">Decreases Chronic Pain</li>
-                            <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
                 </div>
@@ -70,16 +68,14 @@ export default function Mobility() {
                         </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Increase Mobility & Flexibility At Your Own Pace With A List Of Quality Movements</li>
-                            <li className="mfoptions12">Includes Neck, Chest, Upper Back, Arms, Lower Back, Legs, and Ankle Mobility & Flexibility Exercises</li>
                             <li className="mfoptions12">Beneficial For All. Best for Individuals That Do Not Require In Depth Instruction</li>
-                            <li className="mfoptions12">Supports Better Joint Health</li>
-                            <li className="mfoptions12">Decreases Chronic Pain</li>
-                            <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
                 </div>
             </div>
+            <div>
             <ViewServices />
+            </div>
         </section>
 
 

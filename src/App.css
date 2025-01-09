@@ -6,7 +6,7 @@
 
 :root {
     --background: #292929;
-    --background2:rgb(248, 248, 248);
+    --background2:#f8f8f8;
     --popcolor: #8dee5c;
     --fontcolor: rgb(39, 39, 39);
 }
@@ -190,7 +190,6 @@ body {
 .getstarted2:hover {
     background-color: var(--popcolor);
     color: var(--background);
-    border: solid 2px rgb(248, 248, 248);
 }
 
 a {
@@ -200,6 +199,7 @@ a {
 
 .whatismj {
     background-color: rgb(242, 237, 233);
+    padding-bottom: 40px;
 }
 
 .catch {
@@ -216,6 +216,9 @@ a {
     background-color: var(--background2);
     color: var(--background);
     padding-bottom: 80px;
+}
+.padding{
+    padding-bottom: 100px;
 }
 
 .catch3 {
@@ -242,27 +245,33 @@ a {
 
 .card3 {
     display: inline-flex;
-    margin: 0 0 5px 0;
+    margin: 0 0 5px 22px;
     padding: 0;
 }
 .shoe{
-    width: 100px;
-    margin-left: 33%;
+    width: 80px;
+    margin-left: 37%;
     margin-top: 20px;
 }
 .clipboard{
-    height: 98px;
-    width: 80px;
-    margin-left: 37%;
+    height: 78px;
+    width: 65px;
+    margin-left: 39%;
 }
 .cardtop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+display: flex;
+width: 100%;
+justify-content: center;
 }
-
+.homeicons{
+    height: 200px;
+    margin: 40px 0px;
+}
+#iphone{
+    margin-left: 5px;
+}
 .card2 {
-    margin: 40px 200px 10px 200px;
+    margin: 40px 50px 40px 50px;
     text-align: left;
     padding: 20px;
     color: var(--fontcolor);
@@ -270,6 +279,7 @@ a {
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 2px 2px 2px lightgray;
+    width: 800px;
 }
 
 .note1 {
@@ -316,6 +326,11 @@ a {
     background-color: rgb(242, 237, 233);
     color: var(--fontcolor);
     padding-bottom: 20vh;
+    padding: 5vh;
+    text-align: center;
+}
+.team{
+    text-align: left;
 }
 
 .start {
@@ -394,7 +409,6 @@ a {
 }
 
 .about {
-    padding-top: 20px;
     padding-right: 30%;
     text-align: center;
     color: var(--background);
@@ -403,6 +417,7 @@ a {
 #name {
     font-size: 30px;
     font-weight: bold;
+    padding-top: 30px;
 }
 
 
@@ -417,6 +432,7 @@ a {
     margin-right: 6%;
     border-radius: 10px;
     box-shadow: 2px 2px 2px lightgray;
+    border: var(--popcolor) 5px double;
 }
 
 .bio {
@@ -454,26 +470,18 @@ a {
     padding-left: 30px;
 }
 
-.library {
-    margin: 0;
-    padding: 0;
-    color: var(--background);
-    text-align: center;
-    padding: 5vh;
-    padding-bottom: 10vh;
-}
-
 .overview {
     text-align: center;
     margin: 30px 40px 0px 40px;
+    font-size: 18px;
+}
+.overview2{
     font-size: 18px;
 }
 
 
 .books {
     color: var(--background);
-    font-size: 18px;
-    padding-top: 20px;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -530,11 +538,10 @@ a {
     margin: 10px 20px 30px;
     padding: 10px;
     font-size: 17px;
-    /* font-weight: bold; */
+    border: none;
     border-radius: 50%;
     height: 300px;
     width: 300px;
-   border: none;
    box-shadow: 0px 2px 2px gray;
 }
 .programtitle{
@@ -550,9 +557,8 @@ a {
 
 .mobilityflexibility {
     margin: 0;
-    padding-top: 5vh;
-    padding-bottom: 10vh;
-    text-align: center;
+    padding-bottom: 20vh;
+   
 }
 
 #mobilityflexibility1 {
@@ -562,12 +568,15 @@ a {
 
 .mfoptions {
     text-align: center;
-    margin: 0;
+    margin-top: 50px;
     padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: baseline;
+}
+.full {
+    margin-top: 0px;
 }
 .moreinfo{
     color: var(--background2);
@@ -602,13 +611,19 @@ a {
 
 .mfoptions0 {
     border-radius: 5px;
-    margin: 25px 15px;
     width: 30vw;
+    height: 450px;
     background-color:var(--background2);
     justify-content: center;
-    height: 110vh;
     color: var(--background);
     box-shadow: 2px 2px 2px lightgray;
+}
+.mfoptions0:hover {
+    box-shadow: 0 0 10px var(--popcolor);
+}
+
+.fullbody{
+    height: 500px;
 }
 
 .mfoptions02 {
@@ -649,7 +664,7 @@ a {
     justify-content: center;
 }
 
-
+/* 
 .blog {
     margin: 0;
     padding: 0 10vw 10vh 10vw;
@@ -684,12 +699,8 @@ a {
 .blogpost:hover {
     transform: scale(1.02);
 
-}
+} */
 
-.contact {
-    padding-bottom: 10vh;
-    color: var(--background);
-}
 
 .contactinfo {
     display: flex;
@@ -786,14 +797,21 @@ a {
     color: var(--background);
     box-shadow: 2px 2px 2px lightgray;
 }
+.bottom{
+   padding-bottom: 15vh;
+}
 
+#quizcard2{
+    display: flex;
+    justify-content: center;
+    margin: 3vh;
+}
 .program-card2 {
     border-radius: 10px;
     background-color: var(--background2);
     width: 70vw;
     padding: 5vh;
-    margin: 3vh;
-    margin-bottom: 8vh;
+    /* margin: 3vh; */
     color: var(--fontcolor);
     display: none;
     box-shadow: 2px 2px 2px lightgray;
@@ -821,22 +839,9 @@ a {
     display: flex;
     justify-content: center;
     color: var(--fontcolor);
+    text-align: left;
 }
 
-#signup-title {
-    padding-top: 5vh;
-    margin: 0 8vw;
-    text-align: center;
-    color: var(--background);
-}
-
-.description {
-    margin-top: 5vh;
-}
-
-#description {
-    margin-top: 8vh;
-}
 
 .videos {
     display: flex;
@@ -845,9 +850,9 @@ a {
 }
 
 .video-box {
-    border: 2px gray solid;
-    color: rgb(248, 248, 248);
-    text-shadow: 2px 2px 8px #2b00ff;
+    box-shadow: 2px 2px 2px gray;
+    color: var(--background2);
+    text-shadow: 2px 2px 8px lightgray;
     height: 30vh;
     width: 30vw;
     margin: 20px;
@@ -925,19 +930,6 @@ a {
     display: block;
 }
 
-.hiitTypes {
-    border-radius: 5px;
-    background-color: var(--background2);
-    box-shadow: 2px 2px 2px lightgray;
-    color: var(--fontcolor);
-    height: 600px;
-    width: 28vw;
-}
-
-#hiitTypes {
-    height: 800px;
-}
-
 .hiitoption {
     margin-top: 10vh;
 }
@@ -960,6 +952,12 @@ a {
     color: var(--background2);
     border-radius: 30px;
     border: none;
+    position: absolute;
+    left: 5%;
+}
+.viewservicesbtn{
+    position: relative;
+    left: 0%;
 }
 
 .returnbtn:hover {
@@ -989,9 +987,12 @@ a {
     color: var(--background);
 }
 
-.return-home {
-    display: absolute;
-    margin-left: -175%;
+.clipboardpic {
+    width: 300px; 
+    height:300px;
+    border: 2px var(--popcolor) double;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 #quizbtns {
@@ -1020,6 +1021,11 @@ a {
     background-color: var(--background);
     color: var(--background2);
     box-shadow: 2px 2px 2px lightgray;
+    background-color: var(--background);
+    padding: 10px;
+    color: var(--background2);
+    border-radius: 30px;
+    border: none;
 }
 
 #restartbtn:hover {
@@ -1191,6 +1197,7 @@ a {
 
     .howtogetstarted {
         padding-left: 20vw;
+
     }
 
     .contactinfo {
@@ -1204,10 +1211,6 @@ a {
 
     .mfoptions0 {
         width: 35vw;
-    }
-
-    .description h2 {
-        margin-top: 20px;
     }
 
     .return {
@@ -1295,10 +1298,6 @@ a {
 
     .contactinfo {
         margin: 10vw;
-    }
-
-    .description {
-        padding-left: 5vw;
     }
 
     .mfopt {
@@ -1514,10 +1513,6 @@ a {
         padding-right: 2vw;
     }
 
-    #programinfo {
-        padding-left: 5vw;
-    }
-
     .programs1 {
         height: 250px;
         width: 250px;
@@ -1555,17 +1550,8 @@ a {
         display: none;
     }
 
-    #description {
-        display: none;
-    }
-
     .program-info-list img {
         display: none;
-    }
-
-    #clipboard {
-        max-width: 250px;
-        margin-left: 4vw;
     }
 
     .video-box {

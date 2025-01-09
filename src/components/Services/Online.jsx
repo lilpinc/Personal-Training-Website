@@ -1,9 +1,15 @@
 
 import React from 'react';
 import ViewServices from '../Services/viewServices';
+import { Link, useLocation } from 'react-router-dom';
 
 
 export default function Online() {
+
+    const returnServices = () => {
+        window.location.replace('/Services');
+    };
+
 
     const getStarted = () => {
         window.location.replace('/StartNow');
@@ -11,12 +17,15 @@ export default function Online() {
 
     return (
         <>
-        <section className="library books howtogetstarted">
-            <div className="description">
-                <h2>Online Tailored Personal Training</h2>
-                <p id="description">Want a program created specifically just for you and your needs by our strength and conditioning specialist? </p>
-                <p><b>Try out our online tailored personal training!</b></p>
-                <p>With online training you receive unique bi-monthly workout programs based on your physical abilities and performance level along with nutritional guidelines that support your goals.</p>
+        <section className="books howtogetstarted">
+        <button onClick={returnServices} id="back" className='returnbtn'>Back</button>
+            <div>
+            <header>
+                <h1 id="name">Online Tailored Personal Training</h1>
+            </header>
+                <p className="overview">Want a program created specifically just for you and your needs by our strength and conditioning specialist? </p>
+                <p className="overview">Try out our online tailored personal training!</p>
+                <p className="overview">With online training you receive unique bi-monthly workout programs based on your physical abilities and performance level along with nutritional guidelines that support your goals.</p>
                 <a onClick={getStarted}><button className="getstarted2">Get Started</button></a>
             </div>
             <div className="program-card">

@@ -8,12 +8,14 @@ export default function PostureFormHowTo() {
     };
 
     return (
-        <section className="library howtogetstarted books">
-            <div className="description">
-            <button onClick={returnTo} id="back" className="return returnbtn">Return</button>
-                <h2>Posture & Form 'How to' Videos</h2>
-                <p id="description">Want to improve your posture, decrease chronic pain, and learn propr lifting/movement patterns at your own pace with guided videos to keep you on track? Sign up for our posture and form correction videos!</p>
-                <p>For just $50 you will have access to our many videos that walk you through how to self massage and stretch muscles that may be affecting body alignment, learn corrective exercise patterns, and practice lifting and movement form!</p>
+        <section className="books mobilityflexibility howtogetstarted">
+             <div className="description">
+                <button onClick={returnTo} id="back" className="return returnbtn">Back</button>
+                <header>
+                    <h2 id="name">Posture & Form 'How to' Videos</h2>
+                </header>
+                <p className="overview">Want to improve your posture, decrease chronic pain, and learn propr lifting/movement patterns at your own pace with guided videos to keep you on track? Sign up for our posture and form correction videos!</p>
+                <p className="overview">For just $50 you will have access to our many videos that walk you through how to self massage and stretch muscles that may be affecting body alignment, learn corrective exercise patterns, and practice lifting and movement form!</p>
             </div>
             <div>
                 <button onClick={getStarted} className="getstarted2">Get Started</button>

@@ -5,11 +5,17 @@ export default function HIIT() {
 
     const currentPage = useLocation().pathname;
 
+    const returnServices = () => {
+        window.location.replace('/Services');
+    };
+
     return (
         <section className="mobilityflexibility howtogetstarted">
+            <button onClick={returnServices} id="back" className='returnbtn'>Back</button>
             <header>
-                <h1 id="mobilityflexibility1">HIIT Programs</h1>
+                <h1 id="name">HIIT Programs</h1>
             </header>
+            <p className="overview">High Intensity Interval Workouts 20-40 minutes in length that supports weight loss, decreased risk of heart related illness, and increased ability to complete activities of daily living. Beginner, Intermediate, and advanced programs included.</p>
             <div className="mfoptions">
                 <div className="mfoptions0">
                     <header className="mfoptions1">
@@ -24,13 +30,8 @@ export default function HIIT() {
                             </Link>
                         </button>
                         <ul className="mfopt">
-                            <li className="mfoptions12">Includes Progressive HIIT Programs for Base Fitness/Conditioning, Endurance, Strength & Power</li>
-                            <li className="mfoptions12">Includes Beginner, Intermediate, and Advanced Programs</li>
-                            <li className="mfoptions12">Includes Workouts 20-40 minutes in Length</li>
+                            <li className="mfoptions12">Includes Pre-Designed 8 Week HIIT Program for Base Fitness/Conditioning, Endurance, Strength & Power</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Better Overall Physical Health and Weight Loss</li>
-                            <li className="mfoptions12">Decreases Risk of Heart Related Illness</li>
-                            <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
                 </div>
@@ -47,13 +48,8 @@ export default function HIIT() {
                             </Link>
                         </button>
                         <ul className="mfopt">
-                            <li className="mfoptions12">Includes Independent HIIT Workouts for Base Fitness/Conditioning, Endurance, Strength & Power</li>
-                            <li className="mfoptions12">Includes Beginner, Intermediate, and Advanced Workouts</li>
-                            <li className="mfoptions12">Includes Workouts 20-40 minutes in Length</li>
+                            <li className="mfoptions12">Includes Independent HIIT Workout Videos for Base Fitness/Conditioning, Endurance, Strength & Power</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Better Overall Physical Health and Weight Loss</li>
-                            <li className="mfoptions12">Decreases Risk of Heart Related Illness</li>
-                            <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
                         </ul>
                     </header>
                 </div>
@@ -70,12 +66,8 @@ export default function HIIT() {
                             </Link>
                         </button>
                         <ul className="mfopt">
-                            <li className="mfoptions12">Includes Exercise Movements for Base Fitness/Conditioning, Endurance, Strength & Power</li>
-                            <li className="mfoptions12">Includes Beginner, Intermediate, and Advanced Exercise Movements</li>
-                            <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Better Overall Physical Health and Weight Loss</li>
-                            <li className="mfoptions12">Decreases Risk of Heart Related Illness</li>
-                            <li className="mfoptions12">Decreases Stiffness, Increases ability to complete ADLs</li>
+                            <li className="mfoptions12">Includes list of Exercise Movements for Base Fitness/Conditioning, Endurance, Strength & Power</li>
+                            <li className="mfoptions12">Beneficial For All. Best for Individuals That Do Not Require In Depth Instruction</li>
                         </ul>
                     </header>
                 </div>

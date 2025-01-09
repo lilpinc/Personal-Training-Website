@@ -5,6 +5,11 @@ import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
 
+
+  const returnHome = () => {
+    window.location.replace('/');
+};
+
   const form = useRef();
   // use state so that input fields dynamically change depending on the users input/lack of input
   const [email, setEmail] = useState("");
@@ -86,8 +91,11 @@ export default function Contact() {
   };
   // use onBlur to connect to the focus and unfocus of the inputs, create a defaultvalue that connects to users input
   return (
-    <div className="contact howtogetstarted">
-      <h2 className="blog-title">Questions? Contact Us!</h2>
+    <section className="howtogetstarted bottom">
+       <button onClick={returnHome} id="back" className='returnbtn'>Home</button>
+      <header>
+        <h2 id='name'>Questions? Contact Us!</h2>
+      </header>
       <div className="contactinfo">
         <form className="form" ref={form} onSubmit={sendEmail}>
           <div className="row">
@@ -113,11 +121,11 @@ export default function Contact() {
           <p className="thanks">Thank you for viewing our website and the fitness programs we offer!</p>
           <p className="question">Want to get into contact? Reach us at the following:</p>
           <ul className="contactlist">
-            <li>Email: ab.pincus002@gmail.com</li> 
+            <li>Email: ab.pincus002@gmail.com</li>
           </ul>
         </section>
       </div>
-    </div>
+    </section>
 
   );
 }

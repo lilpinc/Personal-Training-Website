@@ -99,13 +99,17 @@ function Quiz() {
 
     return (
         <>
-            <section className="library books bgcolor">
-                <div className="description">
-                    <button onClick={returnHome} id="back" className="return-home returnbtn">Return</button>
-                    <h2>Program Quiz</h2>
-                    <p id="description">Not really sure what program is right for you? Take our quiz and get a recommendation!</p>
+            <section className="howtogetstarted bottom bgcolor">
+            <div id='quizcard'>
+                <button onClick={returnHome} id="back" className="return-home returnbtn">Home</button>
+                <div>
+                    <header>
+                        <h2 id='name'>Program Quiz</h2>
+                    </header>
+                    <p className="overview">Not really sure what program is right for you? Take our quiz and get a recommendation!</p>
                     <button onClick={beginQuiz} id="start-quiz" className="quizbtn">Start Quiz</button>
                 </div>
+                <div id='quizcard2'>
                 <article id="quiz" className="program-card2">
 
                     <div className="final-results">
@@ -136,8 +140,10 @@ function Quiz() {
 
                     {<br />}
                     {<br />}
-                    <Link className="returnbtn" id="restartbtn" to="/quiz" onClick={() => window.location.reload()}> Restart Quiz </Link>
+                    <Link id="restartbtn" to="/quiz" onClick={() => window.location.reload()}> Restart Quiz </Link>
                 </article>
+                </div>
+                </div>
             </section>
         </>
 

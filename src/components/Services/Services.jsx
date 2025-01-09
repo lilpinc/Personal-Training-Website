@@ -4,12 +4,17 @@ export default function Services() {
 
     const currentPage = useLocation().pathname;
 
+    const returnHome = () => {
+        window.location.replace('/');
+    };
+
     return (
-        <section className="library howtogetstarted bgcolor">
+        <section className="howtogetstarted bottom bgcolor">
+            <button onClick={returnHome} id="back" className='returnbtn'>Home</button>
             <header>
-                <h2 id="programinfo">Services & Programs</h2>
+                <h2 id='name'>Services & Programs</h2>
             </header>
-            <p className="overview">Looking for a program that best fits you, your time, and equipment? We provide numerous services from mobility and form guidance videos, body weight home workouts, to full gym access programs and tailored personal training. Check out the services below to see which one is right for you!</p>
+            <p className="overview">Looking for a program that best fits you, your time, and equipment? Check out the services below to see which one is right for you!</p>
             <div className="books">
                 <ul className="books">
                     <li className="l1">

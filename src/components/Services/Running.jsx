@@ -5,11 +5,17 @@ export default function Running() {
 
     const currentPage = useLocation().pathname;
 
+    const returnServices = () => {
+        window.location.replace('/Services');
+    };
+
     return (
         <section className="mobilityflexibility howtogetstarted">
+            <button onClick={returnServices} id="back" className='returnbtn'>Back</button>
             <header>
-                <h1 id="mobilityflexibility1">Running Training Programs</h1>
+                <h1 id="name">Running Training Programs</h1>
             </header>
+            <p className="overview">Includes Programs for Beginners and Intermediates. Supports heart health, weight loss, sleep quality, and daily energy levels.</p>
             <div className="mfoptions">
                 <div className="mfoptions0">
                     <header className="mfoptions1">
@@ -25,10 +31,7 @@ export default function Running() {
                         </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Increase cardiorespiratory performance, improve race time, and increase strength for 5ks</li>
-                            <li className="mfoptions12">Includes Programs for Beginners and Intermediates</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Overall Fitness and Heart Health</li>
-                            <li className="mfoptions12">Supports Weight Loss, Increase in Daily Energy Levels, and Quality Sleep</li>
                         </ul>
                     </header>
                 </div>
@@ -46,10 +49,7 @@ export default function Running() {
                         </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Increase cardiorespiratory performance, improve race time, and increase strength for half marathons</li>
-                            <li className="mfoptions12">Includes Programs for Beginners and Intermediates</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Overall Fitness and Heart Health</li>
-                            <li className="mfoptions12">Supports Weight Loss, Increase in Daily Energy Levels, and Quality Sleep</li>
                         </ul>
                     </header>
                 </div>
@@ -67,10 +67,7 @@ export default function Running() {
                         </button>
                         <ul className="mfopt">
                             <li className="mfoptions12">Increase cardiorespiratory performance, improve race time, and increase strength for marathons</li>
-                            <li className="mfoptions12">Includes Programs for Beginners and Intermediates</li>
                             <li className="mfoptions12">Beneficial For All Ages and Fitness Levels</li>
-                            <li className="mfoptions12">Supports Overall Fitness and Heart Health</li>
-                            <li className="mfoptions12">Supports Weight Loss, Increase in Daily Energy Levels, and Quality Sleep</li>
                         </ul>
                     </header>
                 </div>

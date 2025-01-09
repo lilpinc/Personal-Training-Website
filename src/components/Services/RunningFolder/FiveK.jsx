@@ -8,14 +8,16 @@ export default function FiveK() {
     };
     
     return (
-        <section className="library howtogetstarted books">
-            <div className="description">
-            <button onClick={returnTo} id="back" className="return returnbtn">Return</button>
-                <h2>5K Training Programs</h2>
-                <p id="description">Training for a 5k but don't know where to begin or how to progress your runs each week? Maybe you want a program that also includes some strengthening exercises to reduce injury?</p>
-                <p><b>Our 5K training programs are right for you!</b></p>
-                <p>We offer programs for both beginners (no running experience) and intermediates (running experience & can run 1 mile or more without rest)!</p>
-                <button onClick={getStarted} className="getstarted2">Get Started</button>
+        <section className="books mobilityflexibility howtogetstarted">
+             <div>
+                <button onClick={returnTo} id="back" className="return returnbtn">Back</button>
+                <header>
+                    <h2 id="name">5K Training Programs</h2>
+                </header>
+                <p className="overview">Training for a 5k but don't know where to begin or how to progress your runs each week? Maybe you want a program that also includes some strengthening exercises to reduce injury?</p>
+                <p className="overview">Our 5K training programs are right for you!</p>
+                <p className="overview">We offer programs for beginners with no previous running experience and intermediates!</p>
+                <button className="getstarted2" onClick={getStarted}>Get Started</button>
             </div>
             <div className="program-card">
                 <h5>Includes:</h5>

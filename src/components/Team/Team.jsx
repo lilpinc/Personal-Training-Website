@@ -1,7 +1,15 @@
+import { Link, useLocation } from 'react-router-dom';
+
 export default function Team() {
+
+    const returnHome = () => {
+        window.location.replace('/');
+    };
+
     return (
         <>
-            <section className="info howtogetstarted">
+            <section className="info howtogetstarted team">
+            <button onClick={returnHome} id="back" className='returnbtn'>Home</button>
                 <div className="about">
                     <header>
                         <h2 id="name">Anna-Britta Pincus</h2>
