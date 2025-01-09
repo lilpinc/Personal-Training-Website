@@ -158,7 +158,20 @@ body {
     overflow: hidden;
     box-shadow: 2px 2px 2px lightgray;
 }
-
+.testimonial{
+    border: none;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(242, 237, 233);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px lightgray;
+}
+.testpics{
+    width: 40px;
+}
 .getstarted {
     background-color: var(--background);
     padding: 10px;
@@ -297,6 +310,11 @@ justify-content: center;
 
 .cardinfo {
     padding: 15px;
+    color: var(--fontcolor);
+    font-size: 16px;
+}
+.testimonialinfo {
+    padding: 15px 15px 0px 15px;
     color: var(--fontcolor);
     font-size: 16px;
 }
@@ -478,7 +496,6 @@ justify-content: center;
 .overview2{
     font-size: 18px;
 }
-
 
 .books {
     color: var(--background);
@@ -942,7 +959,8 @@ justify-content: center;
 }
 
 #return {
-    padding-bottom: 10vh;
+    padding-bottom: 20vh;
+    padding-top: 0px;
     text-align: center;
 }
 

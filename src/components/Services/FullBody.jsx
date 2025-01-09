@@ -69,9 +69,7 @@ export default function FullBody() {
                     </header>
                 </div>
             </div>
-            <section id="return" className="howtogetstarted">
                 <ViewServices />
-            </section>
         </section>
 
     );

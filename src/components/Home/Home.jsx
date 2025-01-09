@@ -159,7 +159,23 @@ export default function Home() {
           </div>
         </header >
       </section >
-
+      <section className="catch2">
+        <header className="catch">
+          <h2 className="holistic">What Clients Have to Say About ABP Fitness</h2>
+          <div className="values2">
+            <div className="testimonial">
+              <h4 className="testimonialinfo">"I love the flexibility that online training provides. And to have help with my nutrition as well is huge. She is responsive, encouraging, and has helped me get real results from my program."</h4>
+              <img className="testpics" src="public/pictures/tyler.png" alt="male photo" />
+              <p>-Tyler</p>
+            </div>
+            <div className="testimonial">
+              <h4 className="testimonialinfo">"Anna is so much more than a personal trainer. She has essentially been my life coach, checking in with me daily. Knowing that she is checking in on me every day and holding each other accountable, our relationship is very special to me."</h4>
+              <img className="testpics" src="public/pictures/kendall.png" alt="female photo" />
+              <p>-Kendall</p>
+            </div>
+          </div>
+        </header>
+      </section>
     </main>
   );
 }
