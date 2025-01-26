@@ -19,7 +19,7 @@ export default function Team() {
                 </div>
                 <div className="bio">
                     <div>
-                        <img className="awc" src="Pictures/IMG_8583.jpeg" alt="anna" />
+                        <img className="awc" src="Pictures/IMG_9692.jpeg" alt="anna" />
                     </div>
                     <div id="bio">
                         <p>Anna-Britta Pincus, NSCA-CSCS, NASM-CNC,

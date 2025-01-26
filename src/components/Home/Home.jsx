@@ -53,14 +53,14 @@ export default function Home() {
             </div>
             <div className="value1">
               <i className="fa-solid fa-check-double"></i>
-              Get Daily Coach Communication, Guidance and Support
+              Daily Coach Communication, Guidance and Support
             </div>
             <div className="value1">
               <i className="fa-solid fa-check-double"></i>
-              Increase your Movement Capabilities and Reduce Pain
+              Increase Movement Capabilities and Reduce Pain
             </div>
           </div>
-          <img src="/Pictures/drawing.png" alt="picture" id="hero-pic" />
+          <img src="/Pictures/drawing.jpg" alt="picture" id="hero-pic" />
         </div>
         <a onClick={getStarted}><button className="getstarted">Get Started</button></a>
       </section>
@@ -72,27 +72,27 @@ export default function Home() {
         <div className="values2">
           <div className="card">
             <img className="homepics" src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" />
-            <img src="public/pictures/shoe.png" alt="shoe" className="shoe" />
+            <img src="public/pictures/shoe.jpg" alt="shoe" className="shoe" />
             <h4 className="cardinfo">Learn how to move your body to increase performance, reduce pain, and complete daily activities with ease</h4>
           </div>
           <div className="card">
             <img className="homepics" src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" />
-            <img src="public/pictures/energy.png" alt="energy" className="shoe" />
+            <img src="public/pictures/energy.jpg" alt="energy" className="shoe" />
             <h4 className="cardinfo">Increase your overall energy and decrease stress with daily nutritional, sleep, and physical fitness guidance</h4>
           </div>
           <div className="card">
             <img className="homepics" src="https://images.unsplash.com/photo-1539794830467-1f1755804d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60" />
-            <img src="public/pictures/clipboard.png" alt="clipboard" className="shoe clipboard" />
+            <img src="public/pictures/clipboard.jpg" alt="clipboard" className="shoe clipboard" />
             <h4 className="cardinfo">Work with a trainer to implement an individualized program that adapts to your weekly schedule, obstacles, and stressors</h4>
           </div>
         </div>
       </section>
       <section className="catch catch2">
         <h2 className="bold bold2">No Matter Where You Are Starting In Your Fitness Journey, We Have A Plan For You</h2>
-        <p className="catch3">Want to increase your flexibility and improve your balance? We have that. Want to strengthen and tone through bodyweight movements? We got you. Full gym access or maybe just dumbbells and a few bands? Yup, that too.</p>
+        <p className="catch3">From stretch and mobility routines to strength, HIIT, and running programs, we have what you need.  We also provide plans for ranging levels of workout equipment access.</p>
         <div>
           <div className="cardtop">
-            <img className="homeicons" src="public/pictures/support.png" alt="support" />
+            <img className="homeicons" src="public/pictures/support.jpg" alt="support" />
             <div className="card2">
               <header className="card3">
                 <h4>
@@ -111,10 +111,10 @@ export default function Home() {
               </header>
               <p className="note1">Along with our video tutorials, each exercise plan includes mobility, flexibility, balance, plyometric, and energy system drills. These aspects can support healthy joint movement, reduce risk of chronic disease events, and decrease movement related injuries such as falls from tripping or contact sport interactions.</p>
             </div>
-            <img className="homeicons" src="public/pictures/health.png" alt="support" />
+            <img className="homeicons" src="public/pictures/health.jpg" alt="support" />
           </div>
           <div className="cardtop">
-            <img id="iphone" className="homeicons" src="public/pictures/iphone.png" alt="support" />
+            <img id="iphone" className="homeicons" src="public/pictures/iphone.jpg" alt="support" />
             <div className="card2">
               <header className="card3">
                 <h4>
@@ -163,14 +163,16 @@ export default function Home() {
         <header className="catch">
           <h2 className="holistic">What Clients Have to Say About ABP Fitness</h2>
           <div className="values2">
-            <div className="testimonial">
+            <div className="testimonial greenbck">
               <h4 className="testimonialinfo">"I love the flexibility that online training provides. And to have help with my nutrition as well is huge. She is responsive, encouraging, and has helped me get real results from my program."</h4>
-              <img className="testpics" src="public/pictures/tyler.png" alt="male photo" />
+              <img className="testpics" src="public/pictures/tyler.jpg
+" alt="male photo" />
               <p>-Tyler</p>
             </div>
-            <div className="testimonial">
+            <div className="testimonial greenbck">
               <h4 className="testimonialinfo">"Anna is so much more than a personal trainer. She has essentially been my life coach, checking in with me daily. Knowing that she is checking in on me every day and holding each other accountable, our relationship is very special to me."</h4>
-              <img className="testpics" src="public/pictures/kendall.png" alt="female photo" />
+              <img className="testpics" src="public/pictures/kendall.jpg
+" alt="female photo" />
               <p>-Kendall</p>
             </div>
           </div>
