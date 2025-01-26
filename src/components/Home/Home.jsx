@@ -72,17 +72,17 @@ export default function Home() {
         <div className="values2">
           <div className="card">
             <img className="homepics" src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" />
-            <img src="/pictures/shoe.jpg" alt="shoe" className="shoe" />
+            <img src="/Pictures/shoe.png" alt="shoe" className="shoe" />
             <h4 className="cardinfo">Learn how to move your body to increase performance, reduce pain, and complete daily activities with ease</h4>
           </div>
           <div className="card">
             <img className="homepics" src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" />
-            <img src="/pictures/energy.jpg" alt="energy" className="shoe" />
+            <img src="/Pictures/energy.png" alt="energy" className="shoe" />
             <h4 className="cardinfo">Increase your overall energy and decrease stress with daily nutritional, sleep, and physical fitness guidance</h4>
           </div>
           <div className="card">
             <img className="homepics" src="https://images.unsplash.com/photo-1539794830467-1f1755804d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60" />
-            <img src="/pictures/clipboard.jpg" alt="clipboard" className="shoe clipboard" />
+            <img src="/Pictures/clipboard.png" alt="clipboard" className="shoe clipboard" />
             <h4 className="cardinfo">Work with a trainer to implement an individualized program that adapts to your weekly schedule, obstacles, and stressors</h4>
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function Home() {
         <p className="catch3">From stretch and mobility routines to strength, HIIT, and running programs, we have what you need.  We also provide plans for ranging levels of workout equipment access.</p>
         <div>
           <div className="cardtop">
-            <img className="homeicons" src="/pictures/support.jpg" alt="support" />
+            <img className="homeicons" src="/Pictures/support.png" alt="support" />
             <div className="card2">
               <header className="card3">
                 <h4>
@@ -111,10 +111,10 @@ export default function Home() {
               </header>
               <p className="note1">Along with our video tutorials, each exercise plan includes mobility, flexibility, balance, plyometric, and energy system drills. These aspects can support healthy joint movement, reduce risk of chronic disease events, and decrease movement related injuries such as falls from tripping or contact sport interactions.</p>
             </div>
-            <img className="homeicons" src="/pictures/health.jpg" alt="support" />
+            <img className="homeicons" src="/Pictures/health.png" alt="support" />
           </div>
           <div className="cardtop">
-            <img id="iphone" className="homeicons" src="/pictures/iphone.jpg" alt="support" />
+            <img id="iphone" className="homeicons" src="/Pictures/iphone.png" alt="support" />
             <div className="card2">
               <header className="card3">
                 <h4>
@@ -154,7 +154,7 @@ export default function Home() {
             </div>
           </article>
           <div className="notsure">
-            <h3 className="catch3">Not really sure what program is right for you? Take our quiz and get a recommendation!</h3>
+            <h3 className="catch5">Not really sure what program is right for you? Take our quiz and get a recommendation!</h3>
             <button onClick={startQuiz} id="homequizbtn">Start Quiz</button>
           </div>
         </header >
@@ -165,12 +165,12 @@ export default function Home() {
           <div className="values2">
             <div className="testimonial greenbck">
               <h4 className="testimonialinfo">"I love the flexibility that online training provides. And to have help with my nutrition as well is huge. She is responsive, encouraging, and has helped me get real results from my program."</h4>
-              <img className="testpics" src="/pictures/tyler.jpg" alt="male photo" />
+              <img className="testpics" src="/Pictures/tyler.png" alt="male photo" />
               <p>-Tyler</p>
             </div>
             <div className="testimonial greenbck">
               <h4 className="testimonialinfo">"Anna is so much more than a personal trainer. She has essentially been my life coach, checking in with me daily. Knowing that she is checking in on me every day and holding each other accountable, our relationship is very special to me."</h4>
-              <img className="testpics" src="/pictures/kendall.jpg" alt="female photo" />
+              <img className="testpics" src="/Pictures/kendall.png" alt="female photo" />
               <p>-Kendall</p>
             </div>
           </div>

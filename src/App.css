@@ -239,8 +239,13 @@ a {
 }
 
 .catch3 {
-    padding: 50px 0px 30px 0px;
-    margin: 0px 200px;
+    padding: 30px 0px 30px 0px;
+    margin: 0px 210px;
+    font-size: 17px;
+}
+.catch5 {
+    padding: 30px 0px 30px 0px;
+    margin: 0px 100px;
     font-size: 17px;
 }
 
