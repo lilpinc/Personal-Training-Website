@@ -15,7 +15,10 @@ export default function PostureFormHowTo() {
                     <h2 id="name">Posture & Form 'How to' Videos</h2>
                 </header>
                 <p className="overview">Want to improve your posture, decrease chronic pain, and learn propr lifting/movement patterns at your own pace with guided videos to keep you on track? Sign up for our posture and form correction videos!</p>
-                <p className="overview">For just $50 you will have access to our many videos that walk you through how to self massage and stretch muscles that may be affecting body alignment, learn corrective exercise patterns, and practice lifting and movement form!</p>
+                <p className="overview">Learn how to self massage and stretch muscles that may be affecting body alignment through corrective exercise and practice lifting and movement form.</p>
+                <p className="overview">Unlimited Video Access:</p>
+                <br />
+                <p>$50.00</p>
             </div>
             <div>
                 <button onClick={getStarted} className="getstarted2">Get Started</button>

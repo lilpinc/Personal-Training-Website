@@ -14,7 +14,10 @@ export default function HIITPDF() {
                 <header>
                     <h2 id="name">Full Body HIIT & Strength Movements PDF</h2>
                 </header>
-                <p className="overview">Want a list of exercise movements you can do to create a strength or HIIT workout for yourself? For only $35 you can utilize the PDF provided by our website to give you variations of functional exercises for the whole body!</p>
+                <p className="overview">Want a list of exercise movements you can do to create a strength or HIIT workout for yourself? The PDF provided by our website to give you variations of functional exercises for the whole body!</p>
+                <p className="overview">PDF Access:</p>
+                <br />
+                <p>$35.00</p>
                 <button onClick={getStarted} className="getstarted2">Get Started</button>
             </div>
             <div>

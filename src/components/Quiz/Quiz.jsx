@@ -113,7 +113,7 @@ function Quiz() {
                 <article id="quiz" className="program-card2">
 
                     <div className="final-results">
-                        <h2>Program Suggestion Results</h2>
+                        <h3>Program Suggestion Results</h3><br />
                         <p className="description">We suggest you look into these programs:</p>
                         <h4 className="description" id="program-title"><b>{currentProgram}</b></h4>
                         {/* <p>Based on your answers, we suggest you look at our <span id="program-level"></span>.</p> */}

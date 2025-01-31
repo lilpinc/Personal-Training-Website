@@ -14,7 +14,10 @@ export default function MobilityPDF() {
                 <header>
                     <h2 id="name">Full Body Mobility & Flexibility PDF</h2>
                 </header>
-                <p className="overview">Want a list of mobility and stretch movements that provide insight on how to maximize relief? For only $35 you can utilize the PDF provided by our website to organize your mobilization exercises.</p>
+                <p className="overview">Want a list of mobility and stretch movements that provide insight on how to maximize relief? The PDF provided by our website to organize your mobilization exercises.</p>
+                <p className="overview">PDF Access:</p>
+                <br />
+                <p>$35.00</p>
                 <div>
                     <button onClick={getStarted} className="getstarted2">Get Started</button>
                 </div>

@@ -20,7 +20,7 @@ export default function FullBody() {
                 </header>
                 <p className="overview">Want to improve your overall fitness? Maybe work on muscle development and strength, while also improving your cardio fitness, balance, and agility/reaction time? </p>
                 <p className="overview">Try out our pre-programmed Full Body Fitness Training Programs! Each program supports cardiovascular and joint health, increased daily energy levels, quality sleep, and decreased stiffness. Beginner to advanced options are available. </p>
-                <p className="overview">Three different period lengths are provided for each program:</p>
+                <p className="overview">Program Length Options:</p>
                 <br />
                 <p>8 weeks - $75.00</p>
                 <p>16 weeks - $145.00</p>

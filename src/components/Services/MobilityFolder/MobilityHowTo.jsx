@@ -15,7 +15,10 @@ export default function MobilityHowTo() {
                     <h2 id="name">Full Body Mobility & Flexibility How To Videos</h2>
                 </header>
                 <p className="overview">Want to improve your joints and muscles at your own pace with guided videos to keep you on track? Sign up for our mobility and flexibility videos!</p>
-                <p className="overview2">For $50 you will have access to our many videos that walk you through how to self massage, stretch muscles, and relieve aggravated joints throughout your body!</p>
+                <p className="overview2">Our videos walk you through how to self massage, stretch muscles, and relieve aggravated joints throughout the body.</p>
+                <p className="overview">Unlimited Video Access:</p>
+                <br />
+                <p>$50.00</p>
             </div>
             <div>
                 <button onClick={getStarted} className="getstarted2">Get Started</button>

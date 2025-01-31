@@ -14,7 +14,10 @@ export default function PostureFormPDF() {
                 <header>
                     <h2 id="name">Posture & Form PDF</h2>
                 </header>
-                <p className="overview">Want some pointers/cues on how to align your body and exercise with correct form? For only $35 you can utilize the PDF provided by our website to give you detailed instruction on basic movements and how to set yourself back in alignment!</p>
+                <p className="overview">Want some pointers/cues on how to align your body and exercise with correct form? The PDF provided by our website gives you detailed instruction on basic movements and how to set yourself back in alignment!</p>
+                <p className="overview">PDF Access:</p>
+                <br />
+                <p>$35.00</p>
                 <button onClick={getStarted} className="getstarted2">Get Started</button>
             </div>
             <div>
