@@ -104,11 +104,12 @@ body {
 }
 #hero-pic{
     /* width: 400px; */
-    width: 425px;
+    /* width: 425px; */
+    width: 525px;
     height: 525px;
     position: absolute;
     /* right: 12%; */
-    right: 8%;
+    right: 5%;
     margin-top: -17%;
 }
 
@@ -149,6 +150,10 @@ body {
 .cardinfo {
     padding: 15px;
     color: var(--fontcolor);
+}
+
+#guy-lifting{
+
 }
 
 .card {

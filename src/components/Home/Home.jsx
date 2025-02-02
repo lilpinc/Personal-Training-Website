@@ -60,7 +60,7 @@ export default function Home() {
               Increase Movement Capabilities and Reduce Pain
             </div>
           </div>
-          <img src="/Pictures/drawing.jpg" alt="picture" id="hero-pic" />
+          <img src="/Pictures/homepage.png" alt="picture" id="hero-pic" />
         </div>
         <a onClick={getStarted}><button className="getstarted">Get Started</button></a>
       </section>
@@ -81,7 +81,7 @@ export default function Home() {
             <h4 className="cardinfo">Increase your overall energy and decrease stress with daily nutritional, sleep, and physical fitness guidance</h4>
           </div>
           <div className="card">
-            <img className="homepics" src="https://images.unsplash.com/photo-1539794830467-1f1755804d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60" />
+            <img id="guy-lifting" className="homepics" src="/Pictures/samuel-girven-uO7dPRdkRlw-unsplash.jpg" />
             <img src="/Pictures/clipboard.png" alt="clipboard" className="shoe clipboard" />
             <h4 className="cardinfo">Work with a trainer to implement an individualized program that adapts to your weekly schedule, obstacles, and stressors</h4>
           </div>
